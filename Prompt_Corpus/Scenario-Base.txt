@@ -1,0 +1,17 @@
+Query: In the scenario of software developer, provide a method name based on the given functional description.:
+Role: Software Developer
+Task: Naming a method based on its functionality
+
+Functional Description: < insert input functional description here >
+Output Requirements:
+Scenario: assigning names to methods.
+Task: Naming a method based on its functionality.
+Steps:
+Identify the main action being performed (verb).
+Determine the main object being acted upon (noun).
+Use Camel-Case, starting with lowercase and capitalizing each following word.
+Ensure the method name is concise and meaningful.
+Avoid using Java-reserved words or keywords.
+Do not include special characters or spaces in the method name.
+
+Examples: < plugin the selected best-shots, i.e functional descriptions and method names >
