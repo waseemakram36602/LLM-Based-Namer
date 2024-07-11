@@ -8,9 +8,9 @@ There are two datasets are used to evalatute the approach
 - [English Dataset:](https://github.com/propaki/Automethod/tree/main/EnglishDataset) Method Names with English Functional Descriptions (Dataset of Baseline).
 - [Chinese Dataset:](https://github.com/propaki/Automethod/tree/main/Chinese%20Dataset) Method Names with Chinese Functional Descriptions. The Dataset organized from [Java 11 API Reference](https://www.apiref.com/java11-zh/java.base/module-summary.html)
 Each dataset is crucial for training and evaluating the models to ensure they perform effectively across linguistic boundaries.
-#  [Optimal Prompts:](https://github.com/propaki/Automethod/tree/main/OptiPrompts) 
+#  [Prompt Templates Corpus:](https://github.com/propaki/Automethod/tree/main/OptiPrompts) 
 Included in the "[OptiPrompts](https://github.com/propaki/Automethod/tree/main/OptiPrompts)" folder is a carefully curated corpus of prompts, comprised of text files, designed to enhance the performance of ChatGPT in accurately generating Java method names based on functional descriptions. These prompts are crafted to elicit precise and contextually relevant responses from the model, adhering to a well-designed template that aligns with the naming conventions and requirements specific to Java methods.
-![Prompt Corpus](Optiprompts.PNG)
+![Prompt Corpus](promptcorpus.PNG)
 #Source-Code
 Source code of our approach available in Source code folder
 #Class Hierarchy
