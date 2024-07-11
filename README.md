@@ -5,11 +5,11 @@
 mNamer introduces a novel approach to automatically suggesting high-quality Java method names using large language models (LLMs). Leveraging LLMs' advanced understanding capabilities for natural language descriptions of method functionalities, mNamer combines specialized pre-processing and customized post-processing techniques. This method aims to align generated names with established naming conventions, enhancing code readability and maintainability.
 # Datasets:
 There are two datasets are used to evalatute the approach
-- [English Dataset:](https://github.com/propaki/Automethod/tree/main/EnglishDataset) Method Names with English Functional Descriptions (Dataset of Baseline).
-- [Chinese Dataset:](https://github.com/propaki/Automethod/tree/main/Chinese%20Dataset) Method Names with Chinese Functional Descriptions. The Dataset organized from [Java 11 API Reference](https://www.apiref.com/java11-zh/java.base/module-summary.html)
+- [English Dataset:](https://github.com/waseemakram36602/LLM-Based-Namer/tree/main/Datasets/English-Dataset) Method Names with English Functional Descriptions (Dataset of Baseline).
+- [Chinese Dataset:](https://github.com/waseemakram36602/LLM-Based-Namer/tree/main/Datasets/Chinese-Dataset) Method Names with Chinese Functional Descriptions. The Dataset organized from [Java 11 API Reference](https://www.apiref.com/java11-zh/java.base/module-summary.html)
 Each dataset is crucial for training and evaluating the models to ensure they perform effectively across linguistic boundaries.
-#  [Prompt Templates Corpus:](https://github.com/propaki/Automethod/tree/main/OptiPrompts) 
-Included in the "[OptiPrompts](https://github.com/propaki/Automethod/tree/main/OptiPrompts)" folder is a carefully curated corpus of prompts, comprised of text files, designed to enhance the performance of ChatGPT in accurately generating Java method names based on functional descriptions. These prompts are crafted to elicit precise and contextually relevant responses from the model, adhering to a well-designed template that aligns with the naming conventions and requirements specific to Java methods.
+#  [Prompt Templates Corpus:](https://github.com/waseemakram36602/LLM-Based-Namer/tree/main/Prompt_Corpus) 
+Included in the "[Prompt Corpus](https://github.com/waseemakram36602/LLM-Based-Namer/tree/main/Prompt_Corpus)" folder is a carefully curated corpus of prompts, comprised of text files, designed to enhance the performance of ChatGPT in accurately generating Java method names based on functional descriptions. These prompts are crafted to elicit precise and contextually relevant responses from the model, adhering to a well-designed template that aligns with the naming conventions and requirements specific to Java methods.
 ![Prompt Corpus](promptcorpus.PNG)
 #Source-Code
 Source code of our approach available in Source code folder
@@ -40,8 +40,8 @@ mNamer
 - ResponseRanker Class: Ranks suggested method names based on reward scores and generates feedback prompts.
 ![ResponseRanker.py](Response.PNG)
 
-# [RNN-Attn-Copy (Baseline Model):](https://github.com/propaki/Automethod/tree/main/Source-Code/RNN-Attn-Copy.ipynb)
-We meticulously reproduced and implemented the baseline model in "[Source-Code](https://github.com/propaki/Automethod/tree/main/Source-Code)", which is a [RNN-Attn-Copy](https://github.com/propaki/Automethod/tree/main/Source-Code/RNN-Attn-Copy.ipynb) equipped with both attention and copying mechanisms. This advanced architecture was chosen as our benchmark for assessing the performance of alternative models due to its proven prowess in sequence-to-sequence translation tasks and its exceptional ability to grasp contextual nuances within sequences.
+# [RNN-Attn-Copy (Baseline Model):]([https://github.com/propaki/Automethod/tree/main/Source-Code/RNN-Attn-Copy.ipynb](https://github.com/waseemakram36602/LLM-Based-Namer/tree/main/Baseline_Code))
+We meticulously reproduced and implemented the baseline model in "[Source-Code](https://github.com/waseemakram36602/LLM-Based-Namer/tree/main/Baseline_Code)", which is a [RNN-Attn-Copy](https://github.com/waseemakram36602/LLM-Based-Namer/blob/main/Baseline_Code/RNN-Att-Copy.ipynb) equipped with both attention and copying mechanisms. This advanced architecture was chosen as our benchmark for assessing the performance of alternative models due to its proven prowess in sequence-to-sequence translation tasks and its exceptional ability to grasp contextual nuances within sequences.
 
 # mNamer
 ## Example usage
