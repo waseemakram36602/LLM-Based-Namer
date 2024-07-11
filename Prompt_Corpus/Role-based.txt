@@ -1,0 +1,13 @@
+Query: As a software developer, provide a method name based on the given functional description. Follow these guidelines:
+Role: Software Developer
+Task: Naming a method based on its functionality
+
+Functional Description: < insert input functional description here >
+Output Requirements:
+Role: Identify the action .
+Role: Determine the object .
+Role: Apply Camel-Case .
+Role: Ensure conciseness and clarity.
+Role: Avoid reserved words and special characters.
+
+Examples: < plugin the selected best-shots, i.e functional descriptions and method names >
