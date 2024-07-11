@@ -1,0 +1,2221 @@
+Functional Description,Method Name
+获取单例 cookie 管理器实例,get instance
+解析此字段以提供更简单的替代或日期。,resolve
+设置用于绘制搜索可供性的颜色,set search affordance color
+如果位图的内部配置采用公共格式之一，则返回该配置，否则返回 null,get config
+在此视图消耗其任何部分之前分派正在进行的嵌套滚动的一步,dispatch nested pre scroll
+读取相对于当前位置的给定索引处的字符。,charAt
+将数据数组分配为给定帐户的同步状态,set
+获取特定元键的状态,get meta state
+该函数由各种测试用例实现在拆卸时调用，以便清除任何类变量,scrub class
+返回一个新的CompletionStage，当该阶段正常或异常完成时，将使用此阶段的结果和异常作为所提供函数的参数执行。,handle
+获取桶中的记录数,size
+将图像的rect设置为Raster r的内容，假定Raster r与WritableRenderedImage位于同一坐标空间中。,setData
+与远程主机关联,associate
+返回 mtp 对象缩略图的格式代码对于没有缩略图的对象将为零,get thumb format
+移除旧的行头（如果存在）；如果新的行头不为null，与视口的y坐标同步（如果有的话），然后将其添加到滚动面板中,setRowHeader
+返回与调用进程正在其上运行的用户关联的配置文件的用户句柄列表，包括用户本身,get user profiles
+请求的 upnp 服务响应可用,on upnp service available
+设置操作栏的标题,set title
+返回此选择格式的模式,to pattern
+返回用于为了在这个映射中的键，或比较null如果此映射使用natural ordering的钥匙。,comparator
+将指定对象与此集合进行比较以获得相等性。,equals
+预热阶段完成时调用，因为此时已触发相机启动意图或不再需要预热,on cooldown
+返回附加到该drawable的当前drawable.callback实现,get callback
+指示此操作是否是类似于单选按钮的单选组的一部分，或者此操作是复选框,check set id
+设置此缓冲区的限制。,limit
+返回指定颜色/alpha组分的位数,getComponentSize
+返回创建此挂起意图的应用程序的用户句柄，即您将实际发送意图的用户,get creator user handle
+设置要编辑的可选描述文本，而不是设置描述字符序列,set edit description
+返回此字体度量对象值的字符串表示,toString
+动画集的转换是其所有组件动画的串联,get transformation
+当图像读取器有新图像可用时调用的回调,on image available
+给定一个区域设置 id 、一个关键字和一个值，返回一个带有更新的关键字和值的新区域设置 id,set keyword value
+语言和绑定依赖类型的属性，表示可以输出16位单元的可写流。,setCharacterStream
+指示指定的视图已移至回收器的废料堆中,on moved to scrap heap
+检索应写入测试的测试目录中的文件句柄,get test file
+当相机设备遇到严重错误时调用的方法,on error
+设置矩阵影响颜色的饱和度,set saturation
+使用其 namespaceURI和 localName添加节点。,setNamedItemNS
+如果存在，则从该集合中移除指定的元素（可选操作）。,remove
+取消注册 gnss 导航消息回调,unregister gnss navigation message callback
+基本上：确保 toa 国际号码前面有一个 +，如果 s == null，则返回 null,string from string and toa
+设置卡片阴影右边缘和父视图之间的附加边距,set card margin right
+组合两个源Raster对象并将结果放在目标WritableRaster中 。,compose
+暂停播放,time shift pause
+按名称空间名称查找属性的类型。,getType
+设置自动白平衡锁定状态,set auto white balance lock
+根据以下 cldr 技术报告中描述的算法，为提供的语言环境 id 添加可能的子标签：如果提供的 ulocale 实例已经是最大形式，或者没有可用于最大化的数据，则将返回该实例。,add likely subtags
+返回当使用活动转换调用时转换进入或离开活动时窗口背景淡出的持续时间（以毫秒为单位）,get transition background fade duration
+返回始终返回其输入参数的一元运算符。,identity
+压缩此缓冲区 （可选操作） 。,compact
+获取给定设备的产品 ID（如果有）,get product id
+在执行操作之前从要运行的断言集中删除给定的断言,remove global assertion
+"将逗号分隔形式“ andy , bob , charles , david ”（太宽而无法适应指定宽度）的字符序列转换为类似“ andy , bob , 2 more ”的字符序列",comma ellipsize
+在模型的末尾添加项目。,addElement
+制作此 CertStoreParameters的副本。,clone
+返回来自调用包的通知是否被阻止,are notifications enabled
+检查此监视器是否阻止活动启动，不允许实际活动运行或允许它们正常执行,is blocking
+确定您正在处理的ipc的调用进程是否已被授予特定权限,check calling permission
+返回此设备是否支持具有自己的登录和可自定义空间的多个用户,supports multiple users
+检查时态对象是否支持此字段。,isSupportedBy
+使用指定的旋转预连接当前矩阵,rotate
+检查此日期时间的瞬间是否在指定日期时间之前。,isBefore
+覆盖它以定义要在包中运行的所有测试,get all tests
+更新 uicontroller.loop 中使用的空闲策略，直到检测到应用程序不空闲异常,set master policy timeout
+暂时分离子视图,detach view at
+返回该可绘制图层中包含的图层数,get number of layers
+调用绑定徽标视图持有者时通知,on bind logo
+请求渲染器渲染一帧,request render
+设置此视图的视觉 z 位置（以像素为单位）,set z
+这只适用于从渲染脚本脚本文件反映的自动生成的代码，开发人员不应使用,set from field packer
+返回 typeface 中定义的样式常量,get style
+创建适当类型对的便捷方法,create
+将此对象转换为捆绑包以进行序列化,as bundle
+返回上次访问的时间。,lastAccessTime
+检索将接收此消息的处理程序实现,get target
+打开或关闭全向模式。,setOmni
+如果此消息是“消息等待指示组：丢弃消息”通知且不应存储，则返回 true,is mwi dont store
+检测来自调用应用程序的任何未封装在 ssl / tls 中的网络流量,detect cleartext network
+获得 MonthDay的实例。,of
+调用一种方法，该方法在该远程视图的布局中的视图上采用一个 int,set int
+被调用以通知客户端已发生用户可能能够修复的错误。,printJobRequiresAttention
+从目标类型转换回源类型,convert back
+移动源的祖先时调用。,ancestorMoved
+键入键时调用。,menuKeyTyped
+返回显示可滚动内容的JViewport对象,getViewport
+格式化给定数字的复数消息,format
+如果滑块显示的值范围是反向的，则返回true,getInverted
+返回电话帐户，该帐户将用于向具有指定 uri 方案的地址拨打电话,get default outgoing phone account
+返回mtp对象缩略图的宽度（以像素为单位）对于没有缩略图的对象将为零,get thumb pix width
+dgemv 执行矩阵向量运算之一 y := alpha ax + betay 或 y := alpha atx + betay 详细信息：,dgemv
+不指定要滚动的像素，而是使用滚动到positionint使用目标位置进行跳转,jump to
+运行预编译查询并返回第一行第一列中的值的实用程序方法,string for query
+返回此路径的name元素的迭代器。,iterator
+告诉监听器TableColumnModel的选择模型已更改。,columnSelectionChanged
+获取所提供上下文的指纹管理器兼容实例,from
+返回此区域设置的语言代码，该代码可以是空字符串或小写 iso 639 代码,get language
+更改约束属性时将调用此方法。,vetoableChange
+返回制造商 ID,get manufacturer id
+设置与此操作相关的意图,intent
+当应用程序以大堆运行时，返回当前设备的近似每个应用程序内存类别,get large memory class
+从要提供的服务列表中删除服务,remove service
+设置一个可绘制对象，用作在打开/关闭期间从左窗格投射到右窗格的阴影，以支持从右到左的语言,set shadow drawable right
+对该视图的所有子视图激活调度集,dispatch set activated
+返回总结此缓冲区状态的字符串。,toString
+从第一个默认银行返回请求的数据数组元素作为一个双精度浮点数,getElemDouble
+设置 arg 路径参数,set path
+返回RenderedImage的高度。,getHeight
+读取 b.length从流字节，并将其存储到 b开始于索引 0 。,readFully
+返回分隔符的最大尺寸,getMaximumSize
+调用 cancelboolean 后在 ui 线程上运行并且后台对象中的 do 已完成,on cancelled
+设置该节点是否可长时间点击,set long clickable
+tex image2d 的一个版本，采用 open gl es 规范定义的显式类型参数,tex image 2 d
+将指定参数设置为 InputStream对象。,setBlob
+如果系统支持 sip api，则返回 true,is api supported
+设置要对齐的子视图的 id,set item alignment view id
+获取密钥对于解密和验证不再有效的时刻,get key validity for consumption end
+给定 0...size - 1 范围内的索引，返回此稀疏布尔数组存储的第索引键-值映射中的值,value at
+添加一个组件，其选项卡标题默认为组件的名称，即调用component.getName的结果,add
+返回布局必须有多宽才能显示每段落一行的指定文本,get desired width
+通知此会议 get call 音频状态属性有新值,on call audio state changed
+设置应编辑的项目。,setItem
+此方法已被弃用。这个函数不再做任何事情；这是一种管理偏好活动的旧方法，已被现代基于活动的偏好所取代并与其发生冲突。,add package to preferred
+返回给定合成器上下文的图标高度。,getIconHeight
+查找具有给定标识符的子视图,find view by id
+为绘图缓存的位图设置纯色背景色将提高性能和内存使用率。,set drawing cache background color
+在第一个默认银行中设置给定整数的请求数据数组元素,setElem
+获取结果。,getAsBoolean
+从给定缓冲区向该通道写入一个字节序列。,write
+调度指针事件,send pointer sync
+关闭消息端口并释放与其关联的所有资源,close
+以字符数组形式返回大数小数,to char array
+当组件的位置发生变化时调用。,componentMoved
+此方法将导致视图的 Translationz 属性按指定值进行动画处理,translation zb y
+将指定参数设置为给定的Java short值。,setShort
+将当前剪裁区域设置为任意剪裁形状,setClip
+返回该片段已知的标识符,get id
+注册在接收 upnp 服务发现响应时调用的回调,set upnp service response listener
+设置数字格式器,set number format
+设置要显示的标签以确认应执行该操作,set confirm label
+返回与特定资源 ID 关联的样式化文本数组,get text array
+返回文件的权限。,permissions
+从分配中复制分配,copy from
+转储加载器的当前状态,dump loaders
+通知注册观察者一行已更新,notify change
+禁用方向事件侦听器,disable
+返回此选项卡布局使用的当前模式,get tab mode
+判断此int缓冲区是否是直接的。,isDirect
+返回在给定池中运行的新工作线程。,newThread
+检索标识该视图所附加到的窗口的唯一标记,get window token
+返回一个索引，该索引的值 atint 将返回指定的 key ，如果没有键映射到指定的值，则返回负数,index of value
+将子菜单标题的标题设置为 title 中给定的标题,set header title
+返回当前上下文的新上下文对象，但其资源被调整以匹配给定的配置,create configuration context
+设置同步附加功能忽略退避的便捷功能,set ignore backoff
+检索容差因子,get tolerance
+检索并移除此双端队列的第一个元素，必要时等待元素可用。,takeFirst
+返回此图像视图是否裁剪为填充,get crop to padding
+设置用作标签的字符串数组,set labels
+如果 fillenabled 为 true ，则此动画将应用之前的 fill 值,is fill enabled
+返回一个在 ime 输入法编辑器上按下当前操作按钮 next 、 done 、 search 等的操作,press ime action button
+返回列表视图中特定位置的启动器 Activity.list 项,item for position
+获取执行与此路由关联的播放的最大音量,get volume max
+返回此年度的调整副本。,with
+返回此类中所有规范形式的骨架的列表，以及它们映射到的模式,get skeletons
+添加作为该视图后代的任何可触摸视图，如果该视图本身对于视图是可触摸的，则可能包括该视图,add touchables
+指示适配器视图中现在是否存在正在呈现此数据的后代视图,is data rendered within adapter view
+返回此位置与给定位置之间的近似距离（以米为单位）,distance to
+提供已删除文档的一部分的通知。,removeUpdate
+设置页面点之间的中心到中心距离,set dot spacing
+如果此矩形与指定矩形相交，则返回 true,intersects
+返回描述最小、首选和最大尺寸要求的字符串，以及对齐方式,toString
+此方法已被弃用。使用创建上下文代替,from
+查找包含给定文本的视图,find views with text
+报告当前缩略图读取操作已完成渐进式传递。,thumbnailPassComplete
+注册回调以获取有关相机设备可用性的通知,register availability callback
+在持续时间毫秒内平滑滚动距离像素,smooth scroll by
+获取有关结果的附加类型相关信息,get extra
+将指定参数设置为 Reader对象。,setClob
+设置标识为引导的路径,setLeadSelectionPath
+创建新的受限高速捕获会话,create constrained high speed capture session
+关闭套接字,close
+基本上返回给定拨号字符串的 toa ，如果有 + 前缀则返回国际化,toa from string
+默认情况下，列表的第一个元素最初位于屏幕中央,set initial offset
+返回一个视图断言，断言显示的视图与与给定匹配器匹配的视图完全对齐到顶部,is top aligned with
+将SQL结构类型值写入流。,writeStruct
+从指定银行返回请求的数据数组元素作为一个浮点数,getElemFloat
+打印此JTable,print
+检索该提供程序正在运行的上下文,get context
+删除该可绘制对象的滤色器,clear color filter
+返回一个新的CompletionStage，当该阶段或其他给定阶段正常完成时，使用此阶段的默认异步执行工具执行给定的操作。,runAfterEitherAsync
+实现它来处理来自客户端的查询请求并支持取消,query
+设置二维正交投影矩阵,glu ortho 2 d
+添加要显示的数字信息,put long
+检查此日期是否等于另一个日期，包括年表。,equals
+当组件运行时设备配置发生更改时，由系统调用。该方法始终在应用程序主线程上调用，并且不得执行冗长的操作,on configuration changed
+返回与特定资源 ID 关联并针对指定主题设置样式的可绘制对象,get drawable
+获取孩子的数量,get child count
+使用给定的 Calendar对象将指定参数设置为给定的 java.sql.Date值。,setDate
+释放唤醒锁,release
+iconOnly价值。,iconOnly
+返回严格大于给定键的最小键，如果没有这样的键，则返回 null 。,higherKey
+返回在视图上执行单击的操作,click
+获取用于保护密钥库数据的参数。,getProtectionParameter
+使用给定的一组资源和 resources.theme 从 xml 文档创建颜色状态列表,create from xml
+返回媒体会话包中图标的资源id,get icon
+设置是否显示“silent”项目,set show silent
+释放与 drm 管理器客户端当前会话关联的资源,close
+如果给定的键包含在元数据中，则返回 true,contains key
+使用给定的 Calendar对象将指定参数设置为给定的 java.sql.Timestamp值。,setTimestamp
+将短信pdu注入到android应用程序框架中,inject sms pdu
+返回“id”属性的值，如果不存在则返回 null,get id attribute
+返回平台是否应自动生成此通知的可能回复。action,get allow generated replies
+构造并返回具有给定属性名称的属性值持有者，以用作多浮点设置器,of multi float
+子类必须实现这个来处理取消加载的请求,on cancel load
+设置此通知是否不应桥接到其他设备,set local only
+返回一组证书颁发机构证书，这些证书可用于验证对等体。,getAcceptedIssuers
+从模型中删除项目。,removeElement
+附加一个自定义工厂接口，用于在使用此布局充气器时创建视图,set factory
+负责使用此电话帐户句柄拨打电话的连接服务的组件名称,get component name
+此方法已被弃用。重命名为可滑动 - 此方法很快就会消失！,can slide
+当此适配器创建的视图已与其窗口分离时调用,on view detached from window
+设置显示此通知时在活动视图内启动的意图,set display intent
+返回一个字典顺序比较器，其中包含一个提取 long排序键的函数。,thenComparingLong
+将键/值对放入数组中，针对键大于数组中所有现有键的情况进行优化,append
+设置此关键帧的值,set value
+获取与此对象关联的可访问动作（如果存在）,getAccessibleAction
+对关联的本地配置文件指定的服务器执行取消注册,unregister
+报告有关网络状态的额外信息（如果较低网络层提供了任何信息）,get extra info
+检索LDAP扩展操作响应的ASN.1 BER编码值。,getEncodedValue
+stpmv 执行矩阵 - 向量运算之一 x := ax 或 x := atx 详细信息：注意：对于 nn 矩阵，输入分配应该是大小为 dimx = nn+1 / 2 的 1d 分配，以下子例程可以是显示如何将上三角矩阵 ' a ' 转换为压缩矩阵 ' b ' 的示例,stpmv
+获取所表示元素内的索引。,getIndex
+返回与给定屏幕密度（以 dpi 为单位）的特定资源 ID 关联的可绘制对象，并针对指定主题设置样式,get drawable for density
+返回适合显示的字幕或 null,get subtitle
+此方法已被弃用。覆盖绘制画布、回收器视图、回收器视图.state,on draw
+返回指定区域设置的规范化全名,get name
+检索用于将Unicode字符流写入此 Clob对象所代表的 CLOB值的流，位于位置 pos 。,setCharacterStream
+重置构建器以匹配提供的区域设置,set locale
+记录事件日志消息,write event
+使用提供给附加接口的信息返回关联的接口（如果它与请求的描述符匹配）,query local interface
+获取纹理的高度（以像素为单位）,get height
+取消拖放操作,cancel drag and drop
+返回此区域设置名称，该名称已本地化以在默认显示区域设置中显示,get display name with dialect
+将指定集中的所有元素添加到此属性。,addAll
+如果应用程序在使用目标意图从该 Activity 导航“向上”时应重新创建任务，则返回 true,should up recreate task
+ICC配置文件标题位置：icMagicNumber。,icHdrMagic
+对当前内容进行评分,set rating
+"设置密钥对的类型，例如, ec , 待生成密钥对的 rsa",set key type
+通过将进程绑定到网络网络，返回当前绑定到该进程的网络，如果没有显式绑定网络，则返回 null,get bound network for process
+此事件发生的时间，自纪元以来以毫秒为单位测量,get time stamp
+关闭输入流。,close
+调用监听器定期通知它记录头已达到通知周期的倍数,on periodic notification
+返回此窗口插图的副本，其中选定的系统窗口插图替换为新值,replace system window insets
+当应用程序设置包含速度和音频模式的播放参数时调用,on time shift set playback params
+设置图像缓冲区的默认大小,set default buffer size
+使用给定的 Calendar对象将指定参数设置为给定的 java.sql.Timestamp值。,setTimestamp
+当网络或识别错误发生时，服务应调用此方法,error
+为特定参数注册一个值清理器,register parameter
+将浮点值插入到该包的映射中，替换给定键的任何现有值,put float
+确定对象是否正在显示。,isShowing
+获取此打印作业是否已排队,is queued
+从此图像的属性集中获取属性。,getProperty
+从有界范围模型返回进度条的最大值,getMaximum
+为此活动生成新的描述,on create description
+检查此日期时间是否在指定的日期时间之前，忽略年表。,isBefore
+对于大多数字符样式返回“ this ” ，但对于由换行字符样式生成的字符样式，返回基础字符样式,get underlying
+返回详细描述的视图持有者,get details description view holder
+获取拖动点的 y 坐标,get y
+打印操作完成时调用,on finish
+向正在构建的流添加元素。,add
+返回给定 dom 元素下的可见文本,get text
+在后台参数中执行后在 ui 线程上运行,on post execute
+返回键的字符串值,get string
+返回向您发送当前正在处理的事务的进程 ID,get calling pid
+返回与此对象相同类型的对象，并添加一个量。,plus
+如果 fill after 为 true ，则此动画将在动画结束时间后应用其变换,get fill after
+将下一个属性作为Java编程语言中的 String写入流中。,writeString
+如果当前事件是START_ELEMENT或END_ELEMENT，则此方法返回前缀的URI或默认命名空间。,getNamespaceURI
+检测线程进入执行的方法,on start
+是该窗口定义的快捷键之一的按键,is shortcut key
+返回为标签文本指定的任何具体文本,get non localized label
+在活动处理其生命周期更改事件后（例如在恢复或启动时）在主线程上调用,on activity lifecycle changed
+设置朗读文本或播放文件时要使用的音频属性,set audio attributes
+从该特征的描述符列表中返回具有给定 uuid 的描述符,get descriptor
+返回设备是否支持给定事件,is event supported
+返回展开或关闭节点所需的鼠标点击次数,getToggleClickCount
+控制这是引用计数还是非引用计数多播锁,set reference counted
+此作业是否需要设备处于空闲维护时段,is require device idle
+使用通用消息以任意顺序的断言内容变体 string 、 iterable 、 object ...,assert contents in any order
+准备一个要显示的面板,on prepare panel
+获取未设置标志的 ui 自动化实例,get ui automation
+删除添加的打印机,remove printers
+通知应用程序当前频道由于某种原因被重新调谐，并且会话现在显示来自新频道的内容,notify channel retuned
+使用给定对象设置指定参数的值。,setObject
+返回本地化的加号,get plus sign
+应该返回一个复合标志，它定义了空闲、滑动、拖动每种状态下启用的移动方向,get movement flags
+返回边框是否不透明。,isBorderOpaque
+zgerc 执行排名 1 操作 a := alphaxyh + a 详细信息 :,zgerc
+将char数组包装到缓冲区中。,wrap
+截取当前窗口的屏幕截图并将其存储为 png 默认比例为 1.0f 原始大小并使用 90 % 质量 屏幕截图会根据屏幕旋转进行调整,take screenshot
+返回当前会话的总体进度，介于 0 和 1 之间,get progress
+根据 getorientationint 返回给定指针的此事件和上一个事件之间发生的历史方向坐标,get historical orientation
+为分派到弹出窗口的所有触摸事件设置回调,set touch interceptor
+向属性集添加新属性。,put
+安排剪辑的播放,trigger clip
+获取最小值,get min
+返回代表操作的图标,get icon
+将 TreeWalker移动到当前节点的上一个兄弟节点，并返回新节点。,previousSibling
+返回一个新的CompletionStage，当此和另一个给定阶段都正常完成时，执行给定的操作。,runAfterBoth
+如果节点是集合，则获取集合信息,get collection info
+返回请求的端点，如果请求未打开，则返回 null,get endpoint
+将此 Clob对象指定的 CLOB值检索为 java.io.Reader对象（或作为字符流）。,getCharacterStream
+通过将已编码的路径段附加到基本 uri 来创建新的 uri,with appended path
+设置用于传递到格式方法或从解析方法返回的值的格式对象,set formats by argument index
+返回与窗口关联的标题（如果有）,get title
+给定儒略日，返回星期几（从星期日到星期六）,julian day to day of week
+更新数据库中行的便捷方法,update
+如果 newValue满足模型的约束， newValue模型的当前值设置为 newValue 。,setValue
+当新的可绘制对象离开场景时更改全局淡入淡出持续时间,set exit fade duration
+删除指定的回调,remove callback
+返回字符名称的迭代器，迭代代码点,get name iterator
+仅供生成的反射代码使用,invoke
+返回指定组件的框架,getFrameForComponent
+获取与该对象关联的 url,get url
+创建一个类型为bundle的条目,create bundle entry
+在服务初始化期间调用，告诉您系统何时准备好接收来自它的交互,on ready
+设置当前播放状态,set state
+指示该文件是否代表一个文件,is file
+将 ui 样式设置为片段参数,set ui style
+返回此 ZonedDateTime的副本，并减去指定的秒数。,minusSeconds
+将 int值写入输出流，该值由四个字节组成。,writeInt
+克隆指定的转换,set
+返回一个掩码，指示整数像素表示中哪些位包含红色组件,getRedMask
+获取该光标窗口的起始位置,get start position
+调整当前沉浸模式设置,set immersive
+设置当窗口准备关闭时将用于将视图移出场景的过渡，例如在过渡后调用完成之后,set return transition
+测试此实例是否存在某种功能,has capability
+获取当下一个焦点向前聚焦时要使用的视图的 id,get next focus forward id
+设置该动作模式的标题/副标题显示是否可选,set title optional hint
+重新启动设备,reboot
+从流中读取一个字节并将其作为 byte值返回。,readByte
+与队列输入缓冲区类似，但提交可能已加密的缓冲区,queue secure input buffer
+安装自定义egl配置选择器,set eglc onfig chooser
+控制 set Enter 中的过渡集如何与调用 Activity 的退出过渡重叠 android.transition.transition,set allow enter transition overlap
+将 ChangeListener添加到模型中。,addChangeListener
+给定 0...size - 1 范围内的索引，返回此稀疏 int 数组存储的第索引键-值映射中的键,key at
+从此队列中删除指定元素的单个实例（如果存在）。,remove
+更改与此活动相关的标题,set title
+存储一个混合模式，以便在绘制此图标时使用,set tint mode
+返回列的索引,getColumn
+将整数转换为字符串并设置参数 arg 编号的便捷方法,set integer part
+格式化生成属性字符迭代器的对象,format to character iterator
+每当用户使用后退/菜单按钮取消菜单或选择某个项目而关闭选项菜单时，都会调用此挂钩,on options menu closed
+返回 NodeList所有的 Elements文档顺序与给定的标签名称，包含在文档中。,getElementsByTagName
+获取当前组合文本中指定偏移量的位置，或获取提交文本中选定内容的位置。,getTextLocation
+向此通知添加可穿戴操作,add actions
+获取路线的演示显示 ID，或者 - 1（如果没有）,get presentation display id
+获取uri绑定的前缀,getPrefix
+将通道的套接字绑定到本地地址。,bind
+通知已注册的回调某个元素已被添加、删除或更改,notify change
+在index0中的索引之后发送，index1间隔已从数据模型中删除。,intervalRemoved
+获得 string命名提供音库的公司。,getVendor
+返回此操作标题是否可编辑,is editable
+返回设备上正在运行的应用程序进程的列表,get running app processes
+设置节点是否是多行可编辑文本,set multi line
+"将矩阵设置为按 sx 和 sy 缩放，轴心点为 px , py",set scale
+指示最佳行标识符不是伪列。,bestRowNotPseudo
+返回索引处的选项卡禁用图标,getDisabledIconAt
+选择菜单时调用。,menuSelected
+返回提供的索引处的属性的名称空间,getAttributeNamespace
+包含真实UI的向量。,uis
+指定私钥和客户端证书以进行客户端授权,set client key entry
+dsyr2 执行对称秩 2 运算 a := alphaxyt + alphayxt + a 详细信息：,dsyr 2
+显示大通知时覆盖大图标,big large icon
+创建一个原子，它包装输入原子并使用给定的转换器转换其输出,transform
+处理源自前一轮的类型元素的一组注释类型，并返回此处理器是否声明了这些注释类型。,process
+返回椭圆长轴的长度，该椭圆描述给定指针索引的接近工具的大小 使用 getpointer idint 查找该索引的指针标识符,get tool major
+检索包含从索引 index开始并且包含最多 count连续元素的子 index元素的结果集。,getResultSet
+设置此日期间隔格式对象使用的日历的时区,set time zone
+设置监听器监听注册事件,set registration listener
+返回一个匹配器，该匹配器将文档与与给定匹配器匹配的正文相匹配,with body
+获取特定帐户的指定类型的身份验证令牌，如果用户必须输入凭据，则可以选择发出通知,get auth token
+将 sql 字符串附加到给定的字符串生成器，包括左单引号和右单引号,append escaped sqls tring
+指定此可绘制对象的色调颜色作为颜色状态列表,set tint list
+返回用于绘制单元格的组件。,getTableCellRendererComponent
+返回该对象是否可点击,is clickable
+当处于双窗格模式时，切换到片段窗格以显示给定的首选项片段,switch to header
+检索采样器，将 min 和 mag 设置为最接近，并将环绕模式设置为镜像重复,mirroredr epeatn earest
+当控制器向此会话发送命令时调用,on command
+关闭正在测试的应用程序,tear down
+返回具有namespace和localName的属性的规范化属性值。如果namespaceURI为null，则不检查命名空间的相等性,getAttributeValue
+检查视图的长可点击属性当前是否为 true,is long clickable
+开放输出streamuri的同义词，“w”,open output stream
+如果该对象是此类用于跟踪指定文本中的任何元状态的对象，则返回 true,is meta tracker
+该颜色平面的行步长，以字节为单位,get row stride
+获取当前颜色效果设置,get color effect
+设置数字的整数部分允许的最小位数,set minimum integer digits
+指示该动作是否可以获得焦点,focusable
+将此有理数与指定有理数进行比较以确定它们的自然顺序,compare to
+接收处理指令的通知。,processingInstruction
+通过激活自动滚动、调整滚动速度或停止来处理触摸事件,on touch
+设置生成的密钥对的自签名证书的有效期结束时间,set certificate not after
+获取与这些建议一起使用的可选意图数据,get suggest intent data
+返回有关实施此设备管理的接收者的原始信息,get activity info
+返回默认大小的实用程序,get default size
+更改菜单层次结构中的选择,setSelectedPath
+将光标移动到绝对位置,move to position
+获取身份,get identity
+当搜索ui取消时会调用该方法,on cancel
+如果操作代表断言查询，则返回 true,is read operation
+创建一个新视图,on create view holder
+检索此 Clob对象指定的 CLOB值中的字符数。,length
+如果虚拟机连接了调试器，则返回 true,is debugging
+向菜单项添加菜单拖动鼠标监听器,addMenuDragMouseListener
+返回窗口的总高度（以像素为单位）,get height
+如果此视图应适应系统窗口插入，则返回 true,get fits system windows
+检索服务器发送的引用。,getReferrals
+收到输入事件时调用,handle input event
+将指定参数设置为给定的 java.net.URL对象。,setURL
+获取颜色模式,get color mode
+设置当前播放状态,set playback state
+获取与从安全源加载不安全内容有关的 Web 视图的当前行为,get mixed content mode
+检索特定管理员或对此用户及其参与配置文件设置限制的所有管理员密码中所需的当前符号数,get password minimum symbols
+JComboBox的实例。,comboBox
+setint 、 long 、挂起意图的直接回调版本,set
+更新正在进行的拖放操作的拖动阴影,update drag shadow
+设置数组中给定索引处的值,set value at
+如果目录 ID 来自企业配置文件上的联系人提供程序，则返回 true,is enterprise directory id
+返回用于自动完成的可过滤列表适配器,get adapter
+当此首选项的数据发生更改时应调用,notify changed
+支持更改监听器接口并触发属性更改,stateChanged
+从意图中删除类别,remove category
+提供比字符串更快的迭代,ranges
+选择要操作的特定适配器视图，默认情况下我们对屏幕上的任何适配器视图进行操作,in adapter view
+返回请求证书的服务器的主机名,get host
+如果指定，则与实体关联的系统标识符，否则为 null 。,getSystemId
+计算并返回RenderedImage的任意区域。,getData
+获取给定索引处的历史记录项,get item at index
+将参数 v的八个低位写入输出流。,writeByte
+注册回调以接收来自会话的更新,register callback
+从此日期时间获取指定字段的值为 int 。,get
+此方法在内部调用绑定视图持有者视图持有者，int以使用给定位置的项目更新回收者视图。视图持有者内容，并设置一些供回收者视图使用的私有字段,bind view holder
+如果表在单元格之间绘制水平线，则返回true，否则返回false,getShowHorizontalLines
+返回应用于重力位置的 y 偏移量（以像素为单位）,get yo ffset
+删除 侦听器作为模型中更改的侦听器。,removeChangeListener
+关闭图标数据库的共享实例,close
+从包含立方体面水平列表的位图创建立方体贴图分配,create cubemap from bitmap
+当演示文稿所附加的显示器的属性发生更改时由系统调用,on display changed
+再次执行创建游标的查询，刷新其内容,requery
+返回当前进程中存在的绑定器对象的死亡通知链接数,get binder death object count
+请求更改状态栏或其他屏幕/窗口装饰的可见性,set system ui visibility
+返回此电视输入的唯一 ID,get id
+返回菜单栏的当前UI,getUi
+在服务初始化期间调用，告诉您系统何时关闭服务,on shutdown
+当任何类型的过渡动画结束时，此事件将发送给侦听器,end transition
+获取要向服务器报告的 psk 身份，以帮助就所提供的套接字的 psk 达成一致,choose client key identity
+获取有关可搜索活动的信息,get searchable info
+设置选定的行位置,set selected position
+将当前剪辑与指定的矩形相交，该矩形以局部坐标表示,clip rect
+返回消息类型,getMessageType
+断开已连接的健康通道,disconnect channel
+在首选项编辑器中设置一个字符串值，一旦调用 commit 或 apply 就会写回,put string
+如果它使用 DriverManager而不是 DataSource对象来建立连接，则检索此 RowSet对象将用于创建连接的url属性。,getUrl
+返回此属性集中的属性数。,size
+获取输入设备id,get id
+将给定描述符的值写入关联的远程设备,write descriptor
+返回指定区域设置的默认编号系统,get instance
+设置显示或关闭弹出窗口时要使用的动画样式,set animation style
+获取段落中给定位置的逻辑样式。,getLogicalStyle
+设置选定的显示选项,set display options
+当虚拟视图的焦点状态发生变化时调用,on virtual view keyboard focus changed
+删除回收器视图。在项目触摸监听器上,remove on item touch listener
+设置工具栏中显示的操作按钮,set action button
+测试指定的抽象路径名是否应包含在路径名列表中。,accept
+获取发送此操作时要从用户收集的输入列表,get remote inputs
+设置的类指纹，用于指示与该类的先前版本的序列化兼容性。,serialVersionUID
+获取该矩阵是否仿射,is affine
+初始化意图并开始记录意图,init
+将指定参数设置为给定的Java double值。,setDouble
+使用 charequence.subsequence 返回修剪后的序列，该序列使用 trim option.both 和 span condition.simple 省略字符串开头和结尾处的匹配元素,trim
+返回 mtp 对象的保护状态 可能的值有： 保护状态 无 保护状态 只读 保护状态 不可传输数据,get protection status
+返回行头,getRowHeader
+返回给定行、列处的可访问对象占据的列数,getAccessibleColumnExtentAt
+获取当前缓冲位置（以毫秒为单位）,get buffered position
+设置 arg 分母参数,set denominator
+添加回调来侦听可观察对象的更改,add on property changed callback
+使用播放参数设置播放速率,set playback params
+为此交易选择标准过渡动画,set transition
+返回此元素的简单（非限定）名称。,getSimpleName
+注册一个侦听器以接收有关媒体投影何时更改状态的通知,register callback
+获取由物理位置的地址组成的第一个子字符串,find address
+获取起始日期,get from date
+报告当前读取操作已完成渐进式传递。,passComplete
+创建一个新的类文件，并返回一个允许写入它的对象。,createClassFile
+返回该视图的标识符,get id
+"true 如果 c 是 iso - 拉丁字符 0 - 9 , , #",is 12 key
+在第一次调用查询文本更改之前调用的方法，以检索对象适配器，该适配器将包含搜索查询未来更新的结果,get results adapter
+如果 fillenabled 为 true ，动画将应用之前的 fill 值,set fill enabled
+如果此双端队列包含指定的元素，则返回 true 。,contains
+从数据线的输入缓冲区读取音频数据。,read
+使用列表中特定项目的信息初始化可访问性节点信息,on initialize accessibility node info for item
+如果此 uri 是分层的，则返回 true，如“,is hierarchical
+设置与内容关联的意图，描述活动的当前顶级上下文。,set intent
+返回gnss导航电文子系统的最新状态,on status changed
+设置提供者的描述符,set descriptor
+设置与此选项关联的可选额外信息,set extras
+当任何订阅信息发生任何更改时调用回调,on subscriptions changed
+由管理设备的应用程序调用，以设置设备锁定之前用户活动的最长时间,set maximum time to lock
+设置先前编码的权限,encoded authority
+返回在文本中以偏移光标结束的标记的开头,find token start
+提供自定义远程视图来代替标准视图,set content
+读入包含特定对象类型的给定列表项，这些对象类型是在当前数据位置使用 write 类型列表 list 写入的,read typed list
+设置与视图关联的额外对象,set extra object
+返回一组布局参数，其宽度为 matchparent ，高度为 matchparent,generate default layout params
+获取描述此 ui 自动化的辅助服务信息,get service info
+按名称获取系统服务的调试转储,dump service
+返回从活页夹驱动程序接收到的事务数,get binder received transactions
+连接到应用程序服务，并根据需要创建它,bind service
+设置负责上报该用户路由播放信息的远程控制客户端,set remote control client
+使用给定比例混合两种 cie - lab 颜色,blend lab
+参见统计数据2,stat
+将文本区域设置列表设置为仅包含区域设置的单成员列表,set text locale
+处理对首选项的点击,on click
+执行给定的任务，返回一个Futures列表，在完成或超时到期时保持其状态和结果，以先发生者为准。,invokeAll
+将给定的字节数组写入此 Blob对象所代表的 BLOB值，从位置 pos开始，并返回写入的字节数。,setBytes
+释放密钥时调用。,keyReleased
+在可用功能集中查找功能。,resolveFunction
+返回用户的家长控制启用状态,is parental controls enabled
+设置短标题，当此事务位于后台堆栈时显示为面包屑,set bread crumb short title
+获取文本编辑组件中包含的整个文本的长度，但未提交（组合）的文本除外。,getCommittedTextLength
+如果此主体隐含指定的主题，则返回true。,implies
+通过回调取消订阅指定媒体 id 的子项的更改,unsubscribe
+将此运算符应用于给定的操作数。,applyAsDouble
+获取该节点对应的视图的绘制顺序,get drawing order
+返回此包中包含的映射数量,size
+相当于 get Directionalitychar 方法，方便起见,get directionality
+显示锁屏时调用,on lockscreen shown
+返回此地址的字符串表示形式，例如“192.0.2.1/24”或“2001:db8::1/64”,to string
+将分隔符的最后位置设置为新的最后位置,setLastDividerLocation
+返回套接字选项的值。,getOption
+设置编辑时该动作标题的输入类型,edit input type
+用于检查此事件是否为EntityReference的实用程序函数。,isEntityReference
+返回当前设备的每个应用程序的大致内存类别,get memory class
+构建媒体项状态对象,build
+将给定的 xml 文件解析为标头描述，将每个解析的标头添加到目标列表中,load headers from resource
+如果等于提供的复数格式，则返回 true,equals
+清除此应用程序小部件主机已创建的视图列表,clear views
+将此 RowSet对象命令中的指定参数设置为给定的 java.io.InputStream值。,setAsciiStream
+将此大纲的内容替换为 src 的内容,set
+此方法强制所有注册的观察者运行,run watchers
+已过时。 没有替代品。,registryImpl
+使用给定的 Calendar对象检索JDBC TIMESTAMP参数的值作为 java.sql.Timestamp对象，以构造 Timestamp对象。,getTimestamp
+获取用于获取搜索建议的内容提供者路径,get suggest path
+注册一个回调，当视图滚动时调用,add on scroll changed listener
+返回最新收集的gnss导航电文,on gnss navigation message received
+如果单选按钮已被选中，则将视图的选中状态更改为其当前状态的相反状态，此方法不会切换单选按钮,toggle
+关闭与此菜单视图关联的所有弹出窗口,dismiss popup menus
+如果光标由光标窗口支持，则返回带有光标内容的预填充窗口，否则返回 null,get window
+"在指定的绘制中绘制指定范围的文本，由 start / end 指定，其原点位于 x , y 处",draw text
+返回过滤器操作的迭代器,actions iterator
+设置此视图的实时区域模式,set accessibility live region
+如果正在评估 javascript，则返回与 Web 视图匹配的匹配器,is javascript enabled
+调用此方法获取尝试访问受限资源的网页的来源,get origin
+返回可用于拨打和接听电话的电话帐户句柄列表,get call capable phone accounts
+当会话关闭时调用此方法,on closed
+设置此应用栏布局是否展开,set expanded
+返回行的当前选择级别,get select level
+创建新的多播锁,create multicast lock
+获取此 uri 的编码权限部分,get encoded authority
+使用正则表达式设置搜索条件以匹配布局元素中显示的可见文本,text matches
+跟踪列重新定位的变化,editingStopped
+设置语速,set speech rate
+旧版本的 oncallback deade ，不提供 cookie 的对象,on callback died
+将指定参数设置为给定的Java int值。,setInt
+返回要在将放入密钥库中的 x.509 证书上使用的开始日期,get certificate not before
+立即更改所选项目和/或子位置，无需动画,set selected position with sub
+设置此表盘是否接受点击事件,set accepts tap events
+返回JFormattedTextField用于解析和格式化数字的Java文本DecimalFormat对象,getFormat
+设置处理未注册参数值时使用的值清理程序,set unregistered parameter value sanitizer
+返回状态集或规范是否与所有状态集匹配,is wild card
+获取捕获结果字段值,get
+获取屏幕坐标中的节点边界,get bounds in screen
+获取给定标签的 mifare ultralight 实例,get
+获取此会话连接到的 sip 配置文件,get peer profile
+从字段计算一天中的毫秒数,compute millis in day
+通知主机应用程序 Web 视图收到了 http 身份验证请求,on received http auth request
+将指定参数设置为 Reader对象。,setNClob
+返回指定像素矩形区域的所有样本的int数组，每个数组元素一个样本,getPixels
+返回此语言环境的脚本是否是从右到左编写的,is right to left
+返回作为开始拖动调用的一部分发送到系统的剪辑数据对象,get clip data
+请求启动给定的应用程序服务,start service
+返回本机堆的大小,get native heap size
+表示最佳行标识符是伪列。,bestRowPseudo
+给定可替换对象，返回 ucharacter 迭代器对象,get instance
+返回此日期/时间格式化程序用于格式化和解析时间的数字格式化程序,get number format
+返回设备支持的特定密码质量的最大密码长度,get password maximum length
+PropertyEditor可以选择提供编辑其属性值的完整自定义组件。,getCustomEditor
+检索与此 drm 权限对象关联的订阅 ID,get subscription id
+表示应用程序已完成使用接收器，并且可能会释放或提供所需的有限资源。,close
+设置开关上显示文本的字体,set switch typeface
+将对象坐标映射到窗口坐标,glu project
+设置源左边缘的滚动偏移量（以像素为单位）,set scroll x
+触发传感器时将调用的方法,on trigger
+设置此修复的 utc 时间（自 1970 年 1 月 1 日以来的毫秒数）,set time
+获取历史压力int，第一个指针索引的int可以是任意指针标识符,get historical pressure
+返回表示OUT参数 parameterName的值的对象，如果支持转换，则将从参数的SQL类型转换为请求的Java数据类型。,getObject
+将数据中的字节设置为该包裹的原始字节,unmarshall
+如果提供商能够提供速度信息，则返回 true ，否则返回 false,supports speed
+获取mime类型映射的单例实例,get singleton
+此方法禁用通过启用预写日志记录启用的功能,disable write ahead logging
+受保护的方法，将输入字符串的一个字段转换为 cal 中的数字字段值,sub parse
+指示是否为此可绘制对象启用抗锯齿功能,has anti alias
+获取将启动应用程序清单中源活动的父活动元素指定的显式目标活动的意图,get support parent activity intent
+在文本值发生更改时调用。,textValueChanged
+暂停正在运行的动画,pause
+获取 lte 信号电平作为 0..97 之间的 asu 值，99 未知 asu 是根据 3gpp rsrp 计算的,get asu level
+检索与编解码器异常关联的错误代码,get error code
+当用户更改查询文本时调用,on query text change
+捕获最终场景中此过渡监视的属性的值,capture end values
+更改此上下文包装器的基本上下文,set base context
+创建用于将颜色矩阵应用于分配的内在函数,create
+只要选择的值发生变化，就会调用。,valueChanged
+参见 inet pton3,inet pton
+提交在给定延迟后启用的一次性任务。,schedule
+当处理器遇到xsl：include，xsl：import或document（）函数时由处理器调用。,resolve
+如果位图被标记为可变，即可以绘制，则返回 true,is mutable
+返回形状的宽度,get width
+如果该集合包含给定的多字符字符串，则返回 true,contains
+设置该首选项所依赖的首选项的键,set dependency
+将对象格式化为属性字符串，并返回相应的迭代器覆盖超类方法,format to character iterator
+返回此节点的父节点，如果这是根节点，则返回 null 。,getParent
+此方法已被弃用。使用获取焦点缩放系数代替,get zoom factor
+使用指定的颜料绘制指定的圆,draw circle
+返回具有默认格式区域设置的给定格式化样式的时间格式化程序,get time instance
+返回此属性是否已知为类型ID（即包含其所有者元素的标识符）。,isId
+查找功能标志的值。,getFeature
+返回此 mifare classic 兼容标签的类型,get type
+返回给定指针索引的该事件的 y 坐标 使用 getpointer idint 查找该索引的指针标识符,get y
+获取这些规则中指定的本地日期时间适用的偏移量。,getValidOffsets
+告知当前位置和限制之间是否存在任何元素。,hasRemaining
+如果设备可以支持其他呼叫，则返回,can add call
+如果矩阵是恒等矩阵，则返回 true,is identity
+从设备上当前使用的包名称映射到该包的当前规范名称,current to canonical package names
+此方法已被弃用。使用 android.telephony.sms 消息,to string
+如果启用了行和列选择模型，则返回true,getCellSelectionEnabled
+设置从中读取音频数据以进行播放的缓冲区的总大小（以字节为单位）,set buffer size in bytes
+设置此首选项的键，该键用作共享首选项的键,set key
+返回浏览框架布局。在焦点搜索侦听器上,get on focus search listener
+将一个项目添加到适配器的末尾,add
+使用Java编程语言中的 int检索JDBC INTEGER参数的值。,getInt
+返回应用程序兼容性本身是否处理任何本机操作模式,is handle native action modes enabled
+返回适配器保存的数据集中的项目总数,get item count
+获取该提供商允许的最大音量,get max volume
+应该从简历后调用,on post resume
+被调用以通知客户端数据已成功传输到打印服务，并且客户端可以释放为该数据分配的本地资源。,printDataTransferCompleted
+选择标题项时调用,on header selected
+指定创建连接时要使用的用户名,user
+在每个观察者上调用调度changeboolean、uri,dispatch change
+子类不应重写此方法，而应重写子类,on layout
+在菜单中添加默认共享项,add default share menu item
+为此状态对象设置一组额外内容,set extras
+告诉父视图是否可以解决文本对齐问题,can resolve text alignment
+拖动鼠标离开菜单组件的显示区域时调用。,menuDragMouseExited
+从当前数据位置的地块中读取并返回一个新的包对象,read persistable bundle
+事件发生的垂直坐标，相对于屏幕坐标系的原点。,getScreenY
+如果启用邻近校正则返回 true,is proximity correction enabled
+当用户从下向上快速移动手指时调用,swipe up
+调整此对象的大小，使其具有宽度和高度。,setSize
+报告DTD声明的开始（如果有）。,startDTD
+设置评级填充的星星数量,set rating
+为任意路径创建插值器,create
+获取此对象的 FontMetrics 。,getFontMetrics
+如果类型是立方体贴图则返回,has faces
+返回当前注册操作员的数字名称 mcc+mnc,get network operator
+返回布局动画事件发送到的动画监听器,get layout animation listener
+参见strerror2,strerror
+返回 getValue()返回的对象之后的序列中的对象。,getNextValue
+清除索引,clear records
+这将不再有效,set user restrictions
+检索应写入测试的测试运行目录,get test run dir
+选择此路由时，获取应用程序应使用的显示器，以在外部显示器上显示演示文稿,get presentation display
+发送所选曲目的类型和 ID,notify track selected
+滚动窗格的最小尺寸是insets的尺寸加上viewport的最小尺寸，加上scrollpane的viewport边框insets，加上可见头部的最小尺寸，加上显示策略不是never的滚动条的最小尺寸,minimumLayoutSize
+"以double形式返回位于x,y处像素的指定波段中的样本",getSampleDouble
+发送广播意图的版本，允许您从广播接收返回的数据,send ordered broadcast
+此方法已被弃用。使用填充边距布局参数 view 、 view group.margin 布局参数 、 int 、 int 以获得正确的 rtl 支持,fill margin layout params
+返回给定语音支持的功能集,get features
+当应用程序更改了所需的壁纸虚拟尺寸时调用,on desired size changed
+聚焦按钮的颜色。,focusColor
+返回当前设置的剪辑数据剪辑数据，您可以就地修改它。,get clip data
+操作与 inet 地址相同。除主机解析是在此网络上完成外，按名称获取所有内容,get all by name
+设置示例加密模式中要加密和跳过的块数,set
+设置用于存储在此 SSLSessionContext下分组的 SSLSession对象的高速缓存大小。,setSessionCacheSize
+获取项目跨越的列数,get column span
+当用户的输入表明他们想要滑动给定的视图时调用,can swipe dismiss view
+此日期时间的哈希码。,hashCode
+请求返回当前媒体的持续时间，以毫秒为单位,on get duration
+get flags 的帮助器，如果设置了下划线文本标志位，则返回 true,is underline text
+报告已更新缩略图图像的给定区域。,thumbnailUpdate
+构造并返回具有指定属性和值集的属性值持有者对象,of keyframe
+返回此 ZonedDateTime的副本，并更改了纳秒。,withNano
+触发滚动条进行绘制,awaken scroll bars
+当项目从适配器中移除时调用,on items removed
+获取web视图是否支持多窗口,support multiple windows
+分配一个新的短缓冲区。,allocate
+设置树的选择模型,setSelectionModel
+调用输入法service.on更新选择,update selection
+view属性标识 AbstractView生成事件的 AbstractView 。,getView
+返回当前变量解析器。,getXPathVariableResolver
+注册一个回调，当输出帧渲染在输出表面上时调用,set on frame rendered listener
+设置状态图标电池状态、屏幕上缺乏连接的位置,set status bar gravity
+删除与该地址关联的任何经度,clear longitude
+调至给定频道,tune
+返回已过滤目标图像的边界框。,getBounds2D
+定义此布局中包含的小部件是否基线对齐,set baseline aligned
+激活内部框架时调用。,internalFrameActivated
+为微调器的弹出选择窗口设置垂直偏移（以像素为单位）,set drop down vertical offset
+禁用该服务,disable self
+返回是否在 Activity.on 提供辅助内容中明确提供了当前的获取 Web URI,is app provided web uri
+获取此远程连接的能力,get connection capabilities
+设置内容窗格，即容纳由根窗格管理的组件的容器,setContentPane
+关闭此输入流并释放与该流关联的所有系统资源,close
+获得此通知的通知的提示。大图片样式（如果存在）应转换为低位并以环境模式显示，这对于条形码和 qr 代码以及其他简单的黑白票据特别有用。,get hint ambient big picture
+读取流中的下一个属性并将其作为ASCII字符流返回。,readAsciiStream
+返回形成当前通过焦点的手势的每个指针之间的先前平均 y 距离,get previous span y
+返回最大双缓冲大小,getDoubleBufferMaximumSize
+获取本次调用的状态,get state
+zhemv 执行矩阵-向量运算 y := alpha ax + betay 详细信息：,zhemv
+如果获取文本非空，则这是与其关联的主要文本样式，包含文本样式粗体、文本样式删除线和/或文本样式下划线的位掩码。,get text style
+将给定持久包中的所有映射插入到此基本包中,put all
+返回首先将 before运算符应用于其输入的 before运算符，然后将此运算符应用于结果。,compose
+以Java编程语言中 java.io.Reader对象的形式检索指定参数的值。,getNCharacterStream
+返回在没有实际类型的情况下使用的伪类型。,getNoType
+访问注释中的注释值。,visitAnnotation
+获取时区,get time zone
+返回时区名称的实例，仅包含短的特定区域名称（短标准和短夏令时），与iana tz数据库的未本地化的区域缩写兼容。,get tzdbi nstance
+当新的子视图组添加到此视图组时调用,on view added
+释放与此Reader相关的任何资源。,close
+设置将用于对焦点遍历周期中的组件进行排序的比较器,setComparator
+返回标准模式下当前操作栏标题,get title
+设置数据源后调用该方法,extract metadata
+当通过调用setVisible（true）或将其添加到组件层次结构中使源或其祖先之一可见时调用。,ancestorAdded
+该方法返回一个迭代器对象，可用于迭代元数据的所有键,key iterator
+以位为单位返回字段大小。,getFieldSize
+根据六个裁剪平面定义投影矩阵,frustum m
+将此 RowSet对象的SQL命令中的指定参数设置为SQL NULL 。,setNull
+返回此节点的子节点上的迭代器。,getChildren
+检查在给定时间调用此方法时，此首选项是否应将其值存储/恢复到共享首选项中,should persist
+返回此映射部分的视图，其键的范围从 fromKey （包括 toKey ）到 toKey （独占）。,subMap
+该事件源的类名,get class name
+保留用于添加未来事件,on event
+每当对象适配器的数据以某种方式在其他基于范围的更改通知方法所涵盖的更改集之外发生更改时调用,on changed
+如果 headers 转换当前正在运行，则返回 true,is in headers transition
+打开指定抽屉,open drawer
+dtrmm 执行矩阵 - 矩阵运算之一 b := alphaop ab 或 b := alpha bopa opa 是 opa = a 或 opa = 之一，详细信息：,dtrmm
+当活动需要构建标头列表时调用,on build headers
+如有必要，回收在 fill datat 、 int 、 int 中创建的对象,recycle data
+返回设计用于存储缓存代码的文件系统上应用程序特定缓存目录的绝对路径,get code cache dir
+返回套接字选项值的类型。,type
+返回该模式信息的哈希码,hash code
+get flags 的帮助器，如果设置了抖动标志位，则返回 true 抖动会影响比设备精度更高的颜色的下采样方式,is dither
+在通话期间更改会话描述,change call
+返回浮动操作按钮是否会在棒棒糖平台及之后添加内部填充,get use compat padding
+增加按钮。,increaseButton
+重写此方法返回目标视图是否可以在某个方向垂直滚动,can target scroll vertically
+将第一个默认银行的请求数据数组元素设置为给定的整数,setElem
+返回请求的客户端数据,get client data
+设置开关的最小宽度（以像素为单位）,set switch min width
+让文本编辑器完成当前活动的任何撰写文本,finish composing text
+创建一种验证模式，其中指定数量的意图必须匹配,times
+返回此数据缓冲区中的银行数量,getNumBanks
+确定是否应阻止与子顺序中给定子项后面的视图进行交互,blocks interaction below
+此定位器指向的行号，如果没有可用的列号， -1 。,getLineNumber
+如果在之前的配置媒体格式调用中指定了表面，表面，媒体加密，int指定要使用的缩放模式,set video scaling mode
+当对话框取消时将调用此方法,on cancel
+根据linux优先级设置线程的优先级,set thread priority
+使用给定的 Array值设置此 RowSet对象命令中的指定参数。,setArray
+返回 GSM 电话的组标识符 level1,get group id level 1
+当应用程序报告其文本插入点的新位置和组合字符串中的字符时调用,on update cursor anchor info
+显示该视图的上下文菜单,show context menu
+将滑块的方向设置为SwingConstants.VERTICAL或SwingConstants.HORIZONTAL,setOrientation
+由系统调用以检索一组可以处理意图的深层链接目标,on get chooser targets
+从系统中删除电话帐户注册,unregister phone account
+返回排序服务的给定请求区域设置（相对于给定关键字）功能等效的区域设置,get functional equivalent
+绘制顶点数组，根据模式解释为三角形,draw vertices
+当子级的可绘制状态发生更改时，在父级上调用此方法,child drawable state changed
+执行正确的移动动作,right
+获取当前虚拟机策略,get vm policy
+转到距当前项目步数的历史项目,go back or forward
+返回此视图所附加到的窗口的当前可见性，无论是 gone 、不可见还是可见,get window visibility
+返回颜色的相对亮度,luminance
+当显示输入视图并且在新编辑器上开始输入时调用,on start input view
+返回边框绘制属性的值,isBorderPainted
+返回截至最新完成的布局传递给定子视图的适配器位置,get child layout position
+将64位的 v写入流。,writeLong
+设置图标 uri,set icon uri
+获取运营商相关的配置值,get carrier config values
+从该测量矩形创建尺寸的便捷方法,get size
+通过解析给定的String来设置属性值。,setAsText
+选择曲目,select track
+返回一个新的CompletionStage，当该阶段正常完成时，使用此阶段的默认异步执行工具执行，该阶段的结果作为所提供函数的参数。,thenApplyAsync
+获取1970-01-01T00：00：00Z的纪元的秒数。,epochSecond
+报告媒体按钮已被按下,on media button down
+html - 对字符串进行编码,html encode
+获得声音库的版本字符串。,getVersion
+返回进程的开始时间。,startInstant
+处理触摸事件,on touch
+返回layeredPane。,getLayeredPane
+已过时。,setErrorHandler
+设置与此通知内容相符的图标,set content icon
+设置环境混响属性,set properties
+返回子项数 parent 。,getChildCount
+为调用用户中运行的给定目标应用程序设置应用程序限制,set application restrictions
+更新此信息栏中的文本,set text
+对于不覆盖 k 、 v 大小的缓存，这将返回缓存中的条目数,size
+设置当计时器更改时要调用的侦听器,set on chronometer tick listener
+用指定的绑定填充输入映射,loadKeyBindings
+设置数字小数部分允许的最大位数,set maximum fraction digits
+返回定义此矩形边界的 rectf,rect
+当候选人视图对用户隐藏时调用,on finish candidates view
+启用/禁用后退键支持上的标题转换,set headers transition on back enabled
+通知所有注册观察者数据集已更改,notify data set changed
+过滤图像消费者接口中set pixels方法提供的信息，该方法采用整数数组,setPixels
+获取提供者的底层媒体路由提供者实例,get provider instance
+从列表中删除之前使用 registere 添加的回调,unregister
+返回油漆的标志,get flags
+从纪元日开始，在此年表中获得当地日期。,dateEpochDay
+将简历分派到片段,on resume
+设置侦听器以获取详细信息概述演示者,set listener
+释放对可绘制对象的引用,release
+允许您发现附加的输入法是否正在全屏模式下运行,is fullscreen mode
+等待队列字节缓冲区的结果，int 操作请注意，这可能会返回在多个 USB 端点上排队的请求,request wait
+触发异步图像捕获,take picture
+获取编码路径,get encoded path
+将迭代器向后移动一个边界,previous
+返回此文件对象的字符内容（如果可用）。,getCharContent
+提供自定义远程视图来代替平台模板,set content
+获取消息标识符,get message id
+创建upnp服务信息对象,new instance
+注册侦听器对象以接收指定电话状态更改的通知,listen
+设置该轨道所有通道的指定输出增益值,set volume
+返回地址的次干道名称，该名称可能为空,get sub thoroughfare
+默认实现将给定文本放入可编辑文本中，替换任何现有的撰写文本,set composing text
+通过键删除属性,remove attribute
+如果此集合包含指定集合中的所有元素，则返回 true 。,containsAll
+按给定的 mime 类型过滤剪辑描述 mime 类型,filter mime types
+返回当前状态列表动画器（如果存在）,get state list animator
+关闭面板时调用,on panel closed
+使用指定的会话描述应答来电,answer call
+返回简短标识此外观的字符串，例如,getName
+该应用程序正在备份其整个文件系统内容,on full backup
+返回一个组合运算符，该运算符首先将 before运算符应用于其输入，然后将此运算符应用于结果。,compose
+返回此视图的完整高度测量信息，由最近一次调用measureint、int计算得出,get measured height and state
+在可用功能集中查找功能。,resolveFunction
+指定可绘制对象的级别,set level
+获取用于从此doc提取字节打印数据的输入流。,getStreamForBytes
+注册一个回调，在视图树即将绘制时调用,add on draw listener
+返回过滤器中数据方案的数量,count data schemes
+使用此 unicode 集从 from 索引向后跨越字符串,span back
+将当前线程初始化为循环线程,prepare
+添加外部定时文本源文件 uri,add timed text source
+返回与修饰符结合触发此快捷方式的基本键码,get keycode
+返回一个字符串，其中包含此缓冲区中的字符的副本,to string
+从此列表中删除索引介于 from index (included) 和 to index (exclusive) 之间的所有元素,remove range
+当用户更改中断过滤器时调用,on interruption filter changed
+由构造方法调用以创建默认内容窗格,createContentPane
+按索引查找属性的XML限定（带前缀）名称。,getQName
+从激活器视图执行更新引导操作,on update activator view
+返回为普通文本选择的当前颜色,get current text color
+以Java编程语言中 java.io.Reader对象的形式检索指定参数的值。,getCharacterStream
+该函数返回对起始点和结束点值进行线性插值的结果，其中分数表示起始值和结束值之间的比例,evaluate
+返回给定索引处的标签,get label
+设置用于扩展标题的字体,set expanded title typeface
+"指示视图组是否按照 get child Drawing order 定义的顺序绘制其子视图 int , int",is children drawing order enabled
+用户移动了框架。,dragFrame
+返回用于此选项卡的自定义视图,get custom view
+获取当前的通知策略,get notification policy
+告诉客户端显示一个对话框以确认导航离开当前页面,on js before unload
+通知所有注册观察者该位置反映的项目已被新插入,notify item inserted
+当片段附加到活动时调用,on attach fragment
+检索并删除最后一个（最高）元素，如果此组为空，则返回 null 。,pollLast
+子类化以加载子节点（如有必要）,children
+检查当前手势中跟踪的任何指针是否超过了所需的倾斜阈值,check touch slop
+当此属性设置为 true 时，此视图组支持子视图组的静态转换；这会导致在绘制子项时调用 get child static conversion view 、 android.view.animation.transformation,set static transformations enabled
+返回一个位字段，指示该运动事件触摸了哪些边缘（如果有）,get edge flags
+与调用开始下一个匹配的活动意图相同，捆绑没有选项,start next matching activity
+在末尾添加一个新行并返回该行的构建器,new row
+当此属性为 true 时，网格布局将强制放置行边界，以便它们关联的网格索引在视图中按升序排列,set row order preserved
+获取给定标签的 nfcb 实例,get
+通过 icustom 选项卡服务使用可选回调创建新会话,new session
+嗡嗡！！1！为该视图的用户提供触觉反馈,perform haptic feedback
+构造并返回具有给定属性名称和一组 int 值的属性值持有者,of int
+获取从指定 key 映射的 int ，如果没有进行此类映射，则获取 0,get
+设置 dst = src.r ^ dst.r 、 src.g ^ dst.g 、 src.b ^ dst.b 、 src.a ^ dst.a 注意：这不是 porter / duff 异或模式；这是按位异或,for each xor
+选择或取消选择按钮。,setSelected
+制定方案,scheme
+显示或隐藏操作栏菜单时调用,on menu visibility changed
+设置包组件活动、接收者、服务、提供者的启用设置,set component enabled setting
+设置生成的密钥对的自签名证书的有效期开始时间,set start date
+通知所有注册的观察者当前反映的从位置 start 开始的项目计数项目已被新插入,notify item range inserted
+以字节数组形式获取指定行和列索引处的字段值,get blob
+返回一个匹配器，该匹配器匹配具有与给定匹配器匹配的文本内容的元素,with text content
+计算整个动画可能持续多长时间的提示（以毫秒为单位）,compute duration hint
+获取此属性的类型，默认为String“CDATA”,getDTDType
+检索此请求的标签（如果有）,get tag
+设置完全展开的波纹的半径（以像素为单位）,set radius
+"获取历史轴 valueint , int , int 第一个指针索引可以是任意指针标识符",get historical axis value
+检查此日期时间的瞬间是否在指定日期时间之后。,isAfter
+从JTabbedPane中移除指定的组件,remove
+构造并返回一个对象动画器，该动画器对多个 int 参数设置器的值进行动画处理,of multi int
+列出此时应用程序中的活动根,list active roots
+返回支持的视频宽度范围,get supported widths
+将通用运动事件分派到当前聚焦的视图,dispatch generic focused event
+用于确定特定包是否注册为用户的配置文件所有者,is profile owner app
+随后调用读取样本数据字节缓冲区、int、获取样本轨道索引和获取样本时间仅检索所选轨道子集的信息,select track
+以立即模式开始交易,begin transaction with listener non exclusive
+将点映射到与该点相交的项目的行 ID,point to row id
+返回此设备管理员是否希望对用户可见，即使未启用也是如此,is visible
+重写此方法以执行应在您的活动启动后但在任何测试代码运行之前运行的任何代码，包括使用 before 注释的任何方法,after activity launched
+返回将添加到组合框的键侦听器或null。,getKeyListener
+使用从远程输入收集的结果填充意图对象,add results to intent
+写入处理指令,writeProcessingInstruction
+设置字段“年”、“月”和“日期”的值,set
+返回跨度的宽度,get size
+如果ipc的调用进程或者你没有被授予访问特定uri的权限，抛出安全异常,enforce calling or self uri permission
+key event.callback.on key up 的默认实现：始终返回 false 不处理该事件,on key up
+读取纯文本元素的内容，如果这不是纯文本元素，则抛出异常。,getElementText
+提供克隆操作,clone as thawed
+返回此 MonthDay的副本，并更改日期。,withDayOfMonth
+获取父元素。,getParentElement
+操作方式类似于 unicode 换行字符串、android.support.v4.text.text 方向启发式兼容、布尔值，但使用格式化程序的默认方向估计算法,unicode wrap
+当此小部件以新尺寸布局时，响应应用程序小部件选项更改广播操作而调用,on app widget options changed
+使用给定的 Ref值设置此 RowSet对象命令中的指定参数。,setRef
+从系统属性列表中获取指定的字体,getFont
+将 this 的内容替换为 src 的内容,set
+暂停识别后恢复恢复时调用,on recognition resumed
+如果有窗口动画则返回 true,on has window animations
+将图标插入文档作为当前选中内容的替换,insertIcon
+单击首选项时调用,on preference click
+返回操作栏是否配置为与嵌套滚动子项一起滚动到视线之外,is hide on content scroll enabled
+设置蓝牙文件扫描的扫描模式,set scan mode
+如果查询的前缀未返回结果，则检查是否应查询此可搜索活动以获取建议,query after zero results
+作为 XML declaration的一部分指定此文档的编码的属性。,getXmlEncoding
+更改该包在实例化对象时使用的类加载器,set class loader
+返回与给定 key 关联的值，如果给定 key 不存在所需类型的映射，或者 null 值与该 key 显式关联，则返回 null,get char sequence array
+测试DOM实现是否实现特定功能和版本，如 DOM Features中所述 。,hasFeature
+返回过滤器中的类别,get category
+通知输入方法已从其包含层次结构中删除客户端组件，或者已为组件禁用了输入方法支持。,removeNotify
+读取 len从流字节，并将其存储到 b开始于索引 off 。,readFully
+如果焦点搜索被禁用，则返回 true,is focus search disabled
+ICC配置文件标记签名：'A2B1'。,icSigAToB1Tag
+当图像视图调整其边界以保留其可绘制的纵横比时为 true,get adjust view bounds
+在锚定到另一个视图一角的弹出窗口中显示内容视图,show as drop down
+调用以通知您表盘变得可见或隐藏,on visibility changed
+设置活动面,set face
+将区域设置为路径和剪辑描述的区域,set path
+将通用运动事件分派到第一个指针下的视图,dispatch generic pointer event
+返回用于将色调应用于可绘制按钮的混合模式,get support button tint mode
+获取启动与此会话关联的 ui 的意图（如果存在）,get session activity
+提交用户从先前报告给输入法会话的可能补全中选择的补全 # 显示补全信息或输入法管理器 # 显示补全视图、补全信息,commit completion
+组合所有已设置的选项并返回一个新的通知 compat.action 对象,build
+返回当前安装的应用程序小部件提供程序的列表,get installed providers
+如果存在，获取与此对象关联的可访问值,getAccessibleValue
+根据当前的暗淡级别更改颜色的 RGB,apply to color
+通过查询 uri 并确保抛出提及特定权限的安全异常，断言从内容 uri 读取需要特定权限,assert reading content uri requires permission
+以适当的顺序返回此列表中元素的迭代器。,iterator
+查询文档以查看它是否包含任何图像引用,document has images
+获取数据,get data
+获取此年份中指定字段的值，为 long 。,getLong
+获取视图窗口已附加到的逻辑显示,get display
+返回按钮所属的组。,getGroup
+与当前活动的接入点解除关联,disconnect
+获取与该输入设备关联的按键字符映射表,get key character map
+返回将发生填充的位置,get pad position
+合成一个表示该格式对象当前状态的模式字符串,to pattern
+返回剪贴板上当前主剪辑的描述，但不返回其数据的副本,get primary clip description
+将图像的rect设置为Raster r的内容，假定Raster r与WritableRenderedImage位于同一坐标空间中。,setData
+返回与特定资源 ID 关联的布尔值,get boolean
+选择指定的路线,select route
+返回当前802.11网络的接收信号强度指示器，以dbm为单位,get rssi
+立即淡出播放叠加层,fade out
+返回布局管理器从回收器视图分离时是否回收其子级,get recycle children on detach
+返回当前输入的语言环境。,getLocale
+返回序列中的下一个数字,getNextValue
+获取给定蓝牙硬件地址的蓝牙设备对象,get remote device
+返回与此条目对应的键。,getKey
+从指定的套接字创建一个新的包裹文件描述符,from socket
+获取草书字体系列名称,get cursive font family
+检索通过设置文本字符序列设置的最后一个选择开始，int，int,get text selection start
+给定其模式字符，格式化单个字段,sub format
+当该活动的子活动调用其完成活动时调用此方法,finish activity from child
+将当前值设置为给定角度的旋转矩阵,load rotate
+取消 ，但也中止所有正在进行的运动并捕捉到任何动画的结尾,abort
+设置行视图的激活状态,set activated
+获取卷处理的类型，本地或远程,get playback type
+向生成器添加模式,add pattern
+根据其键找到偏好,find preference
+当该壁纸在给定窗口后面可见时，设置当前壁纸在任何较大空间内的显示位置,set wallpaper offsets
+将 ChangeListener添加到模型的侦听器列表中。,addChangeListener
+使用给定的 Calendar对象将指定参数设置为给定的 java.sql.Time值。,setTime
+重命名类型为 ELEMENT_NODE或 ATTRIBUTE_NODE的现有节点。,renameNode
+将更改从分配的一种用途传播到分配的其他用途,sync all
+请求重绘整个键盘,invalidate all keys
+如果文本视图正在编辑描述，则返回 true ，否则返回 false,is in editing description
+尝试与此 DataSource对象表示的数据源建立连接。,getConnection
+取消任何正在进行的 p2p 组协商 向框架发送连接取消请求后，函数调用立即返回,cancel connect
+对应设置小数的getter,get decimal
+将此时间与时区相结合以创建 ChronoZonedDateTime 。,atZone
+如果已对片段管理器的活动进行了最后的 Activity.on destroy 调用，则返回 true ，因此该实例现在已死亡。,is destroyed
+设置用作暗淡图层的可绘制对象,set dim layer
+获取此作业是否具有给定的高级打印机特定打印选项,has advanced option
+如果片段当前对用户可见，则返回 true,is visible
+当拖动操作正在进行时调用，而鼠标指针仍然在向该侦听 DropTarget注册的 DropTarget的放置站点的可操作部分 DropTarget 。,dragOver
+对服务数据设置部分过滤器,set service data
+在指定的上下文中计算已编译的XPath表达式，并将结果作为指定的类型返回。,evaluate
+设置文本视图显示指定char数组的指定切片,set text
+确定树模型的根节点是否可见,setRootVisible
+返回此动画使用的计时插值器,get interpolator
+返回可以与此连接进行会议的连接或会议,get conferenceables
+删除当前p2p组,remove group
+如果您正在处理的ipc的调用进程没有被授予特定的权限，则抛出安全异常,enforce calling permission
+要求输入目标通过输入连接执行其默认操作。执行编辑器操作,send default editor action
+如果指定的 ndef 记录包含相同的 tnf 、 type 、 id 和 Payload 字段，则返回 true,equals
+在此 Web 视图中执行缩放,zoom in
+返回DataFlavor对象的数组，指示可以提供数据的风格。,getTransferDataFlavors
+返回一个布尔值，指示默认情况下是否创建了此属性,isAttributeSpecified
+设置规范匹配模式,set canonical
+拦截标准设备管理员广播,on receive
+返回属性视图的名称。,name
+发出修改当前视频会话属性的请求,on send session modify request
+是否将给定的转换名称添加到目标转换名称列表中以从该转换中排除,exclude target
+返回此可执行文件的正式类型参数声明的类型变量。,getTypeVariables
+返回第一个可见视图的适配器位置,find first visible item position
+返回建议的格式正确的 bcp 47 语言标记表示形式，作为区域设置对象。,get locale object
+不推荐使用，要删除：此API元素将在以后的版本中删除。,addOwner
+通过获取根适配器将列表视图绑定到此首选项屏幕中包含的首选项,bind
+平滑滚动到指定的适配器位置,smooth scroll to position from top
+如果此collection包含指定的元素，则返回 true 。,contains
+该视图的变换矩阵，根据当前的旋转、缩放和枢轴属性计算得出,get matrix
+删除会话的应用程序层数据中绑定到给定名称的对象。,removeValue
+检查下一个XMLEvent而不从流中读取它。,peek
+返回此文本节点是否包含 element content whitespace ，通常被称为“可忽略的空格”。,isElementContentWhitespace
+获取此年表的文本表示。,getDisplayName
+仅当前映射到给定值时才删除键的条目。,remove
+匹配对话框的根，即,is dialog
+返回定义此微调器值序列的微调器模型,getModel
+返回外部设备连接到的硬件电视输入 ID,get hardware input id
+设置是否启用地理定位,set geolocation enabled
+返回与此对象关联的键绑定。,getAccessibleKeyBinding
+设置如何显示第一张偷看卡的背景,set background visibility
+实体的系统标识符。,getSystemId
+返回具有给定语言环境的给定格式化样式的日期/时间格式化程序,get date time instance
+查找对给定名称的模块的引用。,find
+"获取 ts 27.007 8.5 中定义的 GSM 误码率 0 - 7 , 99",get gsm bit error rate
+如果此电视输入可以录制电视节目，则返回 true ，否则返回 false,can record
+访问模块元素。,visitModule
+返回由此堆栈帧表示的方法的 描述符 ，由 The Java Virtual Machine Specification定义。,getDescriptor
+系统已与该服务断开连接,on disconnected
+ICC配置文件标记签名：'pseq'。,icSigProfileSequenceDescTag
+为了支持对获取缓存目录的调用，我们在实际缓存目录中创建一个临时缓存目录并返回它,get cache dir
+网络类型any、网络类型none、网络类型不计量或网络类型非漫游之一,get network type
+回调报告在由 start le scan 蓝牙适配器启动的设备扫描期间找到的 le 设备。le 扫描回调函数,on le scan
+当与该活动关联的主窗口已与窗口管理器分离时调用,on detached from window
+返回表示此 fd 的文件的总大小，由 stat 确定,get stat size
+注册一个侦听器，以便在平滑缩放期间相机驱动程序更新缩放值时收到通知,set zoom change listener
+部分解析一个名字。,resolveToClass
+当视图树中的某些内容滚动时调用的回调方法,on scroll changed
+返回要从包裹中读取的剩余数据量,data avail
+将上下文菜单的标题设置为 view 中给定的视图,set header view
+从获取选择器项目布局 id 提供的布局中返回选择器项目的文本视图 id；如果获取选择器项目布局 id 提供的布局是链接文本视图，则返回 0,get picker item text view id
+表示所有 WHERE搜索子句都可以基于此类型。,typeSearchable
+包含真实UI的向量。,uis
+设置此下载是否可以通过漫游连接进行,set allowed over roaming
+相当于语音交互服务。禁用显示上下文,get disabled show context
+后连接具有指定旋转的矩阵,post rotate
+将助手从视图中分离出来,detach
+回收属性集。,reclaim
+脏调用请求与数组'ids'中包含的对象标识符关联的远程对象引用的租约。,dirty
+获取与该帧关联的裁剪矩形,get crop rect
+返回给定键的位图，如果给定键不存在位图，则返回 null,get bitmap
+当识别因某种原因暂时暂停时调用,on recognition paused
+此方法在给定XMLStreamReader的当前状态的情况下分配事件。,allocate
+当关联的片段/活动启动时，加载管理器通常会自动调用此函数,start loading
+确定客户端在为此打印服务设置作业时可以指定的打印属性类别。,getSupportedAttributeCategories
+方便希望通过在给定 uri 查找名为“ data ”的列来实现打开文件 uri 、 string 的子类,open file helper
+覆盖以处理停止播放的请求,on stop
+等待当前应用程序空闲,wait for idle
+当指示的媒体路由的属性发生更改时调用,on route changed
+释放此输入方法使用的资源。,dispose
+返回集合中的下一个元素，可以是单个代码点或字符串,next
+返回弹出窗口关闭时要使用的退出转换,get exit transition
+返回与此对象相同类型的对象，并添加一个量。,plus
+告诉听众由于保证金更改而移动了列。,columnMarginChanged
+从菜单中删除所有现有项目，将其留空，就像刚刚创建一样,clear
+JList的实例。,listBox
+ICC配置文件标题位置：PCS - 仅限XYZ或Lab。,icHdrPcs
+返回对象适配器,get adapter
+将视图附加到该视图组,attach view to parent
+此期间的哈希码。,hashCode
+返回与游标数据行中给定列索引处的双精度值匹配的匹配器,with row double
+返回返回过渡和重新进入过渡是否重叠,get allow return transition overlap
+将校验和重置为其初始值。,reset
+执行计算。,run
+如果 Activity 当前处于多窗口模式，则返回 true,is in multi window mode
+活动开始时调用,on create
+返回在此 SSLSessionContext下分组的 SSLSession对象的超时限制。,getSessionTimeout
+如果为 true，则同步管理器永远不会向同步适配器发出初始化同步，而是自动调用 set issyncableandroid.accounts.account 、 string 、 int ，对于此同步适配器支持的每个帐户和提供程序，其值为 1,is always syncable
+构建一个特殊的通道 uri，用于传递输入,build channel uri for passthrough input
+返回具有公共值的下一个最大结果范围，如果未到达迭代末尾则返回 true ，否则返回 false,next
+将此 DataSource对象的日志 DataSource设置为给定的 java.io.PrintWriter对象。,setLogWriter
+使用带有操作发送的意图和文本/纯文本的 mime 类型发送给定的字符串,send string
+负责处理配置更改,on configuration changed
+请求通过此捕获会话无休止地重复捕获图像,set repeating request
+返回最近一次接入点扫描的结果,get scan results
+更改此进度条的不确定模式,set indeterminate
+当应填充特定项目的辅助功能信息时由辅助功能委托调用,on initialize accessibility node info for item
+返回给定键的评级兼容性，如果给定键不存在评级，则返回 null,get rating
+从index0到index1（含）取消选择列,removeColumnSelectionInterval
+返回键值的对象表示,get object
+从给定片段请求权限,on request permissions from fragment
+在文本字段中设置查询字符串，并可选择提交查询,set query
+确定此操作提供程序是否有与其关联的子菜单,has sub menu
+获取一周的第一天,get first day of week
+创建阴影覆盖辅助对象,build
+将抽屉指示器/可供性的状态与链接的抽屉布局同步,sync state
+将光标的内容打印到 system.out,dump cursor
+将拨号号码转换为 bcd 字节数组,number to called party bcd
+设置用于显示的格式字符串,set format
+将此主体与指定对象进行比较。,equals
+给定指定的字符串，创建一个 Text节点。,createTextNode
+压缩此缓冲区 （可选操作） 。,compact
+返回文件系统上应用程序特定缓存目录的绝对路径,get cache dir
+设置边框绘制属性，如果应绘制边框，则为true,setBorderPainted
+如果需要自定义内容视图，则创建对话框的内容视图,on create dialog view
+检测所有可能可疑的东西,detect all
+不推荐使用，要删除：此API元素将在以后的版本中删除。,toString
+获取行数,get row count
+添加一个侦听器，以便在活动会话列表发生更改时收到通知。这需要调用应用程序持有 android.manifest.permission.media 内容控制权限,add on active sessions changed listener
+返回基于百分比的评级值,get percent rating
+设置模型的范围。,setExtent
+已过时。 没有替代品。,registryStub
+从您的获取菜单充气器返回此调用的值,get menu inflater
+获取中风的开始时间,get start time
+获取系统上播放媒体内容的默认路由,get default route
+在数据库上运行查询并返回第一行第一列中的 blob 值的实用方法,blob file descriptor for query
+重写此方法以执行在创建和启动活动之前应运行的任何代码,before activity launched
+返回与给定 key 关联的值，如果给定 key 不存在所需类型的映射，或者 null 值与该 key 显式关联，则返回 null,get short array
+将要播放的内容的总持续时间设置为长整型毫秒数,set content duration
+根据给定的属性绘制CSS列表装饰。,paint
+请求中止语音交互会话，因为语音活动无法使用语音完成其交互,on request abort voice
+删除给定索引处的映射,remove at
+获得通道的键盘压力。,getChannelPressure
+执行 context.start 服务，但在服务启动时保持唤醒锁,start wakeful service
+恢复之前通过保存实例状态返回的状态,dispatch create
+删除序列的某些部分。,remove
+设置回调以观察可访问性事件流,set on accessibility event listener
+此方法已被弃用。重命名为设置阴影可绘制左侧可绘制以支持 ltr 从左到右语言，设置阴影可绘制右侧可绘制以在打开/关闭期间支持 rtl 从右到左语言,set shadow drawable
+以指定的16位单位偏移量插入字符串。,insertData
+根据样式/主题中窗口是否浮动属性，返回该窗口是否以浮动样式显示,is floating
+设置滑动时被视为非触摸区域的小部件大小的百分比,set swipe dead zone percentage
+返回最小选中行,getMinSelectionRow
+创建服务发现请求以搜索所有 upnp 服务,new instance
+返回搜索球视图。用于绘制搜索可供性的颜色,get search affordance colors
+返回此JPopupMenu的字符串表示,paramString
+由设备或配置文件所有者调用以暂停该用户的软件包,set packages suspended
+键入键时调用。,keyTyped
+为这个窗口设置要显示为图标的图像,setIconImage
+返回该设备上可用的物理摄像头数量,get number of cameras
+添加文本字符串和声音文件之间的映射,add earcon
+添加路由的媒体控制意图过滤器列表,add control filters
+返回异构值的数组,obtain typed array
+获取适用于内容时的价格值,get pricing value
+手动从相应的 sip 提供商处取消注册配置文件，以停止接收进一步的呼叫,unregister
+设置用于指定应用程序小部件 ID 的远程视图,update app widget
+返回发起当前线程正在处理的请求的调用者的包名称,get calling package
+使用一系列按键事件将字符串输入到应用程序中,inject string
+记录活动启动的参数，以供此类上的其他可用方法稍后使用,on activity create
+返回此属性的名称。,getName
+设置推荐的字符串组 ID 标签,set group
+获取一个顶级共享/外部存储目录，用于放置特定类型的文件,get external storage public directory
+减少按钮。,decreaseButton
+格式化数字并将结果文本附加到给定的字符串缓冲区,format
+此方法已被弃用。使用保留嵌套非配置来跟踪保留的嵌套子片段,retain non config
+设置处理运行时权限请求的侦听器,set permission listener
+设置索引处的选项卡是否启用,setEnabledAt
+返回此映射的部分视图，其键严格小于 toKey 。,headMap
+请参阅 sqlite 游标 sqlite 游标驱动程序、字符串、sqlite 查询,new cursor
+从无效组件列表中移除组件,removeInvalidComponent
+已弃用，自Swing版本1.0.3起，由getJMenuBar替代,getMenuBar
+设置加载完成侦听器的回调挂钩,set on load complete listener
+模拟触摸视图中心并拖动到屏幕底部,drag view to bottom
+生成给定排序规则键的排序顺序的界限和强度级别,get bound
+从此集合中移除指定元素的单个实例（如果存在）（可选操作）。,remove
+返回“attribute”的值作为资源标识符,get attribute resource value
+返回输入法子类型的数量,get subtype count
+报告DTD声明的结束。,endDTD
+返回此颜色状态列表中的默认颜色,get default color
+读取 len从根据当前字节顺序的流短裤（带符号的16位整数），并将其存储到 s开始于索引 off 。,readFully
+创建一个文档文件，表示以给定 uri 为根的文档树,from tree uri
+比较电话号码 a 和 b ，如果它们对于来电显示而言足够相同，则返回 true,compare
+返回动作的背景颜色,get actions background color
+指定用于将设置背景色调列表颜色状态列表指定的色调应用于背景可绘制对象的混合模式,set background tint mode
+表示该部分是否有数值,has numeric value
+处理鼠标事件。,processMouseEvent
+每次光标成功滚动到新位置时都会调用此函数，使子类有机会更新它可能具有的任何状态,on move
+将辅助效果附加到音轨,attach aux effect
+返回与私钥匹配的证书的可接受的证书颁发者可以为空,get principals
+返回菜单当前是否有可见的项目项,has visible items
+返回分配给向您发送当前正在处理的事务的进程的 linux uid,get calling uid
+返回视图是否按相反顺序排列,get reverse layout
+获取请求是否是服务器端重定向的结果,is redirect
+添加要包含在下载请求中的 http 标头,add request header
+返回为所提供的名称和帐户名创建用户的意图,create user creation intent
+为结果设置一个项目点击监听器,set on item view clicked listener
+指示子项已更改其布局相关信息，导致任何缓存的计算被清除,invalidateLayout
+该方法由 BeanContextServices调用，释放嵌套的 BeanContextChild （或与 BeanContextChild相关联的任意对象）对指定服务的引用。,releaseService
+将参数设置为 int 值,set int argument
+返回作为列头的JViewport对象,getColumnHeader
+返回一个新的可绘制对象，通过解码给定输入流中的位图来创建它,create
+指示是否可以通过输入设备（例如鼠标指针）选择或触发按钮。,isEnabled
+将短数组包装到缓冲区中。,wrap
+如果视口应始终强制此 Scrollable的宽度与视口的宽度匹配，则返回true。,getScrollableTracksViewportWidth
+此方法已被弃用。这个函数不再做任何事情；这是一种管理偏好活动的旧方法，已被现代基于活动的偏好所取代并与其发生冲突。,remove package from preferred
+sspr 执行排名 1 操作 a := alphaxxt + a 详细信息：注意：对于 nn 矩阵，输入分配应该是大小为 dimx = nn+1 / 2 的一维分配，以下子例程可以是显示如何转换的示例上三角矩阵 ' a ' 到压缩矩阵 ' b ',sspr
+删除特定索引处的项目。,removeElementAt
+返回一个新的套接字工厂实例，带有可选的握手超时和 ssl 会话缓存,get default
+创建给定限定名称和名称空间URI的属性。,createAttributeNS
+如果已知，则返回该地址的公共 url；如果未知，则返回 null,get url
+检索此 Array对象指定的数组中元素的SQL类型名称。,getBaseTypeName
+当应用程序想要停止接收文本输入时调用此方法,finish input
+返回地址的邮政编码，例如“94110”，如果未知则返回 null,get postal code
+返回与此graphics2d相关联的设备配置,getDeviceConfiguration
+卸载给定的包，将其从设备中完全删除,uninstall
+获取此对象的可访问值,getCurrentAccessibleValue
+指定当分割窗格大小改变时如何分配额外空间,setResizeWeight
+辅助函数，用于将当前值设置为透视投影矩阵，其纵横比由参数定义，并且在 z = 0 处将近、远、底、顶映射到 - 1 、 1,load projection normalized
+返回汉字的数值,get han numeric value
+将可分割值的列表插入到该包的映射中，替换给定键的任何现有值,put parcelable array list
+返回眼睛之间的距离,eyes distance
+设置此弹出窗口的布局类型,set window layout type
+当选择从此视图中消失时调用的回调方法,on nothing selected
+将一个drawable.callback对象绑定到这个drawable,set callback
+通知默认的egl上下文工厂和默认的egl配置选择器选择哪个egl上下文客户端版本,set eglc ontext client version
+移动包裹中当前的读/写位置,set data position
+返回与所请求的根下的给定查询匹配的文档,query search documents
+当子视图更改时调用，无论它是否正在跟踪瞬态,child has transient state changed
+如果此时间对象表示的时间发生在给定时间之后，则返回 true,after
+注册一个回调，当网络流缓冲区的状态发生变化时调用,set on buffering update listener
+返回已配置为显示指定值的组件。,getListCellRendererComponent
+返回索引处的 utf16 代码单元，并递增到下一个代码单元后增量语义,next
+在红色通道查找表中设置一个条目,set red
+获取该图像的格式,get format
+根据freezable接口冻结这个类,freeze
+此表示法的系统标识符。,getSystemId
+获取托管应用这些统计信息的窗口的显示器的刷新周期,get refresh period nano
+设置用于此文本视图的移动方法箭头键处理程序,set movement method
+使用可选的 resources.theme 从 xml 文档内部创建矢量可绘制兼容,create from xml inner
+子类重写的抽象方法，以提供在目标文本中查找上一个匹配项的机制,handle previous
+获取特定按键事件的元按键状态,get meta state
+返回是否在电话设置中为语音邮件通知设置了振动,is voicemail vibration enabled
+返回所需的模块,getDependency
+对于 InputStream ，返回 DataFlavor 。,getStream
+确定此配置是否代表 Passpoint 网络,is passpoint
+如果属性值必须是一组已知标记值之一，则此方法应返回标记数组。,getTags
+通常可选规范化并设置数据 uri 和显式 mime 数据类型,set data and type and normalize
+拖动底部工作表时调用,on slide
+添加 UndoableEdit到此 UndoableEdit 。,addEdit
+在层叠窗格中添加或更改菜单栏,setJmEnuBar
+获取自动白平衡锁定的状态,get auto white balance lock
+返回此组件样本模型的扫描线跨度,getScanlineStride
+检查指定 id 的指针是否最初触摸过任何指定的边,is edge touched
+设置该窗口的徽标,set logo
+由应用程序小部件主机调用，以便在应用程序小部件中使用当前视图时前进,advance
+立即启动当前待处理的属性动画,start
+两个挂起的意图对象上的比较运算符，如果返回 true，则它们都表示来自同一包的相同操作,equals
+返回注释的字符串数据，如果不存在则返回空字符串,getText
+设置布局管理器是否应从 ui 末尾开始布局项目,set reverse layout
+addint 、 int 、 char 序列的变体，采用字符串资源标识符而不是字符串本身,add
+发出修改当前视频会话属性的请求,send session modify request
+检查此输入配置是否等于另一个输入配置,equals
+想要在其上方的半透明活动后面保持可见的活动必须在恢复开始和暂停返回之间随时调用此方法,request visible behind
+构造并返回一个在 int 值之间进行动画处理的对象动画器,of int
+返回此整理器的强度属性,get strength
+调用来处理轨迹球事件,dispatch trackball event
+返回一个组合谓词，表示此谓词与另一个谓词的短路逻辑OR。,or
+将此通知的操作中的一个操作设置为可通过此通知的内容单击,set content action
+将指定列的小数位数设置为给定的 int 。,setPrecision
+开始执行检测类,start instrumentation
+为应用程序的主要活动制定意图，无需指定要运行的特定活动，而是提供选择器来查找该活动,make main selector activity
+确定两个意图是否相同，以进行意图解析过滤,filter equals
+停止使用 discovery services string 、 int 、 nsd manager.discovery 侦听器启动的服务发现,stop service discovery
+返回该位图的高度除以密度比例因子的便捷方法,get scaled height
+返回字符串文本与搜索模式匹配的第一个索引,first
+将 ChangeListener添加到模型中。,addChangeListener
+从连接的服务中检索特定的媒体浏览器媒体项,get item
+构建表示文档提供程序中目标列文档 ID 的 uri,build document uri
+返回一个 IIOMetadata对象，该对象可用于编码，并可选择使用其文档接口或特定于将用于编码的writer插件的其他接口进行修改。,convertStreamMetadata
+设置折叠标题的水平对齐方式以及当折叠边界中存在超出标题本身所需空间的额外空间时将使用的垂直重力,set collapsed title gravity
+如果路由支持指定的媒体控制类别和操作，则返回 true,supports control action
+设置撰写文本的文本范围,set composing text
+与 idisint 相同，但尝试查找给定 id 的资源名称并使用 r.id.my 视图样式描述和描述来,with id
+如果分离壁纸为 true ，并且这是具有壁纸背景的窗口的窗口动画，则该窗口在运行时将与壁纸分离,set detach wallpaper
+返回匹配支持输入法的视图的匹配器,supports input methods
+设置绘制位图时要应用的角半径,set corner radius
+通知注册的侦听器绘图通道即将开始,dispatch on pre draw
+检索此实例的输出流,get output stream
+ICC配置文件标记签名：'chrm'。,icSigChromaticityTag
+设置此视图是否应显示其自己的标题,set title enabled
+读取资源，返回包含资源内容的字节缓冲区。,read
+通知写入数据时发生错误,on write failed
+如果光标指向包含所有空格的字符数据事件，则返回true,isWhiteSpace
+为此根窗格设置指定的组件作为玻璃窗格,setGlassPane
+获取给定设备的供应商 ID（如果有）,get vendor id
+当此窗口启动操作模式时调用,on window starting action mode
+当用户开始说话时，服务应该调用此方法,beginning of speech
+由托管配置文件的配置文件所有者调用，以设置受管理组织的名称,set organization name
+返回此 ZonedDateTime的副本，并添加指定的月数。,plusMonths
+设置匹配的内容描述标准,desc
+在index0中的索引之后发送，index1间隔已从数据模型中删除。,intervalRemoved
+返回与给定 keycode 关联的操作，如果不存在关联操作则返回 null,get action for key code
+设置按下按钮时要发送的消息,set button
+为提供的字符串创建 tts 跨度,create tts span
+构建对象信息实例,build
+ICC配置文件标记签名：'gamt'。,icSigGamutTag
+返回一个数组，其中包含描述与通知关联的内容的内容类型,get genres
+设置 arg 整数部分参数,set integer part
+滚动条的宽度。,scrollBarWidth
+获取建议的批处理过程,on get suggestions multiple
+重命名类型为 ELEMENT_NODE或 ATTRIBUTE_NODE的现有节点。,renameNode
+返回此活动的完整组件名称,get component name
+清除对象中的选择，以便不选择对象中的子项。,clearAccessibleSelection
+检索所有先前通过添加首选活动意图过滤器添加的首选活动，int，组件名称，当前已在系统中注册,get preferred activities
+检查文件是否不包含指定内容的测试实用方法,assert file content does not contain
+设置此缓冲区的位置。,position
+检索一个唯一的标记，该标记标识该视图所附加到的窗口的顶级“真实”窗口,get application window token
+如果该场景是场景根目录中的当前场景，则退出此场景,exit
+向此TabbedPane添加变更监听器,addChangeListener
+结束通话,end call
+读取double值的相对 get方法。,getDouble
+调色板关闭图标。,paletteCloseIcon
+返回该项目是否可浏览,is browsable
+添加服务 uuid 来广告数据,add service uuid
+构建表示文档提供程序中目标目录的子目录的 uri,build child documents uri
+使用加密会话的密码算法加密数据,encrypt
+如果选择模型当前具有选定值，则返回true。,isSelected
+获取按钮的键盘助记符。,getMnemonic
+不推荐使用，要删除：此API元素将在以后的版本中删除。,isMember
+获取系统中所有输入设备的id,get input device ids
+如果添加来自子项的状态为 true ，则刷新该组的可绘制状态以包含来自其子项的状态。,child drawable state changed
+在给定公钥类型和对等方识别的证书颁发机构列表（如果有）的情况下，选择别名以对安全套接字的服务器端进行身份验证。,chooseServerAlias
+删除给定位置的页面,destroy item
+回收类型化数组，以供稍后的调用者重新使用,recycle
+设置菜单栏边框与其菜单之间的边距,setMargin
+返回该操作是否仅显示信息，因此不可点击,info only
+使用加密会话的 MAC 算法对数据进行签名,sign
+删除与给定提供程序关联的任何模拟状态值,clear test provider status
+返回颜色 int 的蓝色分量,blue
+获取与视图关联的额外对象,get extra object
+通知此媒体行中的操作已更改并且用户界面需要更新,notify action changed
+设置此可绘制对象在两个轴上的重复行为,set tile mode xy
+返回渐变半径（以像素为单位）,get gradient radius
+当所有项目动画应立即结束时调用的方法,end animations
+返回此视图的右内边距,get padding right
+由配置文件所有者或设备所有者调用以授予对特权证书操作的访问权限 ap 是第三方证书安装程序应用程序,set cert installer package
+相对 put方法 （可选操作） 。,put
+返回此推荐的源应用程序名称,get source name
+为指定服务的特定类别注册援助列表,register aids for service
+检索特定管理员或对此用户及其参与配置文件设置限制的所有管理员密码中所需的当前非字母字符数,get password minimum non letter
+由容器活动在暂停时调用，以便本地活动管理器可以对其持有的活动执行相应的操作,dispatch pause
+指示容器可以在给定方向上垂直滚动多远,get available scroll delta
+添加新属性。,setAttributeNS
+使用监视服务注册对象。,register
+如果可以在超时过去之前执行此操作，则将元素传输给使用者。,tryTransfer
+执行 a 和 b 的两两组合，如果有则返回组合,compose pair
+获取与此 RCC 关联的媒体会话,get media session
+返回此构建器定义的对象的实例。,build
+使用给定的包名称和服务连接绑定到自定义选项卡服务,bind custom tabs service
+通过将此矩形的坐标舍入到最接近的整数值来设置 dst 整数矩形,round
+读取 len根据当前字节顺序从流双打（64位IEEE双精度浮点值），并且将它们存储到 d开始于索引 off 。,readFully
+从意图中检索扩展数据,get float extra
+对可绘制轨道应用色调,set track tint list
+调用 get action ，仅返回指针索引部分,get action index
+单击 ui 元素的右下角,click bottom right
+返回数字设置,get digits
+使用给定对象设置指定参数的值。,setObject
+返回当前事件的（本地）名称。,getLocalName
+实现返回内部无障碍服务接口的实现,on bind
+取消该视图的任何动画,clear animation
+返回此超文本文档中的链接数。,getLinkCount
+检查单位的持续时间是否为估计值。,isDurationEstimated
+如果可以在不违反容量限制的情况下立即插入指定元素，则在此双端队列的前面插入指定元素，如果当前没有可用空间，则抛出 IllegalStateException 。,addFirst
+检查done是否被调用,has finished
+使用您作业的回调逻辑覆盖此方法,on start job
+返回显示或关闭弹出窗口时将使用的动画样式,get animation style
+跟踪给定事件的按键代码，因为长按执行了一个操作，因此向上不会发生任何操作。,performed long press
+获取请求此对话框的首选项,get preference
+标记组件需要布局并为事件分派线程排队一个Runnable，该Runnable将验证组件的第一个验证根祖先,addInvalidComponent
+在此转换期间检查指定的偏移量是否有效。,isValidOffset
+返回此映射部分的视图，其键的范围从 fromKey （包括 toKey ）到 toKey （独占）。,subMap
+如果据我们在设备上所知，地址的网络部分适合用作 SMS 目标地址，则返回 true 。,is well formed sms address
+返回最小增益值，即常数 0.0,get min volume
+显示输入法的软输入区域，以便用户看到输入法窗口并可以与其交互,show soft input from input method
+检索此选项卡之前设置的自定义视图,get custom view
+为提供的Unicode范围返回一个整形器,getShaper
+为视图及其所有后代分配大小和位置，这是布局机制的第二阶段,layout
+获取当前的收发字节超时（以毫秒为单位）,get timeout
+使用默认文本方向启发式估计字符串的方向性,is rtl
+连接到具有源角色的健康设备,connect channel to source
+要求实施者通知其播放头应设置在给定位置,on playback position update
+设置卷积系数,set coefficients
+获取支持元数据对象的包,get bundle
+此方法已被弃用。别这么叫。相反，您自己在片段上设置侦听器，并调用单击操作来处理单击,set on item view clicked listener
+设置源顶部边缘的滚动偏移量（以像素为单位）,set scroll y
+返回一个与 spinner 的后代相匹配的匹配器，该 spinner 显示与给定资源 id 关联的所选项目的字符串,with spinner text
+将现有视图绑定到光标指向的组数据,bind group view
+打开具有指定格式的行，使该行获取任何所需的系统资源并开始运行。,open
+调整指定的时态对象以使其具有与此对象相同的日期和时间。,adjustInto
+当拖动操作终止时，在此监听 DropTarget注册的 DropTarget的放置站点的可操作部分上放下时 DropTarget 。,drop
+将保存某个维度的复杂数据值转换为其最终值（作为整数像素偏移量）,complex to dimension pixel offset
+为最终的大通知布局构建远程视图,create big content view
+返回此映射的部分视图，其键小于（或等于，如果 inclusive为真） toKey 。,headMap
+返回端口的端口号,get port number
+设置视图的 id，该视图作为辅助功能的标签,set label for
+当整个系统内存不足时调用此方法，并且主动运行的进程应减少其内存使用量。该方法始终在应用程序主线程上调用，并且不得执行冗长的操作,on low memory
+检查特定注册的 ui 观察程序是否已触发,has watcher triggered
+返回此上下文的效果工厂,get factory
+创建一个新的只读双缓冲区，共享此缓冲区的内容。,asReadOnlyBuffer
+通知数据集更改，但可以选择不释放任何缓存的游标,notify data set changed
+该方法的默认实现返回一个空动画器,on disappear
+更改显示微调器模型当前值的JComponent,setEditor
+将此转换应用于现有转换，例如,compose
+指示此可绘制对象是否会根据状态改变其外观,is stateful
+将此矩阵应用于二维向量数组，并将转换后的向量写回到数组中,map vectors
+设置此会话当前可用的功能,set actions
+检索此 RowSet对象的命令属性。,getCommand
+检查给定的服务组件是否是当前活动的语音交互服务,is active service
+检查此字体是否具有统一的行度量,hasUniformLineMetrics
+使用给定模式创建消息格式并使用它来格式化给定参数,format
+返回包含给定视图的视图持有者,find containing view holder
+获取用于其他标签之间缩写存储桶的默认标签,get inflow label
+获取给定标签的 nfc 条形码实例,get
+设置地址,set address
+当路线的显示显示发生变化时调用,on route presentation display changed
+此方法已被弃用。覆盖 canvas 、 recycler view 、 recycler view.state 上的绘制,on draw over
+以浮点形式返回指定数字的值,float value
+尝试从共享首选项中获取持久的 int,get persisted int
+检索作业调度程序中待处理的此包的特定作业,get pending job
+尝试返回在指定国家/地区的指定时刻具有指定偏移量和夏令时值的时区,get time zone
+注册一个回调，当媒体源准备好播放时调用,set on prepared listener
+如果平滑滚动到该项目，则返回 true，否则返回 false,is smooth scroll
+获取自系统上次启动以来的活动时间（以毫秒为单位）,get active
+获取远程设备的蓝牙设备类型,get type
+根据给定的解析位置解析日期/时间字符串,parse
+方便选择所有可跨越的,select all
+停止接收指定回调的更新,unregister callback
+从输入流中读取下一行文本。,readLine
+检测数据是否以允许平均算法工作所需的提示进行传递,setHints
+返回图标的高度。,getIconHeight
+当新的子视图添加到父视图时调用,on child view added
+将迭代器向前推进一个边界,next
+为可绘制对象指定 alpha 值,set alpha
+在此 PrintService上注册事件的监听 PrintService 。,addPrintServiceAttributeListener
+设置用于错误图像的可绘制对象,set image drawable
+调用 createctx 、 ct 、 create flag none 请参阅文档,create
+获取提供者所在的用户配置文件,get profile
+设置项目对齐的绝对像素偏移量,set item alignment offset
+检查此视图组是否应忽略其自身及其子视图的焦点请求,get touchscreen blocks focus
+设置录制会话的最大文件大小（以字节为单位）,set max file size
+获取密码对象,get cipher
+当底层硬件电视输入会话调用notify video unavailableint时调用,on hardware video unavailable
+确保该动画运行的持续时间不超过持续时间毫秒,restrict duration
+返回编码图像数据的大小，不包括pkm头的大小,get encoded data size
+由设备所有者调用以完全禁用键盘保护,set keyguard disabled
+ICC配置文件标记签名：'pre1'。,icSigPreview1Tag
+计算与当前变换对应的矩阵并将其应用到指定的画布,apply to canvas
+设置在负时区偏移转换时处理多次重复的墙时间的行为,set repeated wall time option
+返回应在树中放置拖放数据的路径,getPath
+在接收上下文上实现，意图将调用分派给应用程序小部件提供程序上的各种其他方法,on receive
+返回总结此缓冲区状态的字符串。,toString
+返回一个意图，可以启动该意图来查看有关此安装会话的详细信息,create details intent
+检查麦克风静音是否打开或关闭,is microphone mute
+过滤图像消费者接口中set color model方法提供的信息,setColorModel
+从此远程连接中删除回调,unregister callback
+返回一个新的CompletionStage，当这个或另一个给定阶段正常完成时，使用提供的执行程序执行，并将相应的结果作为所提供函数的参数。,applyToEitherAsync
+在更改基于百分比的值后恢复原始尺寸和边距,restore margin layout params
+将指定列的小数位数设置为给定的 int 。,setPrecision
+对于列 UPDATE_RULE和 DELETE_RULE ，指示更新或删除主键时，外键（导入的键）更改为 NULL 。,importedKeySetNull
+"返回处理滑块的三个基本属性的有界范围模型：minimum, maximum, value",getModel
+写入跟踪消息以指示给定的代码部分已结束,end section
+设置绝对最大边缘尺寸,set maximum edges
+如果与指定的选择器匹配，则返回所选路由，否则选择默认路由并返回,update selected route
+返回表示生成给定键事件的键击的键击,getKeyStrokeForEvent
+定义应用重力时忽略哪个视图,set ignore gravity
+设置套接字选项的值。,setOption
+关闭这个对象,close
+返回此映射部分的视图，其键大于或等于 fromKey 。,tailMap
+添加对象时调用。,objectAdded
+为使用 io 输入设置通知处理程序,set on buffer available listener
+确定此属性编辑器是否支持自定义编辑器。,supportsCustomEditor
+将此矩阵应用于二维点数组，并将转换后的点写回到数组中,map points
+确认用户知道帐户的密码，以进一步确保他们是该帐户的所有者,confirm credentials
+返回布局样式的共享实例,getInstance
+请求主机应用程序创建一个新窗口,on create window
+接受从类型 T中提取 double排序键的 T ，并返回按该排序键进行比较的 Comparator<T> 。,comparingDouble
+将日期格式化为日期/时间字符串,format
+将此函数应用于给定的参数。,applyAsInt
+当嵌套滚动子项即将开始滑动时调用,on nested pre fling
+将下一个属性作为Java float写入流中。,writeFloat
+表示一个或多个包已被取消挂起,on packages unsuspended
+只有在调用时它是空闲的才能获取锁。,tryLock
+设置网格中列的宽度,set column width
+克隆这个对象,clone
+填写时间字段列表中任何未设置的字段,complete
+获取是否有存储的cookie,has cookies
+返回此电视内容分级对象的域,get domain
+参见管道2,pipe
+获取关联的媒体路由按钮，如果尚未创建则返回 null,get media route button
+从此双端队列中删除最后一次出现的指定元素。,removeLastOccurrence
+覆盖以为应用程序当前显示的内容生成所需的引荐来源网址,on provide referrer
+返回与小于或等于给定键的最大键关联的键 - 值映射，如果没有此键，则 null 。,floorEntry
+隐藏并处置弹出窗口,hide
+表示此版本列是伪列。,versionColumnPseudo
+返回在此元素上声明的名称空间的迭代器。,getNamespaces
+获取回退间隔模式,get fallback interval pattern
+调度集已压至此视图的所有子视图,dispatch set pressed
+将属性转换应用于给定页面,transform page
+返回此货币对象的 ISO 4217 3 字母代码,get currency code
+将指定参数设置为给定的 java.sql.Clob对象。,setClob
+返回字符类型的迭代器，迭代代码点,get type iterator
+表明此远程连接已被破坏,on destroyed
+将数组 b所有字节写入输出流。,write
+尝试与给定的URL建立数据库连接。,connect
+按名称空间名称查找属性的值。,getValue
+返回一个新的中断迭代器实例，该迭代器定位逻辑字符边界,get character instance
+冲洗组件的输入和输出端口,flush
+根据给定的配置创建音频编解码器,get codec
+取消注册之前注册的回调,unregister session callback
+设置此视图相对于其左侧位置的水平位置,set translation x
+返回用于访问指定选项卡的键盘助记符,getMnemonicAt
+返回在与渲染无关的空间中对给定源集执行的操作输出的边界框。,getBounds2D
+为所需大小和格式的图像创建新的阅读器,new instance
+构造并返回具有指定属性名称和值集的属性值持有者对象,of keyframe
+添加外部定时文本源文件文件描述符,add timed text source
+返回缓冲区中的字符数,length
+显示逻辑行或列的组件应计算滚动增量，该增量将完全显示一个行或列的块，具体取决于方向的值。,getScrollableBlockIncrement
+释放虚拟显示并破坏其底层表面,release
+打开一个页面进行渲染,open page
+获取按钮的键盘助记符。,getMnemonic
+向意图添加一组扩展数据,put extras
+在菜单末尾追加一个新的分隔符,addSeparator
+如果允许焦点离开引导步骤片段的起始边缘，则返回 true ，否则返回 false,is focus out start allowed
+获取当前页面的原始url,get original url
+添加绑定到键映射。,addActionForKeyStroke
+获得 MidiDevice对象，它是这个的所有者 Receiver 。,getMidiDevice
+在指定的 InputSource的上下文中计算已编译的XPath表达式，并将结果返回为 String 。,evaluate
+返回内容的成熟度级别评级,get maturity rating
+设置更改前的文本,get before text
+相当于在膨胀给定的远程视图后调用添加视图视图,add view
+设置一个回调，该回调将动态生成一个或多个 uri 以使用 android beam tm 发送,set beam push uris callback
+返回此视图的基线是否被视为视图的底部,get baseline align bottom
+生成具有任意起点和终点的两指针手势,perform two pointer gesture
+返回与当前注册运营商的 mcc 移动国家代码等效的 iso 国家代码,get network country iso
+设置要在空搜索栏中显示的标题字符串,set title
+使用条件和待定意图注册单个位置更新,request single update
+返回表示此类型所属类型的 Type对象。,getOwnerType
+构建一个指向特定录制节目的 uri,build recorded program uri
+构造一个新的 by 选择器并设置内容描述标准,desc starts with
+获取此音量提供程序使用的音量控制类型,get volume control
+切换填充类型的反转状态,toggle inverse fill type
+取消所有先前显示的通知,cancel all
+确定索引处是否有属性，如果该属性显式设置为，则返回 true,has value or empty
+设置卡片阴影底部边缘和父视图之间的附加边距,set card margin bottom
+当用户尝试从窗口的系统菜单关闭窗口时调用。,windowClosing
+指示Web视图取消认证请求,cancel
+控制梦想窗口上的全屏标志,set fullscreen
+返回有关特定相机的信息,get camera info
+这个评级栏是否应该只是一个指示器，因此用户不能更改,set is indicator
+设置蓝牙文件扫描的回调类型,set callback type
+返回左侧稳定插图（以像素为单位）,get stable inset left
+创建选择器对话框时调用,on create chooser dialog
+用于写入浮点值的相对 put方法 （可选操作） 。,putFloat
+子类化以加载子节点（如有必要）,getChildAt
+将 tp 中的字段复制到此文本 Paint 中，包括从 Paint 继承的字段,set
+获取用于连接到服务器的协议,get protocol
+取消弹出菜单时会调用此方法,popupMenuCanceled
+此方法应返回包含接收菜单元素的子元素的数组。,getSubElements
+查找与给定字符关联的 unicode 匹配器，并返回它,lookup matcher
+当此调用的父级发生更改时调用,on parent changed
+接受运动事件并将事件分派给缩放手势检测器。在适当的时候打开缩放手势侦听器,on touch event
+更新代表在特定会话中安装的应用程序的图标,update session app icon
+获取给定索引处的子元素。,getElement
+开发人员 - 同步实际发生时返还的额外内容,set extras
+以Java编程语言中 java.sql.NClob对象的形式检索JDBC NCLOB参数的值。,getNClob
+指示此远程连接播放双音多频信号 dtmf 音调,play dtmf tone
+ICC配置文件标题位置：数据的颜色空间。,icHdrColorSpace
+获取用户的显示名称,get display name
+指示 Web 视图使用给定凭据继续进行身份验证,proceed
+获取节点是否可以被解雇,is dismissable
+包含真实UI的向量。,uis
+添加由连接服务创建的连接并通知电信新连接,add existing connection
+发送一个按键事件到当前聚焦的窗口/视图并等待它被处理,send key sync
+遵守 Object.equals的总合同。,equals
+使用指定的颜色和 porter 填充仅限于当前剪辑的整个画布位图 - duff xfermode,draw color
+True如果在实例文档中显式指定了此属性， false 。,getSpecified
+加载该壁纸的用户显示标签,load label
+返回垂直褪色边缘的大小，用于指示此视图中的更多内容可见,get vertical fading edge length
+如果可以在不违反容量限制的情况下立即插入指定元素，则在此双端队列的前面插入指定元素，如果当前没有可用空间，则抛出 IllegalStateException 。,addFirst
+返回与给定 key 关联的值，如果给定 key 不存在所需类型的映射，或者 null 值与该 key 显式关联，则返回 null,get double array
+启用推荐的严格模式默认值，仅记录违规行为,enable defaults
+暂停会议,hold
+设置侦听器，该侦听器将收到与给定话语合成相关的各种事件的通知,set on utterance progress listener
+告诉听众列重新定位。,columnMoved
+返回此窗口插图的副本，其中系统窗口插图已完全消耗,consume system window insets
+将指定参数设置为 InputStream对象。,setBlob
+返回唯一的设备 id ，例如，gsm 的 IMEI 和 cdma 电话的 meid 或 esn 。,get device id
+向语音交互服务提交新的语音交互器请求,submit request
+返回当前背景可绘制对象,get drawable
+在内部框架图标化时调用。,internalFrameIconified
+不支持克隆jet播放器实例,clone
+如果支持 wps 按钮配置，则返回 true,wps pbc supported
+更新文件上次修改时间，上次访问时间和创建时间属性的任何或全部。,setTimes
+刷新当前排队播放的音频数据,flush
+删除指定待处理意图的所有位置更新,remove updates
+用于写入double值的绝对 put方法 （可选操作） 。,putDouble
+获取支持的抗带值,get supported antibanding
+获取与编辑器关联的模型,getStyledDocument
+返回编辑操作的目标,get editable
+告诉编辑停止编辑并接受任何部分编辑的值作为编辑器的值。,stopCellEditing
+将位图放入元数据中,put bitmap
+检查代码点是否具有小写 unicode 属性,is ul owercase
+从index0到index1（含）选择行,setRowSelectionInterval
+返回救助儿童政策,get save children policy
+设置 android 自动呈现通知时要使用的强调色,set color
+ICC配置文件标记签名：'resp'。,icSigOutputResponseTag
+返回将在查询文本字段中显示的提示文本,get query hint
+返回此 ZonedDateTime的副本，并添加指定的周数。,plusWeeks
+布置给定适配器的所有相关子视图,on layout children
+返回设备的供应商 ID,get vendor id
+使用处理环境初始化处理器。,init
+返回此推荐的字符串排序键,get sort key
+设置用作媒体视频部分接收器的表面,set surface
+用于写入短值的绝对 put方法 （可选操作） 。,putShort
+设置渲染该可绘制对象的密度比例,set target density
+尝试与此 DataSource对象表示的数据源建立连接。,getConnection
+用指定的文本替换当前节点的文本和所有逻辑上相邻的文本节点。,replaceWholeText
+返回与该片段的操作列表中指定位置处的操作相对应的视图,get action item view
+获取设置为当前暗淡级别的绘画对象,get paint
+返回视图的可选矩阵,get image matrix
+注册一个观察者，当该适配器使用的数据发生更改时调用该观察者,register data set observer
+ICC配置文件标题位置：设备制造商。,icHdrManufacturer
+创建一个共享此缓冲区内容的新短缓冲区。,duplicate
+从布局中删除指定的组件。,removeLayoutComponent
+识别指纹时调用,on authentication succeeded
+添加到组的连接,add connection
+设置路径的最后一个点,set last point
+返回表单设置,get form
+返回给定索引处的类别,get category at
+获取当前光标位置之前的 n 个字符的文本,get text before cursor
+从包含每个数组元素一个样本的int数组中设置像素矩形区域的所有样本,setPixels
+设置此实例的时区显示名称数据,set time zone names
+返回一个大十进制，其值为 - this,negate
+将上下文和选项菜单分派到片段,on menu item selected
+检索通过设置提示字符序列设置的最后一个提示,get hint
+以 java.sql.Timestamp对象的形式检索指定的JDBC TIMESTAMP参数的值。,getTimestamp
+指定此作业应按照提供的间隔重复执行，每个周期不超过一次,set periodic
+删除所有cookie,remove all cookies
+默认情况下，子项在绘制之前会被剪裁到其边界内,set clip children
+检查呼叫是否处于保持状态,is on hold
+设置当下一个焦点向前聚焦时要使用的视图 id,set next focus forward id
+设置是否显示活动标志而不是活动图标,set display use logo enabled
+从属性集中检索具有给定属性id的属性。,get
+返回点下方绘制的阴影的颜色,get dot shadow color
+将播放器设置为循环或不循环,set looping
+应用程序和配置服务器之间发生配置请求/响应交换以检索设备证书,get provision request
+返回用于渲染此可绘制对象的绘制,get paint
+获取此频道的当前节目编号。,getProgram
+从此集合中删除指定字符（如果存在）,remove
+添加一个由标题和无图标表示的组件,addTab
+返回视图的总左内边距，包括左可绘制部分（如果有）,get total padding left
+在运行时确定引用列表（引用远程对象的客户端列表）变为空之后的某个时间由RMI运行时调用。,unreferenced
+返回当前注册操作员的字母名称,get network operator name
+将索引处的组件设置为组件,setComponentAt
+设置徽章图像可绘制,set badge image
+使用JNDI 1.1.1中的serialVersionUID实现互操作性。,serialVersionUID
+类似于设置工厂布局 inflater.factory ，但允许您设置布局 inflater.factory2 接口,set factory 2
+相对批量 放置方法 （可选操作） 。,put
+指定一个JAR文件，其中包含由系统类加载器定义的检测类。,appendToSystemClassLoaderSearch
+删除指定键的映射（如果有）,delete
+根据 view.getz 设置视图的视觉高度阴影,set elevation
+设置海拔高度，以米为单位高于wgs 84参考椭球体,set altitude
+告诉监听器TableColumnModel的选择模型已更改。,columnSelectionChanged
+此布局管理器方法不做任何操作,removeLayoutComponent
+尝试取消当前加载任务,cancel load
+返回此窗格显示的消息对象,showInternalConfirmDialog
+查询当前是否支持水平滚动,can scroll horizontally
+通知已注册的侦听器给定的 RowSet对象中的 RowSetEvent对象已更改其全部内容。,rowSetChanged
+此方法已被弃用。使用启用行缩放布尔值代替,enable row scaling
+创建运动标志的便捷方法,make movement flags
+在查询字符串中搜索具有给定键的第一个值并将其解释为布尔值,get boolean query parameter
+获取此属性的规范化值,getValue
+设置包含的页面,set pages
+存储二进制数据，这些数据可能会被忽略或丢弃，就像添加文本字符串、字符串一样,add data
+设置一个自定义侦听器来调用此菜单项,set on menu item click listener
+仅当前映射到某个值时才替换键的条目。,replace
+将 float值写入输出流，该值由4个字节组成。,writeFloat
+返回指定索引处的值。,getElementAt
+获取此源当前正在使用的存储总量，对于所有 Java 脚本存储 ap 来说，以字节为单位,get usage
+将当前矩阵设置为其逆矩阵,inverse
+已过时。,setLocale
+返回RenderedImage的宽度。,getWidth
+必须实现以返回壁纸引擎的新实例。,on create engine
+指定每当其模型变化时是否为表创建行排序器,setAutoCreateRowSorter
+获取 Presenter.View 持有者,get view holder
+制作此 CertPathParameters的副本。,clone
+返回此 ZonedDateTime的副本，并添加指定的小时数。,plusHours
+返回包含两个元素的不可修改集。,of
+设置当用户单击下拉列表中的项目时将收到通知的侦听器,set on item click listener
+将 long值写入输出流，该值由8个字节组成。,writeLong
+当布局管理器应保存其状态时调用,on save instance state
+返回刚刚发送的短信的发送状态,get send status
+从默认时区中的系统时钟获取当前月 - 日。,now
+将矩阵设置为按指定的正弦和余弦值旋转,set sin cos
+将持有者子层次结构中包含的摘要持有者与正确的摘要文本同步,sync summary view
+获取作为滑动刷新布局一部分显示的进度圆的直径,get progress circle diameter
+图像的高度（以像素为单位）,get height
+释放与此媒体记录器对象关联的资源,release
+使用指定的格式化程序格式化此日期时间。,format
+获取可以为此会话设置的最大音量,get max volume
+chpr 执行排名 1 操作 a := alphaxxh + a 详细信息：注意：对于 nn 矩阵，输入分配应该是大小为 dimx = nn+1 / 2 的一维分配，以下子例程可以是显示如何转换的示例上三角矩阵 ' a ' 到压缩矩阵 ' b ',chpr
+通知所有已注册此事件类型通知兴趣的监听器,fireMenuDragMouseEntered
+呼叫保持时呼叫,on call held
+返回变长类型字段,get type
+纹理视图的子类无法使用画布对象进行自己的渲染,draw
+如果字符串为 null 或长度为 0，则返回 true,is empty
+检索特定管理员或对此用户及其参与配置文件设置限制的所有管理员的密码中所需的当前数字位数,get password minimum numeric
+返回一个新的CompletionStage，当这个和另一个给定的阶段都正常完成时，执行两个结果作为所提供函数的参数。,thenCombine
+从给定的上下文中获取布局充气器,from
+当片段附加到此活动时调用，在调用其fragment.on Attach方法之后和fragment.on create之前立即调用,on attach fragment
+从当前数据位置的地块中读取对象,read strong binder
+翻转到下一个视图之前等待多长时间,set flip interval
+获取此对象的背景颜色。,getBackground
+将选择端移动到当前选择端上方物理上的缓冲区偏移量,extend up
+返回文本的水平对齐方式,getHorizontalAlignment
+删除所有收到滚动状态或位置变化通知的侦听器,clear on page change listeners
+覆盖日历以计算特定于混合公历 - 儒略历系统的多个字段,handle compute fields
+由框架调用，以响应当前输入方法的文本完成，由它调用输入connection.commit完成提供,on commit completion
+在此层次结构中找到整个事物的首选项，甚至在您的首选项屏幕上方/下方使用给定的键进行屏幕中断,find preference in hierarchy
+将VPN接口的文件描述符设置为阻塞/非阻塞模式。,set blocking
+如果是远程存储目录则返回 true,is remote directory id
+获取下一个焦点向下聚焦时要使用的视图的 id,get next focus down id
+在 ui 对象上执行向左滑动操作,swipe left
+设置是否启用数据库存储api,set database enabled
+从共享首选项中获取文本,get text
+注册一个回调，当单击并按住此适配器视图中的项目时调用,set on item long click listener
+获取支持的闪光灯模式,get supported flash modes
+给定参考位置，返回下一个制表位。,nextTabStop
+过滤 pre - ime 按键事件,on key pre ime
+设置与该视图关联的标签和键,set tag
+定义与此路由关联的播放音量是固定播放音量还是可以修改播放音量变量,set volume handling
+卸载缓存并删除其所有存储内容,delete
+获取全局搜索活动的名称,get global search activity
+当需要增加或减少路线的交通量时呼叫,on volume update request
+设置要在列表中显示的人类可读条目,set entries
+读取流中的下一个属性，并以Java编程语言将其作为 double返回。,readDouble
+所选按钮的颜色。,selectColor
+将指定参数设置为 InputStream对象。,setBlob
+根据 == 和 equals object 断言实际不等于意外,assert not equal
+返回此对象的阅读器。,openReader
+设置视图围绕枢轴点旋转的度数,set rotation
+指示该视图是否附加到硬件加速窗口,is hardware accelerated
+要求擦除用户数据,wipe data
+设置弹出窗口的请求宽度,set width
+将 dst 区域设置为平移该区域的结果,translate
+如果系统中的触摸探索启用则返回,is touch exploration enabled
+获取分钟字段。,getMinute
+停止后立即调用以显示会话用户界面,on hide
+设置用于保存共享历史记录的文件的文件名，该历史记录将用于排序共享目标,set share history file name
+检索指定的子字符串 searchstr出现在此 Clob对象表示的SQL CLOB值中的字符位置。,position
+返回指定显示上下文的当前值。类型,get context
+"删除使用 add local service wifi p2p manager.channel , wifi p2p service info , wifi p2p manager.actionlistener 添加的已注册本地服务 向框架发送删除本地服务的请求后，函数调用立即返回",remove local service
+定义用户将被视为滑动动作的最小速度,get swipe escape velocity
+发送调试日志消息,d
+返回此视图的覆盖层，如果尚不存在则创建它,get overlay
+设置标题段之间所需的间距,set text spacing
+此方法将导致视图的 z 属性按指定值进行动画处理,z by
+设置预览图片的尺寸,set preview size
+该动画相对于开始时间何时开始,set start offset
+根据语音交互器.确认请求返回提示，告知用户将要发生的情况,get voice prompt
+通知侦听器某些打印作业属性的更改。,attributeUpdate
+返回包含此set中所有元素的数组。,toArray
+将指定参数设置为给定的 Reader对象，该对象是给定的字符长度。,setCharacterStream
+上传新条目的对象元数据,send object info
+当用户请求禁用管理员时调用，因为收到操作设备管理员禁用请求，使您有机会向他们显示警告消息,on disable requested
+添加一个监听器，用于监听用户首选字幕启用状态和视觉属性的变化。,add captioning change listener
+返回此形状可绘制用于请求着色器的着色器工厂,get shader factory
+返回值的数量,size
+为该请求设置标签,set tag
+根据 view.get id 返回与此视图关联的 id,get id
+设置字段,set
+返回当前由该媒体路由器已知的路由表示的类别数,get category count
+向此大小序列中添加一组连续的条目,insertEntries
+以字符串形式返回parse事件的当前值，返回CHARACTERS事件的字符串值，返回COMMENT的值，ENTITY_REFERENCE的替换值，CDATA节的字符串值，SPACE的字符串值event，或DTD内部子集的String值。,getText
+当所选轨道发生变化时调用此方法,on track selected
+"返回由 set targetfragment 设置的目标片段fragment , int",get target fragment
+添加 VetoableChangeListener到此 BeanContextChild以在指定的属性更改时接收事件。,addVetoableChangeListener
+获取服务类型,get service type
+从当前已注册接收图像数据的使用者列表中删除指定的 ImageConsumer对象。,removeConsumer
+当与窗口分离时，视图子类应始终在其嵌套滚动子帮助器上调用此方法,on detached from window
+与当前用户界面相关的可选附加内容项,set clip data
+将任何适当的装饰绘制到提供给回收者视图的画布中,on draw over
+检索此缓冲区的字节顺序。,order
+参见 munmap2,munmap
+启动新的转换会话,open convert session
+将视图的选中状态更改为其当前状态的相反状态,toggle
+设置缩进,set indents
+返回一个布尔值，指示是否选择了指定的行。,isAccessibleRowSelected
+返回整数类型的电池属性值,get int property
+请求的对等点列表可用,on peers available
+在日志输出中打印有关此视图的信息，并带有标签视图日志标签,debug
+类似于获取测量宽度和状态，但仅返回原始宽度分量，即结果被测量尺寸掩码掩盖,get measured width
+设置按钮未处于选中状态时显示的文本,set text off
+返回列表“options”中“index”处属性值的索引,get attribute list value
+立即清除当前参数值。,clearParameters
+定义滚动条消失之前的延迟,set scroll bar default delay before fade
+返回此字体中的字形数量,getNumGlyphs
+当类型为整型时，以整数形式返回条目的值,get int value
+在创建捆绑后方法上执行活动的调用,call activity on post create
+如果启用了 ndef Push android Beam 功能，则返回 true,is ndef push enabled
+返回 getValue()返回的对象之前的序列中的对象。,getPreviousValue
+获取给定标签的 nfcf 实例,get
+该视图的最大宽度,get max width
+右眼中心坐标,get right eye position
+返回此set中包含的元素的逆序视图。,descendingSet
+当用户提交查询时调用,on query text submit
+检索此套接字绑定的名称（如果有）,get local socket address
+创建具有正确大小和波段数的归零目标图像。,createCompatibleDestImage
+设置在其中一个更改动画期间启动每个动画之间的延迟时间长度,set stagger
+通知监听器排序顺序已更改,fireSortOrderChanged
+返回列表行的内容描述,get content description
+返回row和column处的单元格值,getValueAt
+返回表示此谓词的逻辑否定的谓词。,negate
+设置用于分隔模式中正负子模式的字符,set pattern separator
+确定树是否可编辑,setEditable
+在最近一次对 mark不匹配调用时，返回指向其先前位置的流指针，包括位偏移量。,reset
+检索索引处的维度单位属性以用作原始像素的大小,get dimension pixel size
+将按键事件发送到当前通过此输入连接连接的进程,send key event
+该方法由 BeanContextServices调用，获取指定服务的当前服务选择器。,getCurrentServiceSelectors
+执行一条返回带有数值的 1 x 1 表的语句,simple query for long
+从给定套接字中删除所有统计参数,untag socket
+设置对话框是否可取消,set cancelable
+在给定公钥类型和对等方识别的证书颁发机构列表（如果有）的情况下，选择别名以对安全套接字的客户端进行身份验证。,chooseClientAlias
+返回系统默认的数据订阅id,get default data subscription id
+释放密钥时调用。,keyReleased
+base64 - 对给定数据进行编码并返回新分配的字符串和结果,encode to string
+获取底层传输支持的最大传输数据包大小,get max transmit packet size
+当项目触摸助手想要将拖动的项目从旧位置移动到新位置时调用,on move
+除了视图框架的测量缓存之外，回收器视图还为其子视图使用自己的附加测量缓存，以避免在不需要时重新测量它们。,is measurement cache enabled
+返回特定应用程序的运行时权限的当前授予状态,get permission grant state
+返回一个drawable.constant状态实例，它保存该drawable的共享状态,get constant state
+注册一个侦听器，每当子视图附加到回收器视图或从回收器视图分离时，该侦听器都会收到通知,add on child attach state change listener
+返回此缓冲区缓冲区第一个元素的后备数组中的偏移量 （可选操作） 。,arrayOffset
+对属性名称进行编码,name
+提供视图相对坐标和逻辑项之间的映射,get virtual view at
+返回当前播放采样率（以 Hz 为单位）,get playback rate
+将区域设置为空区域,set empty
+返回要在将放入密钥库中的 x.509 证书上使用的序列号,get certificate serial number
+检查文档中是否设置了独立,standaloneSet
+获取标记的当前位置。,getMark
+通过向相机设备提供所需的再处理输入表面配置和目标表面输出集来创建新的可再处理相机捕获会话,create reprocessable capture session
+设置此表的视口的首选大小,setPreferredScrollableViewportSize
+将一系列longs写入当前位置的流。,writeLongs
+返回指定对象占用的存储量的特定于实现的近似值。,getObjectSize
+返回此set的部分视图，其元素大于（或等于，如果 inclusive为true） fromElement 。,tailSet
+返回与日历字段日历字段对应的字段常量,of calendar field
+鼠标进入组件时调用。,mouseEntered
+计算水平滚动条代表的水平范围,compute horizontal scroll range
+返回具有给定值的ID属性的 Element 。,getElementById
+发生操作时调用。,actionPerformed
+根据 window manager.layout params.windowanimations 指定用于窗口的自定义动画,set window animations
+获取给定区域设置的货币复数信息实例,get instance
+执行给定的任务，返回已成功完成的任务的结果（即，不抛出异常），如果有的话。,invokeAny
+使用指定的排队模式和参数播放earcon,play earcon
+返回此通道支持的一组套接字选项。,supportedOptions
+在拖放过程中更新拖动阴影,update drag shadow
+方便构建媒体扫描仪连接、在其上调用 connect 以及调用扫描文件上下文、字符串、媒体扫描仪连接。建立连接时，使用给定路径和 mime 类型扫描已完成的侦听器,scan file
+注销数据更改通知的数据观察者,unregister observer
+返回此日历系统的给定扩展年份的给定月份的天数,handle get month length
+给定源图像中的一个点，返回相应目标点的位置。,getPoint2D
+设置播放列表中行视图的背景颜色,set background color
+返回两个索引之间的文本字符串。,getTextRange
+返回由此类直接实现或由此接口扩展的接口类型。,getInterfaces
+返回属性动画的当前开始延迟,get start delay
+恢复所有片段的已保存状态,restore all state
+返回出队输出缓冲区索引的只读字节缓冲区,get output buffer
+ICC配置文件颜色空间类型签名：'BCLR'。,icSigSpaceBCLR
+返回此格式使用的十进制格式符号的副本,get decimal format symbols
+将所有正常、选定、聚焦状态的文本颜色设置为该颜色,set text color
+如果这是容器视图，则在启动时分派临时分离到此视图及其直接子视图,dispatch start temporary detach
+设置是否关联缩放手势检测器。当用户使用手写笔并按下按钮时，缩放手势侦听器应接收缩放回调,set stylus scale enabled
+设置该目标对图像中颜色总体的重要性权重,set population weight
+返回一个 xml 资源解析器，通过它您可以读取给定资源 id 的动画描述,get animation
+设置变体,set variant
+获取单元的描述性名称。,toString
+将下一个属性作为Java double写入流中。,writeDouble
+该方法开始异步查询,start query
+获取正在测试的活动，必要时启动它,get activity
+从预先生成的palette.swatch 样本列表中生成调色板,from
+设置行边距和列边距（单元格之间的高度和宽度）到单元格间距,setIntercellSpacing
+调用以实例化要在此片段中显示的初始首选项片段,on preference start initial screen
+添加一个侦听器，用于接收在搜索过滤器 filter标识的对象和目标命名的对象上的过滤器参数被修改时触发的命名事件。,addNamingListener
+当话语成功完成处理时调用,on done
+取消此活动请求,cancel
+返回该描述符的 uuid,get uuid
+请求符号名称的 get name 的便利性和兼容性覆盖,get symbol
+设置绘画的连接,set stroke join
+将指定的圆弧作为新轮廓添加到路径中,add arc
+获取一个常量，该常量描述该键盘的修饰键的行为，例如键码左移,get modifier behavior
+返回此JRadioButtonMenuItem的字符串表示,paramString
+返回此START_ELEMENT上的属性计数，此方法仅在START_ELEMENT或ATTRIBUTE上有效。,getAttributeCount
+判断此缓冲区是否为只读。,isReadOnly
+判断该权限条目是否与给定的数据uri匹配,match
+设置当前排序键,setSortKeys
+新会话已创建,on created
+默认实现是一个返回 false 的存根,on transact
+如果此重绘管理器是双缓冲的，则返回true,isDoubleBufferingEnabled
+当配置为该模式的分辨率时，返回显示器的物理宽度（以像素为单位）,get physical width
+启动被测试的服务并阻塞直到服务连接，就像它是由 context.start 服务意图启动一样，其意图是标识服务,start service
+计算可见项目位置的范围,get item range into
+返回指定排序规则元素的次要顺序，即,secondary order
+用图形上下文的当前颜色填充由指定多边形对象定义的多边形,fillPolygon
+返回消息的原始 pdu,get pdu
+强制切换到上次使用的输入法和子类型,switch to last input method
+加急同步会立即运行，并且可以抢占其他非加急运行的同步。,set expedited
+设置触发按钮时作为 ActionEvent一部分发送的操作命令字符串。,setActionCommand
+检索整体信号强度的抽象级别值,get level
+显示的最大面包屑数量,set max visible
+通过将参数密钥源包参数附加到基本 uri 来构建特定于源包的语音邮件 uri 的便捷方法,build source uri
+返回一个缓存实例（如果可用）或者使用其类型属性集实例化一个新实例,obtain
+显示此通知时获取在活动视图内启动的意图,get display intent
+获取cookie商店中所有未过期的cookie。,getCookies
+设置此动作描述的输入类型不在编辑中,description input type
+true 如果该位置有方位,has bearing
+当发生按键事件时调用,on key down
+相当于使用给定的视图 id 在 chronometer 上调用 chronometer.set 倒计时,set chronometer count down
+创建一个与给定事件相同的新关键事件，但其操作被替换为给定值,change action
+此方法开始在指定持续时间内播放指定类型的音调,start tone
+设置媒体同步的输出表面,set surface
+通知已注册的回调存在未知或整个列表更改,notify changed
+为此视图播放音效,play sound effect
+打开与此上下文的应用程序包关联的私有文件以进行写入,open file output
+包含真实UI的向量。,uis
+如果您希望注入模拟、隔离或以其他方式更改的上下文，您可以在此处执行此操作,set activity context
+指定用于对进入屏幕的视图进行动画处理的动画,set in animation
+强制创建此视图的图层并将此视图渲染到其图层中,build layer
+指定混合模式，用于将设置刻度线色调列表颜色状态列表指定的色调应用于刻度线可绘制对象,set tick mark tint mode
+返回所请求别名的私钥，如果没有结果则返回 null,get private key
+根据 get sizeint 返回给定指针的此事件和上一个事件之间发生的历史大小坐标,get historical size
+从首选项中检索 int 值,get int
+将指定参数设置为给定的Java float值。,setFloat
+保留给定页面 URL 的图标,retain icon for page url
+将此函数应用于给定的参数。,applyAsLong
+返回相应输入方法的图标。,getInputMethodIcon
+默认返回JScrollPane滚动条,createVerticalScrollBar
+触发播放控件,tickle
+添加一个视图到梦境的窗口，保留其他内容视图。,add content view
+控制是否应将表面视图的内容视为安全，以防止其出现在屏幕截图中或在非安全显示器上查看。,set secure
+使用给定的时区值设置时区,set time zone
+获取唯一的目标打印机 ID,get printer id
+在节点或一组兄弟节点以某种方式更改后调用,treeNodesChanged
+当活动按照给定意图从当前检测进程启动时在主线程上调用,on intent sent
+返回工具栏的边框与其按钮之间的边距,getMargin
+为指定的标签返回表格的字节数组,getFontTable
+使用指定比例预连接当前矩阵,scale
+破坏语音识别器对象,destroy
+将用户句柄写入parcel，处理空指针,write to parcel
+返回剪贴板上的文本,get text
+从基础集合中删除此迭代器可选操作返回的最后一个元素,remove
+如果没有运行识别器则返回 true ，否则返回 false,is recognizing
+当隐式父依赖项更改时调用,on parent changed
+由应用程序调用以检查是否有活动的限制提供程序,has restrictions provider
+检索与给定URI关联的cookie，或其域与给定URI匹配的cookie。,get
+参见 gettid2,gettid
+设置的类指纹，用于指示与该类的先前版本的序列化兼容性。,serialVersionUID
+如果远程设备提供具有相同 uuid ex 的多个服务，则返回此服务的实例 ID,get instance id
+将两个字节的长度信息写入输出流，然后是字符串 s中每个字符的 modified UTF-8表示。,writeUTF
+在树节点上执行指定的动作,doAccessibleAction
+扩充绑定布局并返回为该布局新创建的绑定,inflate
+返回用于报告错误，警告和其他通知的消息。,getMessager
+简单原子的变换方法检查评估对象是否成功,transform
+为此资产创建并返回一个新的自动关闭输入流,create input stream
+打开原始文件描述符以访问来自“ content : ” uri 的潜在类型转换数据,open typed asset file descriptor
+返回演示者映射器数组,get presenter mapper
+返回给定指针索引的此事件的 x 坐标使用 getpointer idint 查找此索引的指针标识符,get x
+返回由鼠标事件位置确定的组件的工具提示文本,getToolTipText
+检索指定索引处卫星的星座类型,get constellation type
+返回layeredPane。,getLayeredPane
+报告编码中出现非致命错误。,warningOccurred
+开始播放声音,play
+指定要显示的值以及是否应将该值描绘为“当前选定”。,setValue
+调用以要求片段保存其当前的动态状态，以便稍后可以在重新启动其进程的新实例中重建它。,on save instance state
+返回具有此构建器创建的对话框的适当主题的上下文,get context
+获取 BeanInfo数组，该数组用于此ServiceProvider中静态可用的每个服务类或接口。,getServicesBeanInfo
+设置默认字体大小,set default font size
+名为的服务已被撤销。 将不再满足此服务的getService请求。,serviceRevoked
+检索按键事件的按键代码,get key code
+ICC配置文件标题位置：配置文件的类型。,icHdrDeviceClass
+发送一条仅包含 What 值的消息，在指定的时间过后传送,send empty message delayed
+从音频硬件读取音频数据以记录到浮点数组中,read
+返回指定首选项对象的适配器位置,get preference adapter position
+返回下一个 token 的 long 值，并消耗它,next long
+沿任一轴按给定量的像素设置滚动动画,smooth scroll by
+获取首选的启动器图标大小,get launcher large icon size
+确保在释放任何打开的组件实例后调用此方法，而不是依赖垃圾收集器在将来的某个时刻为您执行此操作,release
+返回系统内置静态壁纸的可绘制对象,get built in drawable
+返回 CharSequence ，它是此序列的子序列。,subSequence
+强制使用支持库运行时,force compat
+获取扩展的关键性设置。,isCritical
+返回主版本号,get major
+设置用户可以在此片段中执行的按钮引导操作的列表,set button actions
+返回内部使用的重叠渲染值,get has overlapping rendering
+检索包含标准窗框/装饰以及其中的客户端内容的顶级窗口装饰视图，该视图可以作为窗口添加到窗口管理器中,get decor view
+调用该方法相当于调用getdrawingcachefalse,get drawing cache
+返回辅助数据中的窗口之一,get window node at
+相对 put方法 （可选操作） 。,put
+设置计算调色板时专用的位图区域,set region
+在会议的子远程连接之间交换活动音频流,swap
+寻找指定的时间位置,time shift seek to
+返回与此对象关联的 AccessibleContext 。,getAccessibleContext
+返回当前选择级别,get select level
+在适配器位置获取行视图支架,get row view holder
+设置预览图片的图像格式,set preview format
+测试当前状态是否是此流的一部分。,accept
+返回此窗口中当前具有焦点的视图，如果没有则返回 null,get current focus
+以长整型形式返回请求列的值,get long
+检查特定包是否已被授予特定权限,check permission
+返回 Mifare 经典块的总数,get block count
+将 double值写入输出流，该值由8个字节组成。,writeDouble
+当用户完成新时间设置并且对话框关闭时调用,on time set
+将下载文件的本地目标设置为公共外部存储目录中的路径，该路径由 get external storage public directory string 返回,set destination in external public dir
+ICC配置文件标记签名：'resp'。,icSigOutputResponseTag
+注册给定的事件侦听器，以便在此 PooledConnection对象上发生事件时通知它。,addConnectionEventListener
+通知属性更改的监听器,firePropertyChange
+返回此视图的滚动左侧位置,get scroll x
+返回两个源不透明度的适当不透明度值,resolve opacity
+将URI绑定到默认命名空间此URI绑定在当前START_ELEMENT / END_ELEMENT对的范围内。,setDefaultNamespace
+在底层 recyclerview 上调用 recyclerview # requestlayout,request layout
+在目标视图消耗滚动的一部分之前对正在进行的嵌套滚动做出反应,on nested pre scroll
+当在视图上设置时，将在应用窗口插入方法上调用此侦听器方法，而不是视图自己的方法。,on apply window insets
+返回当前处于错误状态的所有进程的列表,get processes in error state
+设置在可穿戴设备准备自动执行操作时显示的标签,set in progress label
+指示该有理数是否代表零值,is zero
+按照完全特色的打印方法指定，使用指定的默认打印机打印此表,print
+获取驱动程序的次要版本号。,getMinorVersion
+设置此回调以使片段将语音识别请求传递给活动，而不是使用内部识别器,set speech recognition callback
+设置此下载的描述，如果启用则显示在通知中,set description
+请求播放器开始播放特定 uri,play from media id
+获取这个图形上下文的当前颜色,getColor
+回收视图池允许多个回收器视图共享一个公共的废料视图池,set recycled view pool
+获取由输入类型定义的源的输入类型,get input type
+分离子视图并将其添加到回收器的废料堆中,detach and scrap view
+格式化对象映射并将消息格式的模式（参数由格式化对象替换）附加到提供的字符串缓冲区。,format
+将上下文菜单标题的标题设置为 title 中给定的标题,set header title
+尝试设置输入区域设置,setLocale
+将指定集合中的所有元素按照指定集合的​​迭代器返回的顺序附加到此列表的末尾。,add all
+取消注册当前监听数据更改的观察者,unregister adapter data observer
+当要求应用程序显示其关于对话框时调用。,handleAbout
+将操作的输出RenderContext映射到每个操作源的RenderContext。,mapRenderContext
+告诉编辑器您正在开始一批编辑器操作,begin batch edit
+返回当前事件的（本地）名称。,getLocalName
+从给定容器恢复此视图层次结构的冻结状态,restore hierarchy state
+应用程序从许可证服务器接收密钥响应，然后使用提供密钥响应将其提供给 drm 引擎插件,provide key response
+设置滚动标志,set scroll flags
+设置此首选项是否可选,set selectable
+设置默认解析选项,set default parse options
+停止计数,stop
+设置输入法上下文，用于将输入法事件分派给客户组件并从客户组件请求信息,setInputMethodContext
+返回一个消息实例到全局池,recycle
+将矩阵设置为恒等,reset
+返回此排序键的哈希码,hashCode
+判断文件是否是包含不透明内容的常规文件。,isRegularFile
+绝对 放法 （可选操作） 。,put
+向 connection.video 提供程序发出请求，以检索当前连接的视频组件的当前数据使用情况,on request connection data usage
+返回给定时间字段的值,get
+删除特定索引处的项目。,removeElementAt
+使组件能够更改旋钮位置,setEnabled
+检索索引处属性的字符串值，但前提是该字符串来自 xml 文件中的直接值,get non resource string
+使活动的选项菜单无效,on invalidate options menu
+在模型的末尾添加项目。,addElement
+参见关机2,shutdown
+设置地址的子通道名称，可以为空,set sub thoroughfare
+当将辅助结构传输给助手失败时调用,on assist structure failure
+请求未完成通知的列表，即当前用户可见的通知,get active notifications
+返回快进速度,get fast forward speeds
+启用或禁用布局,set layout enabled
+获取该节点是否是密码,is password
+返回此操作的渲染提示,getRenderingHints
+检查给定的功能名称和版本是否是 get system available features 返回的可用功能之一,has system feature
+更新存档属性的值。,setArchive
+返回tile（tileX，tileY）。,getTile
+设置JViewport的一个轻量级子项，可以为null,addImpl
+设置颜色矩阵以从 RGB 转换为亮度,set greyscale
+设置 arg 工作日参数,set weekday
+检索但不删除此双端队列表示的队列的头部（换句话说，此双端队列的第一个元素）。,element
+检查该平台是否支持某个效果,is effect supported
+替换数据库中行的便捷方法,replace or throw
+更新或延长此 Object的有效期。,refresh
+返回底层序列的下一个合法值，如果value已是最后一个元素，则返回null,getNextValue
+如果此布局参数附加到的视图现在表示可能无效的数据，则返回 true,is view invalid
+鼠标进入组件时调用。,mouseEntered
+此方法使用单个方法调用设置所有模型的数据。,setRangeProperties
+返回舍入模式设置,get rounding mode
+返回此视图持有者表示的项目的适配器位置,get adapter position
+设置 arg 数量参数,set quantity
+获取搜索建议内容提供商权限,get suggest authority
+确定给定的键序列是否在本地定义。,isLocallyDefined
+返回垂直滚动条的宽度,get vertical scrollbar width
+从排序列表中删除所有项目,clear
+被调用以通知监听器打印服务中的事件。,attributeUpdate
+创建一个RenderedImage，表示给定ParameterBlock和RenderingHints的成像操作（或操作链）的结果。,create
+检索新的速度跟踪器对象以观察运动的速度,obtain
+返回通道掩码,get channel mask
+将动画矢量可绘制对象重置为动画师中指定的开始状态,reset
+将报告转储到打印机,dump
+将此 RowSet对象命令中的指定参数设置为给定的 java.sql.Date值。,setDate
+此方法已被弃用。使用执行代替,execute
+将命名空间写入输出流如果此方法的前缀参数为空字符串“xmlns”或null，则此方法将委托给writeDefaultNamespace,writeNamespace
+当用户指示他们将开始调整帧的大小时，通常会调用此方法。,beginResizingFrame
+调度快捷键事件,dispatch key shortcut event
+隐藏弹出窗口,hide
+返回有关特定网络的连接状态信息,get network info
+当给定视图持有者上的移动动画结束时调用,on move finished
+如果用户可以长按/长按此节点，则返回 true,is long clickable
+定义用于在不确定模式下绘制进度条的可绘制对象,set indeterminate drawable
+将此记录映射到 mime 类型，如果无法映射则返回 null,to mime type
+如果检查来源则获取,is checked
+处理此文档的 DOMImplementation对象。,getImplementation
+获取对话中的第一个参与者,get participant
+阻塞，直到创建与此监视器匹配的活动，并返回结果活动,wait for activity
+停止录音,stop
+今年的哈希码。,hashCode
+将可绘制对象设置为复合按钮图像,set button drawable
+返回具有指定时区和区域设置的日历,get instance
+返回此颜色模型对象内容的字符串表示,toString
+获取给定索引处的子窗口,get child
+设置 Service Worker 是否不应从网络加载资源，请参阅 set block network Loadsboolean,set block network loads
+从此 RowSet对象上发生事件时将通知的组件列表中删除指定的侦听器。,removeRowSetListener
+返回通过addChangeListener添加到此进度条的所有变更监听器的数组,getChangeListeners
+返回包含此范围和由 指定的包含范围的最小范围,extend
+已过时。,getApplet
+从系统属性列表中返回一个字体对象,getFont
+已过时。,getApplets
+返回该模式的id,get mode id
+设置折叠标题的文本颜色,set collapsed title text color
+获取为此会话创建的相机设备,get device
+返回操作栏当前的垂直偏移量,get hide offset
+创建一个指向存储在字节数组中的压缩位图的图标,create with data
+将矩形 l 、 t 、 r 、 b 定义的区域标记为需要绘制,invalidate
+当字幕用户风格改变时调用,on user style changed
+指定要运行该作业，需要设备处于空闲模式,set requires device idle
+sgemv 执行矩阵向量运算之一 y := alpha ax + betay 或 y := alpha atx + betay 详细信息：,sgemv
+返回“属性”的布尔值,get attribute boolean value
+将 other 的内容复制到此对象，但仅限于字段未由此对象定义的情况,fill in
+与自定义选项卡服务建立连接时调用,on custom tabs service connected
+返回本地蓝牙适配器的硬件地址,get address
+未使用布局资源或层次结构定义的场景，或者在这些层次结构更改后需要执行附加步骤的场景，应设置进入操作，也可能设置退出操作。,set enter action
+启用或禁用抽屉指示灯,set drawer indicator enabled
+获取底层框架媒体描述对象,get media description
+将此字节缓冲区的视图创建为浮点缓冲区。,asFloatBuffer
+返回此修复的时间，自系统启动以来实时经过的时间,get elapsed realtime nanos
+如果路由描述符具有所有必需字段，则返回 true,is valid
+当视图完全居中时，返回列表中中央视图的顶部,get central view top
+如果意图的额外内容包含打包文件描述符，则返回 true,has file descriptors
+设置一个标志，指示所选动画（如果所选卡类型实现）是否应在选择卡后立即运行，或者是否应延迟,set selected animation delayed
+返回此日期序列中的当前元素,getValue
+获取从给定父元素中删除的子元素。,getChildrenRemoved
+返回该位图的宽度除以密度比例因子的便捷方法,get scaled width
+执行此编译任务。,call
+在HTML中标记以开始添加标记。,addTag
+该动画何时开始，相对于开始时间,get start offset
+编译脚本（源读取自 Reader ）以供稍后执行。,compile
+设置视图围绕枢轴点在 x 方向上缩放的量，作为视图未缩放宽度的比例。,set scale x
+获取属性值作为文本。,getAsText
+返回可写栅格,getRaster
+告诉侦听器已将列添加到模型中。,columnAdded
+从指定的 Soundbank加载指定补丁引用的仪器。,loadInstruments
+根据转换瞬间将此转换与另一转换进行比较。,compareTo
+设置当此首选项为 true 或当此首选项为 false 时是否禁用依赖项,set disable dependents state
+打开现有会话以积极执行工作,open session
+检索读取的最后一个OUT参数是否具有SQL NULL的值。,wasNull
+获取此拼写检查会话的拼写检查服务信息,get spell checker
+设置从该意图的额外内容中解组任何可分包值时将使用的类加载器,set extras class loader
+设置小部件的文本基线相对于小部件顶部边界的偏移量,set baseline
+返回一个String，表示此 java.sql.RowId对象指定的SQL ROWID的值。,toString
+设置要自定义的对象。,setObject
+设置文本转语音引擎的语音音高,set pitch
+根据此整理器的规则、强度和分解模式将源文本字符串与目标文本字符串进行比较,compare
+创建并返回一个图标位图以在用户界面中表示此订阅信息,create icon bitmap
+相当于有效的代码点,is valid code point
+设置浏览行的标题/悬停卡的可见性,set expand
+返回此编辑的本地化，人类可读的描述，例如，适用于更改日志。,getPresentationName
+将纬度或经度从 3gpp2 c.s0005 - v6.0 标准中定义的 0.25 秒转换为十进制,convert quart sec to dec degrees
+总是在父坐标系统中重绘，以确保重绘管理器只执行一次绘制,repaint
+返回持续时间,get duration
+设置此数据源在尝试连接到数据库时将等待的最长时间（以秒为单位）。,setLoginTimeout
+当片段加载动画时调用,on create animator
+此方法就像文档正在进行保存和加载循环一样，将文档置于“正常”形式。,normalizeDocument
+创建一个动作，通过重力启动打开抽屉布局抽屉,open
+当检测到明文网络流量时，整个过程崩溃,penalty death on cleartext network
+获取先前添加的命名样式。,getStyle
+获取纹理的压缩数据,get data
+验证指定的文本,is valid
+检索对此活动的操作栏的引用,get action bar
+返回当前START_ELEMENT或END_ELEMENT事件的QName,getName
+仅当前映射到给定值时才替换键的条目。,replace
+打印位于 uri 的图像,print bitmap
+返回由与给定布局 id 参数关联的资源文件描述的场景,get scene for layout
+获取此框架的最大化边界,getMaximizedBounds
+获取与列表中指定位置关联的行 ID,get item id
+ICC配置文件标记签名：'rTRC'。,icSigRedTRCTag
+解析选择格式模式字符串,parse select style
+返回音频编解码器，如果未设置则返回 null,get codec
+返回此格式使用的数学上下文,get math context
