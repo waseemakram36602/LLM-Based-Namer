@@ -11,6 +11,129 @@ Each dataset is crucial for training and evaluating the models to ensure they pe
 #  [Optimal Prompts:](https://github.com/propaki/Automethod/tree/main/OptiPrompts) 
 Included in the "[OptiPrompts](https://github.com/propaki/Automethod/tree/main/OptiPrompts)" folder is a carefully curated corpus of prompts, comprised of text files, designed to enhance the performance of ChatGPT in accurately generating Java method names based on functional descriptions. These prompts are crafted to elicit precise and contextually relevant responses from the model, adhering to a well-designed template that aligns with the naming conventions and requirements specific to Java methods.
 ![Prompt Corpus](Optiprompts.PNG)
+#Source-Code
+mNamer
+  ├── __init__(self, train_file, test_file, valid_file, bert_model_name='bert-base-uncased')
+  │   ├── Initializes the mNamer class with dataset paths and BERT model name.
+  ├── load_dataset(self, file_path)
+  │   ├── Loads the dataset from a CSV file.
+  ├── extract_quality_samples(self)
+  │   ├── Extracts high-quality samples, tunes hyperparameters, and divides samples into datasets.
+  ├── generate_prompt_templates(self)
+  │   ├── Generates prompt templates for in-context learning.
+  ├── fine_tune_models(self, sft_corpus_file)
+  │   ├── Fine-tunes GPT, Gemini, and Llama models using the SFT corpus.
+  ├── generate_in_context_prompt(self, input_description, optimal_prompt_template)
+  │   ├── Generates in-context prompt by integrating the functional description and best examples.
+  ├── rank_responses_and_generate_feedback(self, input_description, suggested_method_names)
+  │   ├── Ranks the suggested method names and generates a feedback prompt based on reward scores.
+  ├── run(self)
+      ├── Executes the complete workflow from quality sample extraction to feedback prompt generation.
+
+QualitySamplesExtractor
+  ├── __init__(self, training_dataset, bert_model_name='bert-base-uncased')
+  │   ├── Initializes the QualitySamplesExtractor with a training dataset and BERT model.
+  ├── encode_text(self, text)
+  │   ├── Encodes text into a vector using BERT.
+  ├── semantic_similarity(self, vec_d, vec_m)
+  │   ├── Calculates semantic similarity between two vectors using cosine similarity.
+  ├── length_alignment(self, d, m)
+  │   ├── Calculates the length alignment score between a functional description and a method name.
+  ├── weighted_score(self, d, m)
+  │   ├── Calculates the weighted score for a functional description and a method name.
+  ├── objective_function(self, params, validation_dataset)
+  │   ├── Objective function for hyperparameter tuning.
+  ├── tune_hyperparameters(self, validation_dataset)
+  │   ├── Tunes the hyperparameters alpha and beta using the validation dataset.
+  ├── select_high_quality_samples(self, top_n=2000)
+  │   ├── Selects the top N high-quality samples based on the weighted score.
+  ├── divide_samples(self)
+      ├── Divides the high-quality samples into four distinct datasets.
+
+SFTCorpusFormation
+  ├── __init__(self, tuning_dataset)
+  │   ├── Initializes the SFTCorpusFormation with a tuning dataset.
+  ├── create_corpus_entry(self, functional_description, method_name)
+  │   ├── Creates a single entry for the SFT corpus.
+  ├── create_corpus(self)
+  │   ├── Creates the SFT corpus from the tuning dataset.
+  ├── save_corpus_to_file(self, filename)
+      ├── Saves the SFT corpus to a JSON file.
+
+BestExampleSelection
+  ├── __init__(self, candidate_dataset, model_name='bert-base-uncased')
+  │   ├── Initializes the BestExampleSelection with a candidate dataset and BERT model.
+  ├── encode_text(self, text)
+  │   ├── Encodes text into a vector using BERT.
+  ├── text_similarity(self, fd, e_d)
+  │   ├── Calculates the text similarity between two functional descriptions.
+  ├── select_best_examples(self, fd, top_n=30)
+      ├── Selects the top N best examples from the candidate dataset based on similarity to the input functional description.
+
+InContextPromptGenerator
+  ├── __init__(self, optimal_prompt_template)
+  │   ├── Initializes the InContextPromptGenerator with the optimal prompt template.
+  ├── generate_in_context_prompt(self, input_description, best_examples)
+      ├── Generates an in-context prompt by integrating the input description and best examples into the optimal prompt template.
+
+GPTFineTuner
+  ├── __init__(self, api_key, model='gpt-3.5-turbo')
+  │   ├── Initializes the GPTFineTuner with OpenAI API key and model name.
+  ├── upload_corpus(self, corpus_file)
+  │   ├── Uploads the SFT training corpus to OpenAI's servers.
+  ├── fine_tune(self, file_id)
+  │   ├── Fine-tunes the GPT model using the uploaded corpus.
+  ├── monitor_fine_tuning(self, job_id)
+      ├── Monitors the fine-tuning process until completion.
+
+GeminiFineTuner
+  ├── __init__(self, project_id, location, model_name='gemini-1')
+  │   ├── Initializes the GeminiFineTuner with Google Cloud project ID and location.
+  ├── upload_corpus(self, corpus_file)
+  │   ├── Uploads the SFT training corpus to Google Cloud Storage.
+  ├── fine_tune(self, corpus_uri)
+      ├── Fine-tunes the Gemini model using Vertex AI.
+
+LlamaFineTuner
+  ├── __init__(self, model_name='llama-3', output_dir='./results')
+  │   ├── Initializes the LlamaFineTuner with model name and output directory.
+  ├── load_dataset(self, corpus_file)
+  │   ├── Loads the SFT training corpus as a dataset.
+  ├── preprocess_function(self, examples)
+  │   ├── Preprocesses the dataset examples.
+  ├── fine_tune(self, dataset)
+      ├── Fine-tunes the Llama model using the provided dataset.
+
+RewardModel
+  ├── __init__(self, model_name='bert-base-uncased')
+  │   ├── Initializes the RewardModel with a BERT model for encoding text.
+  ├── encode_text(self, text)
+  │   ├── Encodes text into a vector using BERT.
+  ├── semantic_similarity(self, am, sm)
+  │   ├── Calculates semantic similarity between actual method name and suggested method name.
+  ├── edit_distance(self, am, sm)
+  │   ├── Calculates the edit distance between actual method name and suggested method name.
+  ├── reward_score(self, am, sm, w_sim, w_edit)
+      ├── Calculates the reward score based on semantic similarity and edit distance.
+
+ALARO
+  ├── __init__(self, learning_rate=0.01)
+  │   ├── Initializes the ALARO with a learning rate and initial weights.
+  ├── update_weights(self, R, sim, edit)
+  │   ├── Updates weights based on the reward score and learning rate.
+  ├── train_model(self, X, y, epochs=10)
+  │   ├── Trains a neural network to predict reward scores.
+  ├── predict_reward(self, X)
+      ├── Predicts reward scores using the trained model.
+
+ResponseRanker
+  ├── __init__(self, reward_model, alaro)
+  │   ├── Initializes the ResponseRanker with a reward model and ALARO.
+  ├── rank_responses(self, am, suggested_methods)
+  │   ├── Ranks suggested method names based on their reward scores.
+  ├── generate_feedback_prompt(self, am, ranked_methods)
+      ├── Generates a feedback prompt based on the ranked method names.
+
 # [Supervised Fine Tuning (SFT:) training corpus](https://github.com/propaki/Automethod/tree/main/SFT-Training-Corpus):
 The [Chinese-SFT-Training-Corpus.JSONL](https://github.com/propaki/Automethod/tree/main/SFT-Training-Corpus/Chinese-SFT-Training-Corpus.JSON) and [English-SFT-Training-Corpus.JSONL](https://github.com/propaki/Automethod/tree/main/SFT-Training-Corpus/English-SFT-Training-Corpus.JSON)  files in the "[SFT-Training-Corpus](https://github.com/propaki/Automethod/tree/main/SFT-Training-Corpus)" folder are specifically tailored for fine-tuning the Large Language Model (LLM) to enhance its capability in generating method names from functional descriptions in Chinese and English. It contains a collection of high-quality conversation samples between two individuals. Each sample comprises a pair: a functional description and the corresponding method name, meticulously extracted through the Best-Example process. This corpus aims to improve the model's accuracy and fluency in handling Chinese language inputs, ensuring the generation of contextually appropriate and conventionally accurate method names.
 ![SFT training corpus](SFTcorpus.PNG)
