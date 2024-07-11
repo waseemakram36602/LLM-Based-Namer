@@ -1,0 +1,14 @@
+Query: Using analogical reasoning, provide a method name based on the given functional description.
+
+Functional Description: < insert input functional description here >
+Output Requirements:
+Analogy: Think of the method as if you were naming a function that retrieves specific details from a library catalog.
+Step 1: Identify the main action (verb) performed in the functional description.
+Step 2: Determine the main object (noun) being acted upon.
+Step 3: Combine the verb and noun to form the method name.
+Step 4: Use Camel-Case format, starting with lowercase and capitalizing each following word.
+Step 5: Ensure the method name is concise and meaningful.
+Step 6: Avoid using Java-reserved words or keywords.
+Step 7: Do not include special characters or spaces in the method name.
+
+Examples: < plugin the selected best-shots, i.e functional descriptions and method names >
