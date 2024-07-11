@@ -44,7 +44,11 @@ mNamer
 We meticulously reproduced and implemented the baseline model in "[Source-Code](https://github.com/propaki/Automethod/tree/main/Source-Code)", which is a [RNN-Attn-Copy](https://github.com/propaki/Automethod/tree/main/Source-Code/RNN-Attn-Copy.ipynb) equipped with both attention and copying mechanisms. This advanced architecture was chosen as our benchmark for assessing the performance of alternative models due to its proven prowess in sequence-to-sequence translation tasks and its exceptional ability to grasp contextual nuances within sequences.
 
 # mNamer
-
+## Example usage
+if __name__ == "__main__":
+    mnamer = mNamer(train_file='java_train.csv', test_file='java_test.csv', valid_file='java_valid.csv')
+    mnamer.run()
+    
 This snippet gives a clear, step-by-step guide for users to replicate the study, ensuring they understand how to set up their environment correctly. Make sure to include any additional specific instructions or prerequisites needed directly in your README or linked documentation to assist users further.
 git clone https://github.com/propaki/Automethod.git
 
