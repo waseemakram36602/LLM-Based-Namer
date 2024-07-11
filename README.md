@@ -133,6 +133,27 @@ ResponseRanker
   │   ├── Ranks suggested method names based on their reward scores.
   ├── generate_feedback_prompt(self, am, ranked_methods)
       ├── Generates a feedback prompt based on the ranked method names.
+mNamer Class: Main class to handle the entire process, including loading datasets, extracting quality samples, generating prompt templates, fine-tuning models, generating in-context prompts, and ranking responses.
+
+QualitySamplesExtractor Class: Handles extracting high-quality samples, calculating similarity scores, and tuning hyperparameters.
+
+SFTCorpusFormation Class: Forms the SFT corpus by creating JSON entries and saving them to a file.
+
+BestExampleSelection Class: Selects the best examples from the candidate dataset based on text similarity.
+
+InContextPromptGenerator Class: Generates in-context prompts by integrating functional descriptions and best examples into the prompt template.
+
+GPTFineTuner Class: Handles fine-tuning the GPT model using OpenAI's API.
+
+GeminiFineTuner Class: Handles fine-tuning the Gemini model using Google Cloud's Vertex AI.
+
+LlamaFineTuner Class: Handles fine-tuning the Llama model using the Hugging Face Transformers library.
+
+RewardModel Class: Calculates semantic similarity, edit distance, and reward scores for method names.
+
+ALARO Class: Dynamically adjusts weights for reward optimization using a neural network.
+
+ResponseRanker Class: Ranks suggested method names based on reward scores and generates feedback prompts.
 
 # [Supervised Fine Tuning (SFT:) training corpus](https://github.com/propaki/Automethod/tree/main/SFT-Training-Corpus):
 The [Chinese-SFT-Training-Corpus.JSONL](https://github.com/propaki/Automethod/tree/main/SFT-Training-Corpus/Chinese-SFT-Training-Corpus.JSON) and [English-SFT-Training-Corpus.JSONL](https://github.com/propaki/Automethod/tree/main/SFT-Training-Corpus/English-SFT-Training-Corpus.JSON)  files in the "[SFT-Training-Corpus](https://github.com/propaki/Automethod/tree/main/SFT-Training-Corpus)" folder are specifically tailored for fine-tuning the Large Language Model (LLM) to enhance its capability in generating method names from functional descriptions in Chinese and English. It contains a collection of high-quality conversation samples between two individuals. Each sample comprises a pair: a functional description and the corresponding method name, meticulously extracted through the Best-Example process. This corpus aims to improve the model's accuracy and fluency in handling Chinese language inputs, ensuring the generation of contextually appropriate and conventionally accurate method names.
