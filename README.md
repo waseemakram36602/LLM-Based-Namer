@@ -20,25 +20,25 @@ mNamer Class: Main class to handle the entire process, including loading dataset
 ![mNamer.py](mNamer.PNG)
 
 QualitySamplesExtractor Class: Handles extracting high-quality samples, calculating similarity scores, and tuning hyperparameters.
-
+![QualitySamplesExtractor.py](QualitySample.PNG)
 SFTCorpusFormation Class: Forms the SFT corpus by creating JSON entries and saving them to a file.
-
+![SFTCorpusFormation.py](SFTCorpus.PNG)
 BestExampleSelection Class: Selects the best examples from the candidate dataset based on text similarity.
-
+![BestExampleSelection.py](BestExamples.PNG)
 InContextPromptGenerator Class: Generates in-context prompts by integrating functional descriptions and best examples into the prompt template.
-
+![InContextPromptGenerator.py](InContextPrompts.PNG)
 GPTFineTuner Class: Handles fine-tuning the GPT model using OpenAI's API.
-
+![GPTFineTuner.py](GPTFine.PNG)
 GeminiFineTuner Class: Handles fine-tuning the Gemini model using Google Cloud's Vertex AI.
-
+![GeminiFineTuner.py](GeminiFine.PNG)
 LlamaFineTuner Class: Handles fine-tuning the Llama model using the Hugging Face Transformers library.
-
+![LlamaFineTuner.py](LlamaFine.PNG)
 RewardModel Class: Calculates semantic similarity, edit distance, and reward scores for method names.
-
+![RewardModel.py](RewardModel.PNG)
 ALARO Class: Dynamically adjusts weights for reward optimization using a neural network.
-
+![ALARO.py](ALARO.PNG)
 ResponseRanker Class: Ranks suggested method names based on reward scores and generates feedback prompts.
-
+![ResponseRanker.py](Response.PNG)
 # [Supervised Fine Tuning (SFT:) training corpus](https://github.com/propaki/Automethod/tree/main/SFT-Training-Corpus):
 The [Chinese-SFT-Training-Corpus.JSONL](https://github.com/propaki/Automethod/tree/main/SFT-Training-Corpus/Chinese-SFT-Training-Corpus.JSON) and [English-SFT-Training-Corpus.JSONL](https://github.com/propaki/Automethod/tree/main/SFT-Training-Corpus/English-SFT-Training-Corpus.JSON)  files in the "[SFT-Training-Corpus](https://github.com/propaki/Automethod/tree/main/SFT-Training-Corpus)" folder are specifically tailored for fine-tuning the Large Language Model (LLM) to enhance its capability in generating method names from functional descriptions in Chinese and English. It contains a collection of high-quality conversation samples between two individuals. Each sample comprises a pair: a functional description and the corresponding method name, meticulously extracted through the Best-Example process. This corpus aims to improve the model's accuracy and fluency in handling Chinese language inputs, ensuring the generation of contextually appropriate and conventionally accurate method names.
 ![SFT training corpus](SFTcorpus.PNG)
