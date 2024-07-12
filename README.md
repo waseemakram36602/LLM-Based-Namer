@@ -43,7 +43,14 @@ IAM Roles: Make sure you have the necessary IAM roles assigned, such as Vertex A
 Python Environment: Have a Python environment set up with the necessary libraries installed (google-cloud-aiplatform, pandas, transformers).
   
 ![GeminiFineTuner.py](GeminiFine.PNG)
-- LlamaFineTuner Class: Handles fine-tuning the Llama model using the Hugging Face Transformers library.
+**LlamaFineTuner Class:**
+Handles fine-tuning the Llama model using the Hugging Face Transformers library.
+- Fine-tuning a language model like LLaMA 3 on the Hugging Face platform involves several key steps. This guide will take you through the process, from setting up your environment to preparing your data and executing the fine-tuning.
+
+- Prerequisites
+Hugging Face Account: Ensure you have a Hugging Face account.
+Hugging Face Token: Obtain an access token from your Hugging Face account settings.
+Python Environment: Set up a Python environment with the necessary libraries (transformers, datasets, accelerate).
 ![LlamaFineTuner.py](LlamaFine.PNG)
 - RewardModel Class: Calculates semantic similarity, edit distance, and reward scores for method names.
 ![RewardModel.py](RewardModel.PNG)
