@@ -27,9 +27,15 @@ mNamer
 ![BestExampleSelection.py](BestExamples.PNG)
 - InContextPromptGenerator Class: Generates in-context prompts by integrating functional descriptions and best examples into the prompt template.
 ![InContextPromptGenerator.py](InContextPrompts.PNG)
-- GPTFineTuner Class: Handles fine-tuning the GPT model using OpenAI's API.
+**GPTFineTuner Class: Handles fine-tuning the GPT model using OpenAI's API.**
+- Fine-tuning GPT-3.5-Turbo involves a few steps, including preparing your dataset, creating a fine-tuning job, and then using the fine-tuned model. Here is a detailed guide to walk you through the process:
+- Prerequisites:
+OpenAI Account: Ensure you have an OpenAI account with API access.
+API Key: Obtain your API key from the OpenAI dashboard.
+Python Environment: Set up a Python environment with necessary libraries (openai).
 ![GPTFineTuner.py](GPTFine.PNG)
-- Fine-tuning a language model like Gemini on Google Cloud's Vertex AI involves several steps, including setting up your environment, preparing your data, configuring the fine-tuning process, and executing the fine-tuning job. Here’s a detailed guide to help you through the process:
+**Fine-tuning of Gemini on Google Cloud's Vertex AI involves several steps**:
+- Including setting up your environment, preparing your data, configuring the fine-tuning process, and executing the fine-tuning job. Here’s a detailed guide to help you through the process:
 - Prerequisites
 Google Cloud Account: Ensure you have a Google Cloud account and project set up.
 Vertex AI API Enabled: Enable the Vertex AI API in your Google Cloud project.
