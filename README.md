@@ -29,7 +29,13 @@ mNamer
 ![InContextPromptGenerator.py](InContextPrompts.PNG)
 - GPTFineTuner Class: Handles fine-tuning the GPT model using OpenAI's API.
 ![GPTFineTuner.py](GPTFine.PNG)
-- GeminiFineTuner Class: Handles fine-tuning the Gemini model using Google Cloud's Vertex AI.
+- Fine-tuning a language model like Gemini on Google Cloud's Vertex AI involves several steps, including setting up your environment, preparing your data, configuring the fine-tuning process, and executing the fine-tuning job. Here’s a detailed guide to help you through the process:
+- Prerequisites
+Google Cloud Account: Ensure you have a Google Cloud account and project set up.
+Vertex AI API Enabled: Enable the Vertex AI API in your Google Cloud project.
+IAM Roles: Make sure you have the necessary IAM roles assigned, such as Vertex AI Admin and Storage Admin.
+Python Environment: Have a Python environment set up with the necessary libraries installed (google-cloud-aiplatform, pandas, transformers).
+  
 ![GeminiFineTuner.py](GeminiFine.PNG)
 - LlamaFineTuner Class: Handles fine-tuning the Llama model using the Hugging Face Transformers library.
 ![LlamaFineTuner.py](LlamaFine.PNG)
