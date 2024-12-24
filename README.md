@@ -8,6 +8,16 @@ There are two datasets are used to evalatute the approach
 - [Chinese Dataset:](https://github.com/waseemakram36602/LLM-Based-Namer/tree/main/Datasets/Chinese-Dataset) Method Names with Chinese Functional Descriptions. The Dataset organized from [Java 11 API Reference](https://www.apiref.com/java11-zh/java.base/module-summary.html)
 - [Unseen Dataset:](https://github.com/waseemakram36602/LLM-Based-Namer/tree/main/Datasets/UnseenData) Method Names with Chinese Functional Descriptions from offline private dataset. 
 Each dataset is crucial for training and evaluating the models to ensure they perform effectively across linguistic boundaries.
+# BaseLines
+The source code for the applied baseline approaches is provided below: 
+## Deep Learning-based Baseline
+- [RNN-att-Copy](https://github.com/waseemakram36602/LLM-Based-Namer/blob/main/Baseline_Code/RNN_Copy_Attn/RNN_README.md) 
+- [CodeBERT](https://github.com/waseemakram36602/LLM-Based-Namer/blob/main/Baseline_Code/CodeBERT/CodeBERT_README.md)
+- [UniXcoder](https://github.com/waseemakram36602/LLM-Based-Namer/blob/main/Baseline_Code/UniXcoder/UniXcoder_README.md)
+## Large Language Model-based Baselines
+- [ChatGPT-4o](https://github.com/waseemakram36602/LLM-Based-Namer/blob/main/LLMs-Code/ChatGPT/ChatGPT_README.md)
+- [Llama 3](https://github.com/waseemakram36602/LLM-Based-Namer/blob/main/LLMs-Code/Llama3/Llama3_README.md) 
+- [Gemini 1.5](https://github.com/waseemakram36602/LLM-Based-Namer/blob/main/LLMs-Code/Gemini/Gemini_README.md)
 # LangInsightCraft
 ## Source Code
 The source code complete project is in the folder [LangInsightCraft](https://github.com/waseemakram36602/LLM-Based-Namer/tree/main/LangInsightCraft)
@@ -72,32 +82,44 @@ You can install all the required dependencies using the following command:
 
 ```bash
 pip install torch sentence-transformers pandas openai
+```
+```bash
+# Main script to generate method names
 
-# BaseLines
-The source code for the applied baseline approaches is provided below: 
-## Deep Learning-based Baseline
-- [RNN-att-Copy](https://github.com/waseemakram36602/LLM-Based-Namer/blob/main/Baseline_Code/RNN_Copy_Attn/RNN_README.md) 
-- [CodeBERT](https://github.com/waseemakram36602/LLM-Based-Namer/blob/main/Baseline_Code/CodeBERT/CodeBERT_README.md)
-- [UniXcoder](https://github.com/waseemakram36602/LLM-Based-Namer/blob/main/Baseline_Code/UniXcoder/UniXcoder_README.md)
-## Large Language Model-based Baselines
-- [ChatGPT-4o](https://github.com/waseemakram36602/LLM-Based-Namer/blob/main/LLMs-Code/ChatGPT/ChatGPT_README.md)
-- [Llama 3](https://github.com/waseemakram36602/LLM-Based-Namer/blob/main/LLMs-Code/Llama3/Llama3_README.md) 
-- [Gemini 1.5](https://github.com/waseemakram36602/LLM-Based-Namer/blob/main/LLMs-Code/Gemini/Gemini_README.md)
+from lang_insight_craft import LangInsightCraft
 
+def main():
+    # Initialize LangInsightCraft with the path to your CSV file containing examples
+    csv_file_path = "path/to/java_train.csv"
+    lang_insight_craft = LangInsightCraft(csv_file_path)
 
-# LangInsightCraft
-LangInsightCraft | |-- BestExample | |-- init(self) | |-- get_sentence_embedding(self, text) | |-- find_top_n_similar_descriptions(self, input_description, n=10) | |-- ContextualInformationExtraction (CIE) | |-- init(self) | |-- extract_entities(self, description) | |-- extract_actions(self, description) | |-- extract_context_scope(self, description, entities, actions) | |-- extract_contextual_info(self, description) | |-- PotentialNameEvaluation (PNE) | |-- init(self) | |-- calculate_edit_distance(self, generated_name, actual_name) | |-- calculate_semantic_similarity(self, generated_name, actual_name) | |-- evaluate_method_name_score(self, edit_distance, semantic_similarity) | |-- evaluate_method_names(self, generated_methods, actual_method) | |-- GenerativeInsightReasoning | |-- init(self) | |-- generate_reasoning_for_method(self, method_name, entities, actions, context_scope, edit_distance, semantic_similarity) | |-- generate_all_insights(self, ranked_method_names, entities, actions, context_scope) | |-- Main | |-- init(self) | |-- run(self, input_description, csv_file_path)
-## Example usage
-if __name__ == "__main__":
-    LangInsightCraft = LangInsightCraft(train_file='java_train.csv', test_file='java_test.csv', valid_file='java_valid.csv')
-    LangInsightCraft.run()
+    # Example functional description you want to process
+    input_description = "Calculate the total price including taxes and discounts for an order."
+
+    # Generate the context-enriched prompt
+    context_enriched_prompt = lang_insight_craft.create_context_enriched_prompt(input_description)
+
+    # Print the context-enriched prompt
+    print("Context-Enriched Prompt:")
+    print(context_enriched_prompt)
+
+    # The context-enriched prompt can now be passed to an LLM (e.g., OpenAI GPT-4) for generating method names.
+    # You can use the OpenAI API or any other language model for this purpose.
+    # Example: (This part is hypothetical and depends on the LLM being used)
+
+     response = openai.ChatCompletion.create(
+         model="gpt-4",
+         messages=[{"role": "system", "content": context_enriched_prompt}]
+    )
     
-This snippet gives a clear, step-by-step guide for users to replicate the study, ensuring they understand how to set up their environment correctly. Make sure to include any additional specific instructions or prerequisites needed directly in your README or linked documentation to assist users further.
-git clone https://github.com/waseemakram36602/LLM-Based-Namer.git
+    print("Generated Method Names:")
+    print(response.choices[0].message['content'])
 
-Getting Started
-To get started with LangInsightCraft:
-Install the required dependencies: pip install -r requirements.txt
-Follow the instructions in the usage_instructions.md file for detailed steps on how to train and evaluate the models using the provided datasets and prompts.
-Contribution
-Contributions to LLM-MethodNamer are welcome. If you have suggestions for improvement or want to report bugs, please open an issue or submit a pull request.
+if __name__ == "__main__":
+    main()
+
+```
+
+### **Note:**
+- You can adjust the parameters, like the number of examples (`n`) in `create_context_enriched_prompt()`, to suit your needs.
+- The actual method name generation part (via OpenAI API or other LLMs) depends on the LLM's response, which will be dynamically generated based on the prompt.
