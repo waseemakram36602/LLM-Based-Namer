@@ -1,6 +1,6 @@
 # UniXcoder Method Name Prediction
 
-This project fine-tunes the UniXcoder model to predict method names from functional descriptions for both Java and Python datasets. It uses Hugging Face's `transformers` library for model fine-tuning and testing.
+This project fine-tunes the UniXcoder model to predict method names from functional descriptions for both Java and Chinese datasets. It uses Hugging Face's `transformers` library for model fine-tuning and testing.
 
 ## Project Structure
 
@@ -11,7 +11,7 @@ unixcoder_project/
 ├── UniXcoder_FineTune.py   # Module to fine-tune the UniXcoder model
 ├── UniXcoder_Test.py       # Module to test the fine-tuned UniXcoder model
 ├── main.py                 # Main script for Java dataset (java_train.csv, java_test.csv)
-├── python_main.py          # Main script for Python dataset (python_train.csv, python_test.csv)
+├── Chinese_main.py          # Main script for Chinese dataset (java_train.csv, java_test.csv)
 └── requirements.txt        # Required Python libraries
 ```
 ## Requirements
@@ -22,8 +22,8 @@ pip install -r requirements.txt
 ```
 ## How to Run
 ```bash
-python main.py
+Chinese main.py
 ```
 ```bash
-python python_main.py
+python Chinese_main.py
 ```
