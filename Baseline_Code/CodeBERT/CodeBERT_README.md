@@ -1,6 +1,6 @@
 # CodeBERT Method Name Prediction
 
-This project fine-tunes the CodeBERT model to predict method names from functional descriptions for both Java and Python datasets. It uses Hugging Face's `transformers` library for model fine-tuning and testing.
+This project fine-tunes the CodeBERT model to predict method names from functional descriptions for both Java and Chinese datasets. It uses Hugging Face's `transformers` library for model fine-tuning and testing.
 
 ## Project Structure
 
