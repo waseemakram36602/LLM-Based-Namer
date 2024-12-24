@@ -22,6 +22,7 @@ The source code for the applied baseline approaches is provided below:
 
 
 # LangInsightCraft
+LangInsightCraft | |-- BestExample | |-- init(self) | |-- get_sentence_embedding(self, text) | |-- find_top_n_similar_descriptions(self, input_description, n=10) | |-- ContextualInformationExtraction (CIE) | |-- init(self) | |-- extract_entities(self, description) | |-- extract_actions(self, description) | |-- extract_context_scope(self, description, entities, actions) | |-- extract_contextual_info(self, description) | |-- PotentialNameEvaluation (PNE) | |-- init(self) | |-- calculate_edit_distance(self, generated_name, actual_name) | |-- calculate_semantic_similarity(self, generated_name, actual_name) | |-- evaluate_method_name_score(self, edit_distance, semantic_similarity) | |-- evaluate_method_names(self, generated_methods, actual_method) | |-- GenerativeInsightReasoning | |-- init(self) | |-- generate_reasoning_for_method(self, method_name, entities, actions, context_scope, edit_distance, semantic_similarity) | |-- generate_all_insights(self, ranked_method_names, entities, actions, context_scope) | |-- Main | |-- init(self) | |-- run(self, input_description, csv_file_path)
 ## Example usage
 if __name__ == "__main__":
     LangInsightCraft = LangInsightCraft(train_file='java_train.csv', test_file='java_test.csv', valid_file='java_valid.csv')
