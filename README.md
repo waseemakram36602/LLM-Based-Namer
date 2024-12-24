@@ -1,8 +1,7 @@
-![Banner](Mnamer.png)
 # Replication package for paper : "A Cross-Language Approach to Recommending Method Names According to Functional Descriptions"
 
 # Introduction:
-mNamer introduces a novel approach to automatically suggesting high-quality Java method names using large language models (LLMs). Leveraging LLMs' advanced understanding capabilities for natural language descriptions of method functionalities, mNamer combines specialized pre-processing and customized post-processing techniques. This method aims to align generated names with established naming conventions, enhancing code readability and maintainability.
+This paper introduces a novel approach to automatically suggesting high-quality Java method names using large language models (LLMs). Leveraging LLMs' advanced understanding capabilities for natural language descriptions of method functionalities, this approach introduces an algorithm called LangInsightCraft to generate context-enriched prompts that align generated names with established naming conventions, enhancing code readability and maintainability.
 # Datasets:
 There are two datasets are used to evalatute the approach
 - [English Dataset:](https://github.com/waseemakram36602/LLM-Based-Namer/tree/main/Datasets/English-Dataset) Method Names with English Functional Descriptions (Dataset of Baseline).
