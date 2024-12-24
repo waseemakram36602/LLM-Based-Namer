@@ -75,6 +75,17 @@ To run the LangInsightCraft project, you need to have the following dependencies
 - **sentence-transformers**: Used for generating sentence embeddings with pre-trained models like `all-mpnet-base-v2`.
 - **pandas**: Used for reading and handling CSV files.
 - **openai**: Required to interact with the OpenAI API for generating method names.
+## OpenAI API Setup
+
+To interact with the OpenAI API (for generating potential method names), you'll need an API key. Sign up for an OpenAI account and get your API key from [here](https://platform.openai.com/signup).
+
+### Set your OpenAI API key as an environment variable:
+
+In your terminal, use the following command to set your API key as an environment variable:
+
+```bash
+export OPENAI_API_KEY="your-api-key-here"
+```
 
 ### Installation:
 
