@@ -12,8 +12,8 @@ def load_data_from_csv(file_path):
 
 def main():
     # File paths for training and testing data
-    train_file = "/mnt/data/English_train.csv"
-    test_file = "/mnt/data/English_test.csv"
+    train_file = "/mnt/Datasets/English_Dataset/java_train.csv"
+    test_file = "/mnt/Datasets/English_Dataset/java_test.csv"
     tokenizer_path = "path/to/tokenizer"  # Set the path to your tokenizer model
 
     # Hyperparameters
