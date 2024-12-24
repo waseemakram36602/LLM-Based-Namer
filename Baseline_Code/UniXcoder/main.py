@@ -5,8 +5,8 @@ import pandas as pd
 
 def main():
     # File paths for Java-specific dataset
-    train_file = "/mnt/data/java_train.csv"
-    test_file = "/mnt/data/java_test.csv"
+    train_file = "/mnt/data/English_train.csv"
+    test_file = "/mnt/data/English_test.csv"
     
     # Load and preprocess the data
     data_loader = DataLoad(train_file, test_file)
