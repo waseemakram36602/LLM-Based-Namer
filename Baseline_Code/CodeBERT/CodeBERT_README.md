@@ -11,7 +11,7 @@ codebert_project/
 ├── CodeBERT_FineTune.py    # Module to fine-tune the CodeBERT model
 ├── CodeBERT_Test.py        # Module to test the fine-tuned CodeBERT model
 ├── main.py                 # Main script for Java dataset (java_train.csv, java_test.csv)
-├── python_main.py          # Main script for Python dataset (python_train.csv, python_test.csv)
+├── Chinese_main.py          # Main script for Chinese dataset (_train.csv, python_test.csv)
 └── requirements.txt        # Required Python libraries
 
 ```
