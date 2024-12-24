@@ -4,7 +4,7 @@ from CodeBERT_Test import CodeBERT_Test
 import pandas as pd
 
 def main():
-    # File paths for Python-specific dataset
+    # File paths for Chinese-specific dataset
     train_file = "/mnt/Datasets/Chinese_Dataset/java_train.csv"
     test_file = "/mnt/Datasets/Chinese_Dataset/java_test.csv"
     
