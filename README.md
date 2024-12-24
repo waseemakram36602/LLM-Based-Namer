@@ -52,7 +52,26 @@ The source code complete project is in the folder [LangInsightCraft](https://git
 
 ---
 
-This hierarchy ensures that each class has a specific role in the pipeline, and the workflow remains clean and modular. The **LangInsightCraft** class integrates the entire process, providing an easy-to-use interface for generating method names from functional descriptions.
+The **LangInsightCraft** class integrates the entire process, providing an easy-to-use interface for generating method names from functional descriptions.
+## Requirements
+
+To run the LangInsightCraft project, you need to have the following dependencies installed. These dependencies can be easily installed using **pip**.
+
+### System Requirements:
+- Python 3.7 or higher
+
+### Python Libraries:
+- **torch**: Required for PyTorch-based embeddings and models.
+- **sentence-transformers**: Used for generating sentence embeddings with pre-trained models like `all-mpnet-base-v2`.
+- **pandas**: Used for reading and handling CSV files.
+- **openai**: Required to interact with the OpenAI API for generating method names.
+
+### Installation:
+
+You can install all the required dependencies using the following command:
+
+```bash
+pip install torch sentence-transformers pandas openai
 
 # BaseLines
 The source code for the applied baseline approaches is provided below: 
