@@ -1,4 +1,4 @@
-# Replication package for paper : "A Cross-Language Approach to Recommending Method Names According to Functional Descriptions"
+# Replication package for the paper: "A Cross-Language Approach to Recommending Method Names According to Functional Descriptions"
 
 # Introduction:
 This paper introduces a novel approach to automatically suggesting high-quality Java method names using large language models (LLMs). Leveraging LLMs' advanced understanding capabilities for natural language descriptions of method functionalities, this approach introduces an algorithm called LangInsightCraft to generate context-enriched prompts that align generated names with established naming conventions, enhancing code readability and maintainability.
