@@ -26,7 +26,7 @@ columns: **Functional Description**, **Method Name** and **Prompt**
 1. `LangInsightCraft_Default.csv`:
 2. `LangInsightCraft_Diable_CIE.csv`
 3. `LangInsightCraft_Diable_PNE.csv`
-4. `LangInsightCraft_Diable_GIR.csv``
+4. `LangInsightCraft_Diable_GIR.csv`
 5. `Few_Shot.csv`
 # LangInsightCraft (Implementation)
 ## Source Code
