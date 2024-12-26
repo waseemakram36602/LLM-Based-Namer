@@ -21,7 +21,7 @@ The source code and implementation of the applied baseline approaches are provid
 - [Gemini 1.5](https://github.com/waseemakram36602/LLM-Based-Namer/blob/main/LLMs-Code/Gemini/Gemini_README.md)
 # Generated Context-Enrich Prompts for TestDataset (by LangInsightCraft algorithm)
 **For ease of reproduction of results without implementations** of LangInsightCraft algorithm, the generated prompts for default settings, along with the discussed settings (RQ2: Ablation Study of Component Contributions to
-Performance) and Few-shot(bestExamples) are provided in the at this link: https://drive.google.com/drive/folders/1tWP0Jm0VamOiNNw0RHJZBwT1-QYtIUr8?usp=drive_link . This folder contains csv files for test dataset with three
+Performance) and Few-shot(bestExamples) are provided in the at this link: https://drive.google.com/drive/folders/1tWP0Jm0VamOiNNw0RHJZBwT1-QYtIUr8?usp=sharing . This folder contains csv files for test dataset with three
 columns: **Functional Description**, **Method Name** and **Prompt**
 
 1. `LangInsightCraft_Default.csv`:
