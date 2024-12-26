@@ -9,7 +9,7 @@ There are two datasets are used to evalatute the approach
 - [Unseen Dataset:](https://github.com/waseemakram36602/LLM-Based-Namer/tree/main/Datasets/UnseenData) Method Names with Chinese Functional Descriptions from offline private dataset. 
 Each dataset is crucial for training and evaluating the models to ensure they perform effectively across linguistic boundaries.
 # BaseLines
-The source code for the applied baseline approaches is provided below: 
+The source code and implementation of the applied baseline approaches are provided below: 
 ## Deep Learning-based Baseline
 - [RNN-att-Copy](https://github.com/waseemakram36602/LLM-Based-Namer/blob/main/Baseline_Code/RNN_Copy_Attn/RNN_README.md) 
 - [CodeBERT](https://github.com/waseemakram36602/LLM-Based-Namer/blob/main/Baseline_Code/CodeBERT/CodeBERT_README.md)
@@ -18,6 +18,16 @@ The source code for the applied baseline approaches is provided below:
 - [ChatGPT-4o](https://github.com/waseemakram36602/LLM-Based-Namer/blob/main/LLMs-Code/ChatGPT/ChatGPT_README.md)
 - [Llama 3](https://github.com/waseemakram36602/LLM-Based-Namer/blob/main/LLMs-Code/Llama3/Llama3_README.md) 
 - [Gemini 1.5](https://github.com/waseemakram36602/LLM-Based-Namer/blob/main/LLMs-Code/Gemini/Gemini_README.md)
+# Context-Enrich Generated Prompts
+For ease of reproduction, the generated prompts for default settings, along with the discussed settings (RQ2: Ablation Study of Component Contributions to
+Performance) and Few-shot(bestExamples) are provided in the "Generated Context-Erich Prompts" folder. This folder contains csv files for test dataset with three
+columns: **Functional Description**, **Method Name** and **Prompt**
+
+1. `LangInsightCraft_Default.csv`:
+2. `LangInsightCraft_Diable_CIE.csv`
+3. `LangInsightCraft_Diable_PNE.csv`
+4. `LangInsightCraft_Diable_GIR.csv``
+5. `Few_Shot.csv`
 # LangInsightCraft
 ## Source Code
 The source code complete project is in the folder [LangInsightCraft](https://github.com/waseemakram36602/LLM-Based-Namer/tree/main/LangInsightCraft)
