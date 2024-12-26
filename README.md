@@ -19,8 +19,8 @@ The source code and implementation of the applied baseline approaches are provid
 - [ChatGPT-4o](https://github.com/waseemakram36602/LLM-Based-Namer/blob/main/LLMs-Code/ChatGPT/ChatGPT_README.md)
 - [Llama 3](https://github.com/waseemakram36602/LLM-Based-Namer/blob/main/LLMs-Code/Llama3/Llama3_README.md) 
 - [Gemini 1.5](https://github.com/waseemakram36602/LLM-Based-Namer/blob/main/LLMs-Code/Gemini/Gemini_README.md)
-# Generated Context-Enrich Prompts of TestDataset (by LangInsightCraft algorithm)
-For ease of reproduction of results without implementations of LangInsightCraft algorithm, the generated prompts for default settings, along with the discussed settings (RQ2: Ablation Study of Component Contributions to
+# Generated Context-Enrich Prompts for TestDataset (by LangInsightCraft algorithm)
+**For ease of reproduction of results without implementations** of LangInsightCraft algorithm, the generated prompts for default settings, along with the discussed settings (RQ2: Ablation Study of Component Contributions to
 Performance) and Few-shot(bestExamples) are provided in the "Generated Context-Erich Prompts" folder. This folder contains csv files for test dataset with three
 columns: **Functional Description**, **Method Name** and **Prompt**
 
