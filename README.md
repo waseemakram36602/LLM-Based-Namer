@@ -98,13 +98,9 @@ In your terminal, use the following command to set your API key as an environmen
 export OPENAI_API_KEY="your-api-key-here"
 ```
 
-### Installation:
+### Usage Example:
 
-You can install all the required dependencies using the following command:
 
-```bash
-pip install torch sentence-transformers pandas openai
-```
 ```bash
 # Main script to generate method names
 
