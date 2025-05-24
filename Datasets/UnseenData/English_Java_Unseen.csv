@@ -49,9 +49,3 @@ handleStudentConflictExceptions	Manage and resolve special exceptions related to
 logStudentConflictResolution	Record actions taken to resolve student conflicts.
 analyzeStudentConflictData	Analyze conflict data to identify common issues and propose improvements.
 identifyStudentConflictPatterns	Detect patterns in student conflicts by reviewing historical data.
-suggestStudentConflictResolutions	Provide automated suggestions for resolving student conflicts.
-implementStudentConflictResolutions	Apply solutions to resolve student conflicts in the timetable.
-monitorStudentConflictResolution	Track the status of conflict resolutions to ensure no new conflicts arise.
-updateStudentConflictSettings	Modify settings related to student conflict handling.
-getTimeTableStudentConstraints	Retrieve a list of constraints related to student schedules.
-setTimeTableStudentConstraints	Define or modify the constraints governing student schedules.
