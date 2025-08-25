@@ -1,0 +1,1001 @@
+删除之前注册的accounts更新监听,removeOnAccountsUpdatedListener
+动画取消通知,onAnimationCancel
+返回animator是否暂停,isPaused
+从res加载动画对象,loadAnimator
+设置autoCancel当其他animator启动时自动取消,setAutoCancel
+动画时间更新通知,onTimeUpdate
+设置动画fraction,setCurrentFraction
+设置动画重复次数,setRepeatCount
+设置动画repeatMode,setRepeatMode
+设置是否显示自定义视图,setDisplayShowCustomEnabled
+设置是否显示标题,setDisplayShowTitleEnabled
+设置homeAsUp指示器,setHomeAsUpIndicator
+设置home按钮启用,setHomeButtonEnabled
+关闭上下文菜单,closeContextMenu
+强制完成startActivityForResult,finishActivity
+权限请求结果回调,onRequestPermissionsResult
+设置activity方向,setRequestedOrientation
+显示锁定任务退出提示,showLockTaskEscapeMessage
+阻止view显示上下文菜单,unregisterForContextMenu
+应用主题资源,onApplyThemeResource
+用户即将离开activity时调用,onUserLeaveHint
+低内存设备返回true,isLowRamDevice
+模拟进程终止,onTerminate
+停止监听AppOps模式,stopWatchingMode
+activity创建fragment回调,onActivityCreated
+返回移动网络下载最大字节,null无限制,getMaxBytesOverMobile
+设置选中group,setSelectedGroup
+fragment是否恢复状态,isResumed
+设置fragment初始savedState,setInitialSavedState
+销毁loader,doLoaderDestroy
+从fragment启动activity,onStartActivityFromFragment
+是否使用fragment manager inflater factory,onUseFragmentManagerInflaterFactory
+事务是否允许addToBackStack,isAddToBackStackAllowed
+设置自定义动画,setCustomAnimations
+测试instrumentation monitor是否命中,checkMonitorHit
+获取带flag的UiAutomation,getUiAutomation
+同步发送keyDownUp,sendKeyDownUpSync
+重新启用键盘锁,reenableKeyguard
+获取用于查询intent的目标intent,getTargetIntent
+设置允许自动生成回复,setAllowGeneratedReplies
+设置大图片通知,bigPicture
+添加相关人员,addPerson
+只提醒一次,setOnlyAlertOnce
+返回未读conversation,getUnreadConversation
+设置大内容标题,internalSetBigContentTitle
+获取内容intent会启动activity的hint,getHintContentIntentLaunchesActivity
+滚动从底部开始,setStartScrollBottom
+设置进度数字格式,setProgressNumberFormat
+允许自由输入,setAllowFreeFormInput
+检查是否启用语音搜索,getVoiceSearchEnabled
+是否加入全局搜索,shouldIncludeInGlobalSearch
+服务重新绑定时调用,onRebind
+低开销drawable,getFastDrawable
+建议壁纸尺寸,suggestDesiredDimensions
+获取设备管理员组件,getWho
+移除跨profile widget provider,removeCrossProfileWidgetProvider
+设置应用隐藏,setApplicationHidden
+设置全局HTTP代理,setRecommendedGlobalProxy
+设置限制provider,setRestrictionsProvider
+设置support消息,setShortSupportMessage
+获取web uri或null,getWebUri
+返回辅助窗口节点数,getWindowNodeCount
+返回id包名,getIdPackage
+返回文本背景色,getTextBackgroundColor
+设置作业间隔,getIntervalMillis
+获取激活次数,getActivationCount
+桶间隔内传输字节,getTxBytes
+分配appWidgetId,allocateAppWidgetId
+设置view显示appWidget,setAppWidget
+检查A2DP是否播放音乐,isA2dpPlaying
+获取profile连接状态,getProfileConnectionState
+获取蓝牙扫描模式,getScanMode
+支持卸载过滤返回true,isOffloadedFilteringSupported
+创建不安全RFCOMM socket,createInsecureRfcommSocketToServiceRecord
+写characteristic,writeCharacteristic
+返回characteristic存储的float值,getFloatValue
+清除所有service,clearServices
+返回service包含characteristics列表,getCharacteristics
+发送vendor result code,sendVendorSpecificResultCode
+返回应用角色,getRole
+获取socket输入流,getInputStream
+设置设备地址过滤器,setDeviceAddress
+创建URI clipData,newUri
+获取本地contentProvider引用,getLocalContentProvider
+添加selection反向引用,withSelectionBackReference
+添加value反向引用,withValueBackReferences
+创建更新builder,newUpdate
+注册content observer,registerContentObserver
+追加id到路径,withAppendedId
+检查进程是否有权限,checkPermission
+创建deviceProtectedStorageContext,createDeviceProtectedStorageContext
+删除私有文件,deleteFile
+强制检查URI权限,enforceCallingUriPermission
+获取系统服务名称,getSystemServiceName
+生成filter哈希Code,filterHashCode
+从intent获取char extra,getCharExtra
+获取int[] extra,getIntArrayExtra
+获取String[] extra,getStringArrayExtra
+创建主activity intent,makeMainActivity
+设置intent包名,setPackage
+创建快捷方式图标,fromContext
+返回类别迭代器,categoriesIterator
+读取intent sender或null,readIntentSenderOrNullFromParcel
+提交内容变更,commitContentChanged
+设置所有选中值,setAllSelectedStrings
+设置int值,setIntValue
+转换限制到bundle,convertRestrictionsToBundle
+生成调试字符串,toDebugString
+返回主题资源id,getThemeResource
+返回banner资源id,getBannerResource
+包可用通知,onPackagesAvailable
+检查包是否启用,isPackageEnabled
+活动状态变更,onActiveChanged
+徽章变更,onBadgingChanged
+设置referrer URI,setReferrerUri
+加载未标记图标,loadUnbadgedIcon
+加载xml元数据,loadXmlMetaData
+异步添加权限,addPermissionAsync
+获取activity logo,getActivityLogo
+获取应用图标,getApplicationIcon
+获取instrumentation信息,getInstrumentationInfo
+获取provider信息,getProviderInfo
+查询content providers,queryContentProviders
+查询intent services,queryIntentServices
+toChars结果转string,toCharsString
+检测是否需要新资源,needNewResources
+获取基础属性,obtainAttributes
+打开原始资源流,openRawResource
+返回通知URI,getNotificationUri
+光标是否在最后一行后,isAfterLast
+光标是否在第一行,isFirst
+获取包装cursor,getWrappedCursor
+cursor long写入map,cursorLongToContentValues
+设置selection参数,setSelectionArguments
+cursor停用时调用,cursorDeactivated
+获取附加数据库列表,getAttachedDbs
+清除绑定,clearBindings
+追加列名,appendColumns
+获取手势库条目,getGestureEntries
+设置手势方向,setOrientationStyle
+创建缩放bitmap,createScaledBitmap
+准备绘制,prepareToDraw
+绘制bitmap mesh,drawBitmapMesh
+填充画布,drawPaint
+返回color-int,argb
+设置颜色轴旋转,setRotate
+设置关键帧,setKeyFrame
+轮廓是否可裁剪,canClip
+设置rect,setRect
+返回文本路径,getTextPath
+获取typeface,getTypeface
+检查字形支持,hasGlyph
+设置抗锯齿,setAntiAlias
+设置假粗体,setFakeBoldText
+添加圆形路径,addCircle
+返回填充类型,getFillType
+添加lineTo,lineTo
+detach GL上下文,detachFromGlContext
+压缩YUV到JPEG,compressToJpeg
+返回不透明度,getOpacity
+设置tileModeX,setTileModeX
+返回渐变中心x,getGradientCenterX
+创建bitmap icon,createWithBitmap
+设置不透明度,setOpacity
+获取canvas,getCanvas
+渲染为bitmap,render
+设置AF移动监听,setAutoFocusMoveCallback
+缩放变化回调,onZoomChange
+获取闪光模式,getFlashMode
+返回JPEG质量,getJpegQuality
+获取支持视频尺寸,getSupportedVideoSizes
+设置GPS经度,setGpsLongitude
+取消trigger sensor,cancelTriggerSensor
+获取旋转矩阵,getRotationMatrix
+capture buffer丢失回调,onCaptureBufferLost
+capture开始回调,onCaptureStarted
+突发capture,captureBurst
+返回可用capture request keys,getAvailableCaptureRequestKeys
+获取输出最小帧间隔,getOutputMinFrameDuration
+注销input device监听,unregisterInputDeviceListener
+queue端点数据,queue
+判断ISO控制字符,isISOControl
+判断字母或数字,isLetterOrDigit
+判断小写,isLowerCase
+BigDecimal转float,floatValue
+BigDecimal转int,intValue
+返回未缩放值,unscaledValue
+获取最大label数,getMaxLabelCount
+设置溢出label,setOverflowLabel
+返回月份字符串,getMonths
+获取日期时间格式,getDateTimeFormat
+设置附加项格式,setAppendItemFormat
+返回负后缀,getNegativeSuffix
+获取解析最大数字,getParseMaxDigits
+返回正前缀,getPositivePrefix
+是否必须匹配小数点,isDecimalPatternMatchRequired
+返回指数分隔符,getExponentSeparator
+设置指数分隔符,setExponentSeparator
+设置零数字,setZeroDigit
+返回参数名,getArgumentNames
+使用命名参数返回true,usesNamedArguments
+返回arg类型,getArgType
+返回NFD Normalizer2实例,getNfdInstance
+判断边界后,hasBoundaryAfter
+返回标准化子串,spanQuickCheckYes
+返回百分比格式,getPercentInstance
+返回舍入模式,getRoundingMode
+判断编号系统是否算法,isAlgorithmic
+创建复数规则,createRules
+设置alternate handling,setAlternateHandlingShifted
+设置时区格式,setTimeZoneFormat
+格式化ISO8601偏移,formatOffsetIso8601Extended
+格式化本地化GMT偏移,formatOffsetLocalizedGmt
+返回GMT偏移模式,getGmtOffsetPattern
+设置索引到start,setToStart
+unicode set跨度字符串,span
+返回最小最大值,getLeastMaximum
+计算Julian天数,computeJulianDay
+验证字段范围,validateFields
+获取计算类型,getCalculationType
+判断规则相同,hasSameRules
+设置region,setRegion
+返回字符方向,getCharacterOrientation
+返回行方向,getLineOrientation
+输入法窗口隐藏时调用,onWindowHidden
+更新extracted text,updateExtractedText
+返回国家码,getCountryCode
+返回国家名称,getCountryName
+返回速度精度,getSpeedAccuracy
+是否必须提供bearing,isBearingRequired
+设置bearing精度,setBearingAccuracy
+设置bearing必须,setBearingRequired
+设置功率需求,setPowerRequirement
+根据地名返回地址,getFromLocationName
+是否有时间不确定纳秒,hasTimeUncertaintyNanos
+是否有SNR,hasSnrInDb
+返回bearing角度,bearingTo
+设置elapsedRealtimeNanos,setElapsedRealtimeNanos
+返回铃声模式,getRingerMode
+是否有音乐活跃,isMusicActive
+播放按键音,playSoundEffect
+注销音频设备回调,unregisterAudioDeviceCallback
+返回置信度,confidence
+图像释放回调,onImageReleased
+将jet segment入队,queueJetSegmentMuteArray
+dequeue outputBuffer,dequeueOutputBuffer
+返回inputBuffer可写ByteBuffer,getInputBuffer
+获取输入格式,getInputFormat
+返回inputImage,getInputImage
+获取audio能力,getAudioCapabilities
+返回编码复杂度范围,getComplexityRange
+返回支持视频高度,getSupportedHeights
+判断是否需要安全解码器,requiresSecureDecoderComponent
+设置icon,setIconBitmap
+创建crypto session,getCryptoSession
+返回keyId,getKeyId
+取消track选择,unselectTrack
+取消选择track,deselectTrack
+异步prepare,prepareAsync
+设置定时文本监听,setOnTimedTextListener
+设置视频源,setVideoSource
+选择route输出mediaType,selectRoute
+类别是否可分组,isGroupable
+设置volume回调,setVolumeCallback
+queue audio播放数据,queueAudio
+返回是否“心选”,hasHeart
+创建thumb评级,newThumbRating
+设置传输控制标志,setTransportControlFlags
+metadata更新通知,onMetadataUpdate
+创建metadata editor,editMetadata
+设置artwork尺寸,setArtworkConfiguration
+返回默认铃声URI,getDefaultUri
+停止tone播放,stopTone
+返回高频衰减比,getDecayHfratio
+获取reverb级别,getReverbLevel
+返回band增益,getBandLevel
+返回band数量,getNumberOfBands
+返回capture大小,getCaptureSize
+返回FFT,getFft
+设置测量模式,setMeasurementMode
+效果状态更新回调,onEffectUpdated
+MIDI flush回调,onFlush
+注册MIDI设备回调,registerDeviceCallback
+会话事件回调,onSessionEvent
+转发媒体按钮事件,dispatchMediaButtonEvent
+获取session队列标题,getQueueTitle
+跳至下一曲,skipToNext
+覆盖处理prepare播放请求,onPrepare
+向所有media controller发送session专有事件,sendSessionEvent
+添加自定义action到播放状态,addCustomAction
+设置播放队列中active item,setActiveQueueItemId
+返回TV内容分级主评级,getMainRating
+返回TV内容分级系统,getRatingSystem
+构建指向频道的URI,buildChannelUri
+是否为直通输入频道URI,isChannelUriForPassthroughInput
+是否为调谐器输入频道URI,isChannelUriForTunerInput
+返回TV输入状态,getInputState
+检查TV分级是否被用户阻止,isRatingBlocked
+创建overlay view时回调,onCreateOverlayView
+返回timeShift起始位置毫秒,onTimeShiftGetStartPosition
+启用/禁用overlay view,setOverlayViewEnabled
+返回视频宽度像素,getVideoWidth
+返回MTP缩略图高度像素无缩略图为0,getThumbPixHeight
+返回存储单元最大容量字节,getMaxCapacity
+移除默认网络活动监听,removeDefaultNetworkActiveListener
+是否failover连接,isFailover
+是否漫游,isRoaming
+返回设备启动后总发送字节,getTotalTxBytes
+获取URI scheme特定部分,getSchemeSpecificPart
+记录清理后键值对,addSanitizedEntry
+返回已安装HTTP缓存或null,getInstalled
+会话结束回调,onCallEnded
+获取EAP方法,getEapMethod
+设置CA证书,setCaCertificate
+WPS操作失败,onFailed
+注册Bonjour服务发现回调,setDnsSdResponseListeners
+NDEF推送成功回调,onNdefPushComplete
+移除指定service指定类别aid,removeAidsForService
+处理NFC-F数据包,processNfcFPacket
+用keyB验证扇区,authenticateSectorWithKeyB
+返回扇区块数,getBlockCountInSector
+获取缓存NDEF消息,getCachedNdefMessage
+从PKM流创建ETC1纹理,createTexture
+检测是否支持ETC1,isEtc1Supported
+设置EGL窗口表面工厂,setEglWindowSurfaceFactory
+4x4矩阵相乘,multiplyMM
+欧拉角转旋转矩阵,setRotateEulerM
+转置4x4矩阵,transposeM
+球体与视锥相交检测,frustumCullSpheres
+使用Executor执行任务,executeOnExecutor
+返回parcelable或null,getParcelable
+插入parcelable数组,putParcelableArray
+若取消则抛异常,throwIfCanceled
+停止方法追踪,stopMethodTracing
+停止native追踪,stopNativeTracing
+延迟后发送message,sendMessageDelayed
+创建内存文件输入流,getInputStream
+读取ArrayList,readArrayList
+读取map,readMap
+写入SparseArray,writeSparseArray
+插入持久bundle,putPersistableBundle
+设备是否idle模式,isDeviceIdleMode
+开始广播,beginBroadcast
+结束广播,finishBroadcast
+允许磁盘写入,permitDiskWrites
+检测Activity泄漏,detectActivityLeaks
+设置计时器count,setCount
+将view绑定到preference数据,onBindView
+设置对话框标题,setDialogTitle
+返回preference依赖键,getDependency
+检查preference禁用视图是否应禁用,getShouldDisableView
+检查preference是否持久,isPersistent
+检查是否应commit,shouldCommit
+持久化long值,persistLong
+双窗格模式切换preference header,switchToHeader
+存储位置是否deviceProtected,isStorageDeviceProtected
+设置铃声类型,setRingtoneType
+获取底部margin密耳,getBottomMils
+布局完成回调,onLayoutFinished
+获取内容矩形,getPageContentRect
+获取打印机列表,getPrinters
+返回类型label资源,getTypeLabelResource
+取消降级联系人,undemote
+判断是否为tree URI,isTreeUri
+写入配置,putConfiguration
+从intent读取SMS PDU,getMessagesFromIntent
+分配1D区域到数组,copy1DRangeTo
+从数组复制到分配,copyFromUnchecked
+从bitmap创建分配,createFromBitmap
+获取分配stride,getStride
+接收分配输入,ioReceive
+矩阵转置,transpose
+矩阵逆-转置,inverseTranspose
+采样器clamped,clamplinearMipmapLinear
+采样器wrap,wrapNearest
+仅反射用bindAllocation,bindAllocation
+仅反射用getVarV,getVarV
+ssyr2k执行对称秩2k更新,ssyr2k
+strmv执行三角矩阵向量乘,strmv
+strsv求解三角方程组,strsv
+zsyrk执行对称秩k更新,zsyrk
+ztrsm求解三角矩阵方程,ztrsm
+ztrsv求解三角方程组,ztrsv
+设置RGB转亮度系数,setDotCoefficients
+设置文本元素监听,setTextElementListener
+设置用户认证要求,setUserAuthenticationRequired
+返回证书主题DN,getCertificateSubject
+获取媒体子项信息,onLoadChildren
+通知条件状态变更,notifyConditions
+通知被删除回调,onNotificationRemoved
+返回通知发布时间,getPostTime
+检查通知是否可清除,isClearable
+更新快速设置tile,updateTile
+拦截限制provider广播,onReceive
+获取触发音频,getTriggerAudio
+keyguard启动语音助手时调用,onLaunchVoiceAssistFromKeyguard
+发送完成结果,sendCompleteResult
+发送确认结果,sendConfirmationResult
+请求确认,onRequestConfirmation
+设置保持唤醒,setKeepAwake
+音频可用回调,audioAvailable
+返回推荐内容intent数据,getContentIntent
+设置secondary toolbar,setSecondaryToolbarViews
+设置开始动画,setStartAnimations
+提示预加载url,mayLaunchUrl
+返回滚动标志,getScrollFlags
+appBarLayout offset变化回调,onOffsetChanged
+获取折叠时peek高度,getPeekHeight
+设置展开title margin,setExpandedTitleMargin
+返回item文本色,getItemTextColor
+返回tab文本色,getTabTextColors
+滚动状态变化,onPageScrollStateChanged
+读取layout宽高,fetchWidthAndHeight
+注入motion事件,injectMotionEvent
+获取blue分量,getBlue
+打印指定type的message,printMessage
+将此URI字符串与另一URI字符串比较,compareTo
+请求解除service绑定,requestUnbind
+向builder添加media control类别,addControlCategory
+返回结果项数,size
+返回此menuItem当前actionView,getActionView
+删除node中一段16位单元,deleteData
+当auxStructure作为activity一部分从view检索时调用并提供auxData,onProvideStructure
+减少button,decreaseButton
+若parser接受free-form内容返回true,isLenient
+将ALT设为result key的metaState,withAltPressed
+返回ScriptEngine短名不可变列表,getNames
+从第一default bank返回float数据元素,getElemFloat
+返回JOptionPane关联accessibilityContext,showConfirmDialog
+批量读取basic file attributes,readAttributes
+准备注册callback flags时调用,onPrepareCallbackFlags
+指定canvas绘制bitmap,setBitmap
+返回用于初始化property的Java代码片段,getJavaInitializationString
+在指定context评估已编译XPath表达式,evaluateExpression
+选择模式期间item check状态变化时调用,onItemCheckedStateChanged
+返回screen是否保持常亮（对应keepScreenOn）,getKeepScreenOn
+ICC profile header illuminant位置,icHdrIlluminant
+获取media control view,getMediaControlView
+定义rowHeight含义,getRowHeight
+返回单请求document元数据,queryDocument
+设置popBackStack后返回场景的reenterTransition,setReenterTransition
+获取drawable checkMark,getCheckMarkDrawable
+locale列表是否可在运行时变更,hasDynamicLocaleList
+返回getk从cache命中的次数,hitCount
+清除自上次以来所有pending metadata更改,clear
+若已指定key可用digest算法集返回true,isDigestsSpecified
+用户从actionBar向上导航时调用,onSupportNavigateUp
+设置测试期间使用的application,setApplication
+执行put操作并批量写入object键值对,putAll
+返回给定locale对应input method的可见名称,getInputMethodDisplayName
+应用day/night资源限定符,applyDayNight
+设置port,setPort
+执行account sync,onPerformSync
+检测最后读取值是否为SQL NULL,wasNull
+若剩余元素存在则执行action并返回true,tryAdvance
+获取指定key+metaState组合生成的unicode字符,getUnicodeChar
+返回int像素表示中green分量掩码,getGreenMask
+列UPDATE_RULE指示主键被外键引用时不可更新,importedKeyRestrict
+返回layout manager额外空间量,getExtraLayoutSpace
+打开URI数据原始文件描述符,openFileDescriptor
+dger执行1级操作A:=αxyᵀ+A,dger
+requestLayout时调用,resolveLayoutDirection
+格式化方向性字符串避免乱码,unicodeWrap
+判断时区是否observe夏令时,observesDaylightTime
+启用nested scrolling,setNestedScrollingEnabled
+创建现有文件描述符的副本,dup
+对给定参数执行此操作,accept
+返回textHeight*lineHeight值,getSpacingMultiplier
+测试点是否在对象边界内,contains
+返回key关联的extension或null,getExtension
+加载/更新child列表时调用,onChildrenLoaded
+返回input method control对象或null,getControlObject
+获取进程内存信息,getMemoryInfo
+audio设备连接时由audioManager调用,onAudioDevicesAdded
+获取datetime的LocalDate部分,toLocalDate
+返回locale规范化全名,getName
+skip并更新进度监视器,skip
+返回meta键按下状态,isMetaPressed
+开始语音recognition,startRecognition
+查询给定时间范围events,queryEvents
+变更子操作列表,setSubActions
+轨迹球移动且未被处理时调用,onTrackballEvent
+从intent获取extras映射,getExtras
+解析xml标签序列,parseBundleExtras
+注册播放到达media尾部回调,setOnCompletionListener
+收到NMEA消息时调用,onNmeaMessage
+根据freezable接口克隆thaw版本,cloneAsThawed
+设置系统壁纸为bitmap,setBitmap
+遍历child检查是否需要更多空间,handleMeasuredStateTooSmall
+参见getpeername2,getpeername
+返回null类型,getNullType
+找到point下最顶端view,findChildViewUnder
+返回从底部向上滑动视图水平中心的操作,swipeUp
+设置drawable渐变方向,setOrientation
+执行坐标间滑动,drag
+返回GPS卫星数组表示引擎状态,getSatellites
+计算scroll blit参数,computeBlit
+将签名编码为ASCII到数组,toChars
+ICC header PCS仅XYZ/Lab位置,icHdrPcs
+设置navMenu当前选中item,setCheckedItem
+若style包含粗体返回true,isBold
+用Calendar将参数设为java.sql.Date,setDate
+调用item点击监听,performItemClick
+实现LSResourceResolver,resolveResource
+跟踪table列插入变化,doLayout
+标记text区域为composing text,setComposingRegion
+托管profile owner获取自定义组织颜色,getOrganizationColor
+创建最小audio format,createAudioFormat
+设置用于绘制search affordance的颜色,setSearchAffordanceColor
+在此view消耗任何部分前dispatch嵌套滚动的pre-scroll步,dispatchNestedPreScroll
+测试用例teardown时调用以清理类变量,scrubClass
+返回双击view的操作,doubleClick
+返回视图完全位于匹配view左侧的断言,isLeftOf
+将资源当前状态dump到logcat,dumpStateToLogs
+为被stub的intent设置响应,respondWith
+创建所有匹配intent须事先验证的模式,noUnverifiedIntents
+返回类名匹配给定matcher的view匹配器,withClassName
+按name或id选择当前window的子frame,selectFrameByIdOrName
+返回给定activity当前生命周期阶段,getLifecycleStageOf
+设置匹配至少minDepth元素的搜索条件,minDepth
+设置selector等待widget可见超时,setWaitForSelectorTimeout
+清除上次遍历的文本,clearLastTraversedText
+已弃用：返回不可靠activity名,getCurrentActivityName
+获取display高度像素,getDisplayHeight
+模拟短按左键,pressDPadLeft
+模拟短按右键,pressDPadRight
+模拟短按menu键,pressMenu
+滚动时设为水平滑动,setAsHorizontalList
+内容描述与给定字符串完全匹配的条件,descEquals
+设置列表item间divider高度,setDividerHeight
+页面数据准备好后调用的回调,notifyDataReady
+已弃用：用enableRowScaling替代,enableRowScaling
+返回引导actions样式,getGuidedActionsStylist
+若存在有效media item返回true,hasValidMedia
+返回给定page描述,getPageDescription
+返回进度更新周期毫秒,getUpdatePeriod
+设置fade完成监听,setFadeCompleteListener
+启用进度条,enableProgressBar
+返回grid presenter,getGridPresenter
+设置布尔首选项,setBoolean
+为行创建view holder,createRowViewHolder
+将media details绑定到view,onBindMediaDetails
+返回所有presenter数组,getPresenters
+返回主要presenter,getPrimaryPresenter
+行view attach到window回调,onRowViewAttachedToWindow
+builder子类应用值,applyValues
+操作是否可自动保存恢复,isAutoSaveRestoreEnabled
+是否处于展开/折叠过渡,isInExpandTransition
+开始展开/折叠过渡,startExpandedTransition
+返回左边缘淡出长度像素,getFadingLeftEdgeLength
+返回右边缘淡出长度像素,getFadingRightEdgeLength
+返回focus滚动策略,getFocusScrollStrategy
+返回未处理key监听,getOnUnhandledKeyListener
+是否启用默认focus绘制顺序,isFocusDrawingOrderEnabled
+设置左边缘淡出透明,setFadingLeftEdge
+设置子项间水平margin像素,setHorizontalMargin
+设置行数,setNumRows
+平滑滚动后选中位置,setSelectedPositionSmooth
+返回item桥接adapter wrapper,getWrapper
+设置adapter监听,setAdapterListener
+view holder与数据解绑时调用,onUnbind
+返回展开行高像素,getExpandedRowHeight
+返回hover card presenter选择器,getHoverCardPresenterSelector
+设置列表行数,setNumRows
+设置播放控制行缓冲进度,setBufferedProgress
+设置主要actions adapter,setPrimaryActionsAdapter
+将次要actions隐藏到更多按钮,setSecondaryActionsHidden
+是否启用行选择效果,getSelectEffectEnabled
+设置header presenter,setHeaderPresenter
+返回行是否展开,isExpanded
+更新识别文本,updateRecognizedText
+平台是否支持动态阴影,supportsDynamicShadow
+设置是否需要圆角,needsRoundedCorner
+设置非wrapper覆盖色,setNoneWrapperOverlayColor
+是否支持view.setForeground,supportsForeground
+启用/禁用view动画,enableAnimation
+返回search affordance view,getSearchAffordanceView
+列标签变化时重新填充选择列表,setColumnAt
+为每个值设置static labels,setStaticLabels
+设置homeAsUp指示器,setHomeAsUpIndicator
+检查应用是否从launcher启动过,hasStartedFromLauncher
+获取support media controller,getSupportMediaController
+fragment.startIntentSenderForResult实现,startIntentSenderFromFragment
+反转场景转换并finish,supportFinishAfterTransition
+support库推迟enter transition,supportPostponeEnterTransition
+设置点击通知自动取消,setAutoCancel
+获取调用应用可读标签,getCallingApplicationLabel
+获取email地址数组,getEmailTo
+检查包是否拥有权限,checkPermission
+ARGB转HSL,colorToHsl
+从framework MediaDescription创建实例,fromMediaDescription
+从framework CustomAction创建实例,fromCustomAction
+返回图像填充比例模式,getScaleMode
+在列表文件中查找文档,findFile
+读取文件全部内容,readFully
+menu item action collapse回调,onMenuItemActionCollapse
+已弃用：用instantiateItem替代,instantiateItem
+若view已layout返回true,isLaidOut
+设置view旋转/缩放中心x,setPivotX
+假拖动偏移,fakeDragBy
+X方向translation动画,translationX
+返回stable inset right像素,getStableInsetRight
+返回顶部系统window inset像素,getSystemWindowInsetTop
+设置node是否可点击,setClickable
+设置accessibility重要性,setImportantForAccessibility
+设置文本选择范围,setTextSelection
+获取parcelable数据,getParcelableData
+设置parcelable事件数据,setParcelableData
+设置选择结束索引,setToIndex
+获取window屏幕边界,getBoundsInScreen
+effect吸收冲击回调,onAbsorb
+填充accessibility事件,onPopulateEventForHost
+锚点左下角显示popup,showAsDropDown
+停止动画,abortAnimation
+scrollbar是否回弹有效,isOverScrolled
+通知到达垂直边界,notifyVerticalEdgeReached
+设置右到左阴影drawable,setShadowResourceRight
+设置进度动画颜色,setColorSchemeColors
+尝试捕获view,tryCaptureView
+安装support兼容view工厂,installViewFactory
+调色板生成回调,onGenerated
+设置最小亮度值,setMinimumLightness
+返回亮度权重,getLightnessWeight
+返回目标亮度值,getTargetLightness
+返回箭头轴长度像素,getArrowShaftLength
+设置箭头头部长度,setArrowHeadLength
+从bundle创建实例,fromBundle
+设置路由设置intent sender,setSettingsActivity
+设置preference根,setPreferences
+刷新数据返回新项数,refreshData
+返回卡片最大elevation,getMaxCardElevation
+返回是否避免圆角重叠,getPreventCornerOverlap
+列边界是否按grid index排序,isColumnOrderPreserved
+设置列边界升序,setColumnOrderPreserved
+布局完成后调用,onLayoutCompleted
+断言不在layout或滚动中,assertNotInLayoutOrScroll
+返回是否反向布局,getReverseLayout
+设置提示视图位置,setPromptPosition
+设置提示视图,setPromptView
+返回padding后起始位置,getStartAfterPadding
+布局完成回调,onLayoutComplete
+通知item移动,notifyItemMoved
+添加item decoration,addItemDecoration
+已弃用：用getChildAdapterPosition替代,getChildPosition
+设置accessibility delegate兼容,setAccessibilityDelegateCompat
+设置固定大小优化,setHasFixedSize
+设置保持focus,setPreserveFocusAfterLayout
+配置滚动touch slop,setScrollingTouchSlop
+设置view缓存扩展,setViewCacheExtension
+断言在layout或滚动中,assertInLayoutOrScroll
+返回包含decoration和margin的bounds,getDecoratedBoundsWithMargins
+返回左侧decoration宽度,getLeftDecorationWidth
+判断adapter数据是否变更,isItemChanged
+设置suggestion监听,setOnSuggestionListener
+点击suggestion回调,onSuggestionClick
+dispatch add动画结束,dispatchAddFinished
+dispatch remove动画结束,dispatchRemoveFinished
+返回选中时文本,getTextOn
+折叠action view,collapseActionView
+返回当前content inset right,getCurrentContentInsetRight
+设置menu item点击监听,setOnMenuItemClickListener
+滑动/拖动view变化回调,onSelectedChanged
+开始swipe,startSwipe
+已弃用：用setOutput替代,setOutput
+设置选项特征,setOption
+返回行距额外像素,getLineSpacingExtra
+返回text不同状态颜色,getTextColors
+设置按钮顶部图像,setImageResource
+设置卡片内部bottom padding,setContentPaddingBottom
+设置卡片内部right padding,setContentPaddingRight
+设置卡片垂直对齐,setCardGravity
+设置圆形半径百分比,setCircleRadiusPercent
+显示indeterminate进度,showIndeterminateProgress
+返回dot淡入持续时间,getDotFadeInDuration
+数据变更回调,onDataSetChanged
+通知背景变更,notifyBackgroundChanged
+设置当前列,setCurrentColumnForRow
+设置offscreen page数,setOffscreenPageLimit
+返回第一张peek card位置,getPeekCardPosition
+设置环境模式下peek card显示,setAmbientPeekMode
+获取peek card不透明模式,getPeekOpacityMode
+参见access,access
+参见setegid,setegid
+参见socketpair,socketpair
+测试子进程是否被信号终止,wifsignaled
+合并会议呼叫,mergeConference
+停止DTMF音调,stopDtmfTone
+设置状态为disconnected,setDisconnected
+设置video provider,setVideoProvider
+发送session modify响应,onSendSessionModifyResponse
+设置display surface,onSetDisplaySurface
+设置call data usage,setCallDataUsage
+会议两个连接,onConference
+返回gateway provider包名,getGatewayProviderPackageName
+设置camera,setCamera
+设置设备方向,setDeviceOrientation
+返回电话账户高亮色,getHighlightColor
+会议断开原因,getDisconnectCause
+远程连接断开原因,getDisconnectCause
+停止DTMF,stopDtmfTone
+报告call data usage变化,onCallDataUsageChanged
+设置设备方向,setDeviceOrientation
+设置暂停图像,setPauseImage
+返回视频质量,getQuality
+视频是否暂停,isPaused
+从intent提取号码,getNumberFromIntent
+判断是否为ISO digit,isISODigit
+通话状态变化回调,onCallStateChanged
+返回主题伪主题,getPseudoSubject
+返回当前cell位置,getCellLocation
+返回蜂窝数据活动类型,getDataActivity
+返回MMS用户代理,getMmsUserAgent
+返回主扰码,getPsc
+测试ApplicationCase设置,testApplicationTestCaseSetUpProperly
+向下拖拽1/4屏,dragQuarterScreenDown
+包含包及子包测试,includePackages
+获取方向性,directionalities
+行是否含tab符,getLineContainsTab
+返回段落方向,getParagraphDirection
+剪贴板是否含文本,hasText
+返回选择路径,getSelectionPath
+返回选择结束偏移,getSelectionEnd
+向下移动光标,moveDown
+创建Spannable,newSpannable
+展开模板,expandTemplate
+是否包含可打印字符,isGraphic
+格式化日期范围,formatDateRange
+格式化文件大小,formatFileSize
+是否为纪元,isEpoch
+解析RFC 3339时间,parse3339
+返回前导边距,getLeadingMargin
+设置动画信息,setAnimacy
+捕获start场景属性值,captureStartValues
+设置传播速度,setPropagationSpeed
+返回slide边缘,getSlideEdge
+返回2D插值path对象,getPathMotion
+获取过渡值,getTransitionValues
+从资源加载transition,inflateTransition
+返回属性列表值索引,getAttributeListValue
+编码null,nullValue
+限制范围,clamp
+返回int值,intValue
+按名称查找编码,findEncodingByName
+返回物理高度像素,getPhysicalHeight
+查找最近可触摸视图,findNearestTouchable
+单击确认回调,onSingleTapConfirmed
+返回轴范围,getRange
+返回字母快捷方式,getAlphabeticShortcut
+设置快捷方式,setShortcut
+返回动作字符串,actionToString
+返回手势focus Y,getFocusY
+取消拖放,cancelDragAndDrop
+是否可接收drag事件,dispatchDragEvent
+返回绘制缓存bitmap,getDrawingCache
+获取focus矩形,getFocusedRect
+已layout返回true,isLaidOut
+启用/禁用点击,setClickable
+启用父状态复制,setDuplicateParentStateEnabled
+设置touch mode可focus,setFocusableInTouchMode
+设置是否保持屏幕常亮,setKeepScreenOn
+返回隐藏属性值,ishidden
+返回两阶段任一完成时执行的CompletionStage,applytoeither
+ICC tag 'B2A1',icsigbtoa1tag
+检索RowSet是否启用转义处理,getescapeprocessing
+已弃用：后续删除,getprincipal
+返回popup调用者组件,getinvoker
+ICC tag 'dmdd',icsigdevicemodeldesctag
+已过时,getappletcontext
+移除并返回最大键映射,polllastentry
+设置行间距,setrowmargin
+获取给定偏移量处的字符元素,getcharacterelement
+创建char缓冲区视图,ascharbuffer
+返回堆栈帧方法的MethodType,getmethodtype
+返回表中选中行,getselectedaccessiblerows
+返回已展开后代的树路径枚举,getdescendanttoggledpaths
+设置TableColumn列边距,setcolumnmargin
+判断路径标识项是否选中,ispathselected
+PreparedStatement关闭时调用,statementclosed
+判断是否实现接口或包装器,iswrapperfor
+返回工具基础结构注释建议完成,getcompletions
+标记组件为完全脏,markcompletelydirty
+返回显示path中TreePath实例的行,getrowsforpaths
+创建子集SampleModel,createsubsetsamplemodel
+返回颜色模型传输类型,gettransfertype
+ICC tag 'pre2',icsigpreview2tag
+设置表自动从模型创建列,setautocreatecolumnsfrommodel
+获取驱动可能属性信息,getpropertyinfo
+组件上鼠标点击时调用,mouseclicked
+获取按下指定键的压力,getpolypressure
+返回会话中对等方端口号,getpeerport
+返回强制反向排序的Comparator,reversed
+ICC tag 'meas',icsigmeasurementtag
+删除命名空间节点,removenameditemns
+返回小于给定键的最大键映射,lowerentry
+构建证书路径并信任服务器SSL,checkservertrusted
+写入float值,writefloat
+ICC Profile Class 'link',icsiglinkclass
+返回列中单元格间距宽度,getcolumnmargin
+判断元素是否有指定属性,hasattribute
+ICC tag 'psd0',icsigps2crd0tag
+判断属性编辑器是否支持自定义编辑器,supportscustomeditor
+返回popup延迟时间,getmillistopopup
+根据年月日获取时间段,period
+ICC tag 'psd0',icsigps2crd0tag
+表示列存储INOUT参数,procedurecolumninout
+设置graphics2d合成,setcomposite
+添加子节点时调用,childadded
+检索RowSet转义处理状态,getescapeprocessing
+返回view可见部分大小,getextentsize
+设置视口左上角视图坐标,setviewposition
+处理菜单选择管理器转发的鼠标事件,setinputvalue
+设置表摘要描述,setaccessiblesummary
+获取Savepoint名称,getsav
+返回隐藏属性值,ishidden
+返回两阶段任一完成时执行的CompletionStage,applytoeither
+ICC tag 'B2A1',icsigbtoa1tag
+检索RowSet是否启用转义处理,getescapeprocessing
+已弃用：后续删除,getprincipal
+返回popup调用者组件,getinvoker
+ICC tag 'dmdd',icsigdevicemodeldesctag
+已过时,getappletcontext
+移除并返回最大键映射,polllastentry
+设置行间距,setrowmargin
+获取给定偏移量处的字符元素,getcharacterelement
+创建char缓冲区视图,ascharbuffer
+返回堆栈帧方法的MethodType,getmethodtype
+返回表中选中行,getselectedaccessiblerows
+返回已展开后代的树路径枚举,getdescendanttoggledpaths
+设置TableColumn列边距,setcolumnmargin
+判断路径标识项是否选中,ispathselected
+PreparedStatement关闭时调用,statementclosed
+判断是否实现接口或包装器,iswrapperfor
+返回工具基础结构注释建议完成,getcompletions
+标记组件为完全脏,markcompletelydirty
+返回显示path中TreePath实例的行,getrowsforpaths
+创建子集SampleModel,createsubsetsamplemodel
+返回颜色模型传输类型,gettransfertype
+ICC tag 'pre2',icsigpreview2tag
+设置表自动从模型创建列,setautocreatecolumnsfrommodel
+获取驱动可能属性信息,getpropertyinfo
+组件上鼠标点击时调用,mouseclicked
+获取按下指定键的压力,getpolypressure
+返回会话中对等方端口号,getpeerport
+返回强制反向排序的Comparator,reversed
+ICC tag 'meas',icsigmeasurementtag
+删除命名空间节点,removenameditemns
+返回小于给定键的最大键映射,lowerentry
+构建证书路径并信任服务器SSL,checkservertrusted
+写入float值,writefloat
+ICC Profile Class 'link',icsiglinkclass
+返回列中单元格间距宽度,getcolumnmargin
+判断元素是否有指定属性,hasattribute
+ICC tag 'psd0',icsigps2crd0tag
+判断属性编辑器是否支持自定义编辑器,supportscustomeditor
+返回popup延迟时间,getmillistopopup
+根据年月日获取时间段,period
+ICC tag 'psd0',icsigps2crd0tag
+表示列存储INOUT参数,procedurecolumninout
+设置graphics2d合成,setcomposite
+添加子节点时调用,childadded
+检索RowSet转义处理状态,getescapeprocessing
+返回view可见部分大小,getextentsize
+设置视口左上角视图坐标,setviewposition
+处理菜单选择管理器转发的鼠标事件,setinputvalue
+设置表摘要描述,setaccessiblesummary
+获取Savepoint名称,getsavename
+写入float值,putfloat
+ICC YCbCr数据类型签名,icsigycbcrdata
+组件上鼠标点击时调用,mouseclicked
+返回进程可执行路径名,command
+准备renderer获取单元格值和选择状态,preparerenderer
+表示列存储IN参数,procedurecolumnin
+ICC 3CLR颜色空间类型签名,icsigspace3clr
+返回JScrollBar添加的调整监听器数组,getadjustmentlisteners
+返回创建新源/类/辅助文件的文件管理器,getfiler
+访问类型变量,visittypevariable
+返回标题边框文本,gettitledbordertext
+返回两个元素中较大者的BinaryOperator,maxby
+返回决定是否弹出进度监视器的等待时间,getmillistodecidetopopup
+从JTextComponent界面删除UI时调用,deinstall
+参数不允许NULL值,parameternonulls
+返回事件水平坐标(相对于屏幕原点),getscreenx
+返回alpha分量掩码,getalphamask
+返回ScriptEngine支持的语言扩展名列表,getextensions
+子类化以绘制子项及边框,paintchildren
+判断是否支持类重转换,isretransformclassessupported
+读取RowSet新内容,readdata
+ICC header flags,ichdrflags
+返回大于等于给定键的null键,ceilingkey
+判断是否为可忽略的空白,isignorablewhitespace
+反序列化对象的类,serialclass
+判断Object是否已销毁,isdestroyed
+返回满足图形配置模板的“最佳”配置,getbestconfiguration
+从Soundbank加载指定补丁引用的仪器,loadinstruments
+已过时,appletresize
+返回指定包名和语言环境的ResourceBundle,getbundle
+返回编辑中断时的行为,getinvokesstopcellediting
+返回较晚offset副本,withlateroffsetatoverlap
+若键未关联值则计算并输入,computeifabsent
+报告完成一系列读取操作,sequencecomplete
+设置receiver用户对象,setuserobject
+返回指定像素矩形区域内所有样本的int数组,getpixels
+以float形式返回指定像素波段样本,getsamplefloat
+返回所有列总宽度,gettotalcolumnwidth
+写入默认命名空间,writedefaultnamespace
+设置表是否填充视口高度,setfillsviewportheight
+初始化UIEvent值,inituievent
+设置错误事件处理器,seterrorhandler
+获取关联的可访问值,getaccessiblevalue
+判断矩形区域是否与当前剪裁区域相交,hitclip
+设置表中行是否可选,setrowselectionallowed
+参数模式为INOUT,parametermodeinout
+返回可能为某些列值返回的最大字节数,getmaxfieldsize
+声明指定属性为用户确定的ID属性,setIdAttribute
+返回指定索引处的组件,getcomponentat
+已弃用：后续删除,getprincipal
+标记以在文档中检查,parenttag
+返回选中路径的最后一个路径组件,getlastselectedpathcomponent
+设置两个索引之间的文本属性,setattributes
+等待任务完成或超时/中断,awaittermination
+检查此事件是否为属性,isattribute
+返回表标题,getaccessiblecaption
+返回较晚offset副本,withlateroffsetatoverlap
+返回分隔符最小位置,getminimumdividerlocation
+发生操作时调用,actionperformed
+返回后续调用next()将返回的元素索引,nextindex
+从流中读取SQL ARRAY并返回Array对象,readarray
+返回指定边缘的值(可能是派生值),getconstraint
+获取最接近给定偏移量的子元素索引,getElementIndex
+使用formatter格式化对象,formatto
+移除最后一次出现的指定元素,removelastoccurrence
+通知数据已成功传输到打印服务,printdatatransfercompleted
+判断是否为未命名包,isunnamed
+移除首次出现的指定元素,removefirstoccurrence
+返回指定像素的alpha分量值,getalpha
+报告已解析的外部实体声明,externalentitydecl
+设置框架最大化边界,setmaximizedbounds
+返回未归一化的颜色/alpha分量数组,getcomponents
+返回可能并行的Stream,parallelstream
+移除已展开待移除树路径的后代,removedescendanttoggledpaths
+版本列非伪列,versioncolumnnotpseudo
+移除BeanContextChild的VetoableChangeListener,removevetoablechangelistener
+检查此期间所有受支持单位是否为零,iszero
+写入结束元素,writeendelement
+返回属性值必须是一组已知标记值之一时的标记数组,gettags
+返回注解类型,annotationtype
+将两个索引之间的文本剪切到系统剪贴板,cut
+更新隐藏属性值,sethidden
+返回DOMConfiguration支持的参数列表,getparameternames
+ICC tag 'meas',icsigmeasurementtag
+返回事件详情,getdetail
+返回模型中条目的标识符,getidentifier
+在双端队列末尾插入指定元素,putlast
+执行SQL DML语句或不返回内容的SQL语句,executeupdate
+已弃用：后续删除,addentry
+从流中读取SQL ROWID并返回RowId对象,readrowid
+返回选中单元格的前景色,getselectionforeground
+配置文本字段属性以匹配指定动作,configurepropertiesfromaction
+表示参数或列是返回值,functionreturn
+ICC tag 'crdi',icsigcrdinfotag
+更改get next value和get previous value方法计算的值更改的大小,setstepsize
+获取结果, getasint
+使用当前颜色绘制点x1, y1和x2, y2之间的线,drawline
+返回最后一次传递给setDividerLocation的值,getdividerlocation
+声明指定属性为用户确定的ID属性,setIdAttributeNode
+唤醒所有等待的线程,signalall
+设置选中单元格的背景色,setselectionbackground
+在指定偏移处创建文本命中信息,readresolve
+移除BeanContextChild的VetoableChangeListener,removevetoablechangelistener
+报告内部和外部XML实体的开头,startentity
+ICC tag 'rendering intent',ichdrrenderingintent
+将下一个属性作为java.sql.Date对象写入流中,writedate
+将系统剪贴板中的文本粘贴到指定索引开始的文本中,paste
+获得按下指定键的压力,getpolypressure
+返回组件是否已销毁,isdestroyed
+返回最佳图形配置,getbestconfiguration
+加载指定补丁引用的乐器,loadinstruments
+返回指定包名和语言环境的ResourceBundle,getbundle
+返回编辑中断时的行为,getinvokesstopcellediting
+返回较晚offset副本,withlateroffsetatoverlap
+若键未关联值则计算并输入,computeifabsent
+报告完成一系列读取操作,sequencecomplete
+设置receiver用户对象,setuserobject
+返回指定像素矩形区域内所有样本的int数组,getpixels
+以float形式返回指定像素波段样本,getsamplefloat
+返回所有列总宽度,gettotalcolumnwidth
+写入默认命名空间,writedefaultnamespace
+设置表是否填充视口高度,setfillsviewportheight
+初始化UIEvent值,inituievent
+设置错误事件处理器,seterrorhandler
+获取关联的可访问值,getaccessiblevalue
+判断矩形区域是否与当前剪裁区域相交,hitclip
+设置表中行是否可选,setrowselectionallowed
+参数模式为INOUT,parametermodeinout
+返回可能为某些列值返回的最大字节数,getmaxfieldsize
+声明指定属性为用户确定的ID属性,setIdAttribute
+返回指定索引处的组件,getcomponentat
+已弃用：后续删除,getprincipal
+标记以在文档中检查,parenttag
+返回选中路径的最后一个路径组件,getlastselectedpathcomponent
+删除由本地名称和名称空间URI指定的节点,removenameditemns
